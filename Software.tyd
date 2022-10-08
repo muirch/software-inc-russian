@@ -1,0 +1,939 @@
+SoftwareCategoryDefault [ "Default"; "" ]
+
+Software
+    {
+    OperatingSystem
+        [
+        "Операционная система"
+        "Операционная система является огромной частью Software Inc.
+Большинству программного обеспечения требуется операционная система для работы. Когда люди перестают покупать операционную систему, они также перестают покупать программное обеспечение для нее."
+        ]
+    Features
+        [
+        Feature { System "Система" }
+        Feature
+            {
+            Multitasking
+                [
+                "Многозадачность"
+                "Позвольте Вашим пользователям думать, что они могут работать в многозадачном режиме, открыв одновременно несколько приложений."
+                ]
+            }
+        Feature { Useraccounts "Аккаунты пользователей" }
+        Feature
+            {
+            Name  "Plug'n'Play"
+            Value
+                [
+                "Plug'n'Play"
+                "Позволяет пользователю взаимодействовать с операционной системой различными способами."
+                ]
+            }
+        Feature { Fileencryption "Шифрование файлов" }
+        Feature { Systemrecovery "Восстановление системы" }
+        Feature
+            {
+            Virtualization [ "Виртуализация"; "Я помещаю ОС в Вашу ОС и так далее." ]
+            }
+        Feature { Codesigning "Подписание кода" }
+        Feature { Hardware "Аппаратное обеспечение" }
+        Feature
+            {
+            Touch
+                [
+                "Тач-скрин"
+                "На поверхностях никогда не бывает достаточно жирных отпечатков пальцев"
+                ]
+            }
+        Feature { Fingerprintscanner "Сканер отпечатков пальцев" }
+        Feature
+            {
+            Vibration [ "Vibration"; "Устройство делает бррр" ]
+            }
+        Feature
+            {
+            Wirelesscommunication [ "Беспроводная связь"; "Не могу споткнуться об электромагнетизм" ]
+            }
+        Feature
+            {
+            Removabledrive
+                [
+                "Съемный накопитель"
+                "Мы помещаем сохранения игр на карты памяти и сохраняем игры на жесткие диски"
+                ]
+            }
+        Feature
+            {
+            Standardizedinput
+                [
+                "Стандартизированный ввод"
+                "Вам понадобится клавиатура для создания игр для вашей игровой консоли"
+                ]
+            }
+        Feature
+            {
+            Superoptimization
+                [
+                "Супер оптимизация"
+                "Потратьте время на разработку программного обеспечения, чтобы сэкономить деньги при заказе оборудования (устраняет дополнительные расходы при заказе печати продукта)"
+                ]
+            }
+        Feature { Interface "Интерфейс" }
+        Feature { Customthemes "Пользовательские темы" }
+        Feature { Windowingsystem "Оконная система" }
+        Feature { Unifiedsearch "Унифицированный поиск" }
+        Feature { Themes "Темы" }
+        Feature { Widgets "Виджеты" }
+        Feature { Notifications "Уведомления" }
+        Feature { 3Drendering "3D рендерингg" }
+        Feature { Audio "Аудио" }
+        Feature { Surroundsound "Объемный звук" }
+        Feature { Speechrecognition "Распознавание речи" }
+        Feature
+            {
+            Microphonesurveillance
+                [
+                "Прослушивание микрофонов"
+                "Прислушивайтесь к разговорам ваших пользователей, чтобы находить и исправлять ошибки до того, как о них сообщат, рискуя быть пойманным."
+                ]
+            }
+        Feature
+            {
+            Network
+                [
+                "Сеть"
+                "Как анонимные люди будут троллить друг друга по всему миру без этой удобной функции?"
+                ]
+            }
+        Feature
+            {
+            Auto-update
+                [
+                "Автоматическое обновление"
+                "Исправление ошибок, защита от вредоносных программ и перезапуск в середине написания несохраненного эссе на 60 страниц."
+                ]
+            }
+        Feature { Appstore "Магазин приложений" }
+        Feature { Cloudbackup "Облачное резервное копирование" }
+        Feature { Wireless "Без проводов" }
+        Feature
+            {
+            Motiondetection
+                [
+                "Обнаружение движения"
+                "Кто не хочет, чтобы джойстики были встроены в их телевизоры?"
+                ]
+            }
+        Feature { Built-inspeaker "Встроенный динамик" }
+        Feature { RGBLighting "RGB-подсветка" }
+        ]
+    Categories
+        [
+        Category
+            {
+            Computer [ "Компьютер"; "Для стола" ]
+            }
+        Category
+            {
+            Console [ "Приставка"; "Для телевизора" ]
+            }
+        Category
+            {
+            Phone [ "Телефон"; "Для кармана" ]
+            }
+        Category { Joystick "Джойстик" }
+        ]
+    Components
+        [
+        Component { Plastic "Пластик" }
+        Component { Antenna "Антенна" }
+        Component { Motherboard "Материнская плата" }
+        Component { Drivebay "Отсек для привода" }
+        Component { Controller "Контроллер" }
+        Component { Case "Корпус" }
+        Component { Deviceinput "Ввод устройства" }
+        Component { Touchsensor "Сенсорный датчик" }
+        Component { Vibration "Вибрация" }
+        Component { Screen "Экран" }
+        Component { Fingerprintscanner "Сканер отпечатков пальцев" }
+        Component { Gyroscope "Гироскоп" }
+        Component { Smallbatterypack "Небольшой аккумуляторный блок" }
+        Component { Mediumbatterypack "Средний аккумуляторный блок" }
+        Component { Bigbatterypack "Большой аккумуляторный блок" }
+        Component { Rumbleunit "Генератор шума" }
+        Component { Speaker "Динамик" }
+        Component { LED "Светодиодная подсветка" }
+        ]
+    }
+
+Software
+    {
+    2DEditor
+        [
+        "2D редактор"
+        "Программа, которая позволяет обрабатывать 2-мерные массивы цветовой информации"
+        ]
+    Features
+        [
+        Feature
+            {
+            2Dgraphics [ "2D графика"; "Кажется довольно важным для этого типа программного обеспечения" ]
+            }
+        Feature
+            {
+            Vectorgraphics [ "Векторная графика"; "Поместите несколько линий внутри ваших пикселей" ]
+            }
+        Feature
+            {
+            Proceduralshapes [ "Процедурные фигуры"; "Кто захочет рисовать фигуру вручную?" ]
+            }
+        Feature { Layers "Слои" }
+        Feature { Dynamicbrushes "Динамические кисти" }
+        Feature { Levelsandcurves "Уровни и кривые" }
+        Feature
+            {
+            Imageeffects [ "Эффекты изображения"; "Нужно больше завихрения" ]
+            }
+        Feature { Textrendering "Рендеринг текста" }
+        Feature { Brushpresets "Наборы кистей" }
+        Feature { Brushstrokesmoothing "Сглаживание кистей" }
+        Feature { Clipart "Клип арт" }
+        Feature
+            {
+            Liquify [ "Пластика"; "Растяните и тяните свои пиксели" ]
+            }
+        Feature
+            {
+            Healingbrush
+                [
+                "Восстанавливающая кисть"
+                "Удаляйте прыщи, пятна, крапинки, людей, здания и т.д."
+                ]
+            }
+        Feature
+            {
+            Beautify
+                [
+                "Приукрашивание"
+                "Льстите людям, заставляя их выглядеть лучше на фотографиях, чтобы они реже делали возврат вашего продукта."
+                ]
+            }
+        Feature { System "Система" }
+        Feature
+            {
+            RAWimageimport
+                [
+                "Импорт необработанного изображения"
+                "Если вам нужно извлечь какой-то дополнительный цвет из ваших цветов"
+                ]
+            }
+        Feature { Drawingtabletsupport "Поддержка графического планшета" }
+        ]
+    }
+
+Software
+    {
+    3DEditor [ "3D редактор"; "Точки в пространстве, в основном" ]
+    Features
+        [
+        Feature { 3Dgraphics "3D графика" }
+        Feature
+            {
+            Sculpting [ "Лепка"; "Представьте, будто точки - это глина." ]
+            }
+        Feature
+            {
+            Pathtracing [ "Трассировка пути"; "Направляйте лучи в точки, чтобы создать картинку." ]
+            }
+        Feature
+            {
+            Skinning [ "Скинирование"; "Заставьте точки двигаться самостоятельно." ]
+            }
+        Feature
+            {
+            Proceduralobjects [ "Процедурные объекты"; "Автоматическая генерация точек." ]
+            }
+        Feature
+            {
+            Physicssimulation [ "Моделирование физики"; "Заставьте точки взаимодействовать друг с другом." ]
+            }
+        Feature
+            {
+            Liquidsimulation [ "Симуляция жидкости"; "Разлейте точки повсюду." ]
+            }
+        Feature
+            {
+            Hairsimulation [ "Реалистичные волосы"; "Проведите линии между точками." ]
+            }
+        Feature
+            {
+            Particles [ "Частицы"; "Распылите точки повсюду." ]
+            }
+        Feature
+            {
+            Booleanoperations [ "Булевы операции"; "Если точка и точка, то точка." ]
+            }
+        Feature
+            {
+            Meshsubdivision [ "Разделение сетки"; "Добавьте точки между другими точками." ]
+            }
+        Feature
+            {
+            Inversekinematics [ "Обратная кинематикаs"; "Аккуратно расположите точки между другими точками." ]
+            }
+        Feature
+            {
+            Bitmining
+                [
+                "Майнинг биткоинов"
+                "Майните биткойны использует GPU ваших пользователей, чтобы заработать дополнительные {Currency:0.1} за каждого активного пользователя, рискуя быть пойманным."
+                ]
+            }
+        Feature { System "Система" }
+        Feature
+            {
+            GPUrendering [ "Рендеринг графическим процессором"; "Используйте точечное оборудование для ускорения создания точек." ]
+            }
+        Feature
+            {
+            Motioncapture [ "Захват движения"; "Преобразование из реального движения в точечное движение." ]
+            }
+        ]
+    }
+
+Software
+    {
+    AudioTool
+        [
+        "Аудиоредактор"
+        "Инструмент для записи и микширования звуковых эффектов и музыки."
+        ]
+    Features
+        [
+        Feature
+            {
+            Audio [ "Аудио"; "Вещи, которые издают звук." ]
+            }
+        Feature { Synthesizer "Синтезатор" }
+        Feature { Delayandreverb "Задержка и реверберация" }
+        Feature { EQandcompression "Эквалайзер и сжатие" }
+        Feature { Ampsimulation "Моделирование усилителя" }
+        Feature { Wavepitchandstretch "Изменение тона и растягивание звука" }
+        Feature
+            {
+            Autotune [ "Автотюн"; "Это вещь." ]
+            }
+        Feature { Synthesizerpresets "Наборы синтезаторов." }
+        Feature { Soundbank "Хранилище звуков." }
+        Feature
+            {
+            Interface [ "Интерфейс"; "Предоставляет пользователю визуальные эффекты для своих звуков." ]
+            }
+        Feature { Multi-trackediting "Многодорожечное редактирование" }
+        Feature { Channelmixer "Канальный микшер" }
+        Feature { Noteeditor "Редактор нот" }
+        Feature { Spectrumanalyzer "Анализатор спектра" }
+        Feature { Racksimulation "Моделирование стойки" }
+        Feature
+            {
+            System [ "Система"; "Взаимодействие с базовой системой" ]
+            }
+        Feature { Audiocodecs "Аудио кодеки" }
+        Feature { MIDIdeviceinput "MIDI-устройство ввода" }
+        Feature { Effectplug-ins "Плагины эффектов" }
+        Feature
+            {
+            Includedsoundcard
+                [
+                "Включенная звуковая карта"
+                "Физические продажи приносят дополнительные 50% от стоимости продажи, но производство копии стоит дополнительные {Currency:10}"
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    Game       [ "Игра"; "Интерактивное искусство." ]
+    Features
+        [
+        Feature { Gamedesign "Игровой дизайн" }
+        Feature { Openworld "Открытый мир" }
+        Feature
+            {
+            Physics [ "Физика"; "Упругие штуки." ]
+            }
+        Feature
+            {
+            Dialogtrees
+                [
+                "Диалоговые деревья"
+                "Дайте игроку право голоса, а затем заставьте его персонажа сказать что-то другое в игре."
+                ]
+            }
+        Feature
+            {
+            Branchingstory
+                [
+                "Ветвящаяся история"
+                "Несколько разных путей, ведущих к одному и тому же пункту назначения."
+                ]
+            }
+        Feature
+            {
+            Modsupport [ "Поддержка модов"; "Вы можете изменить эту функцию вне игры, если хотите." ]
+            }
+        Feature { Customizablecharacter "Настраиваемый персонаж" }
+        Feature { 2DGraphics "2D графика" }
+        Feature
+            {
+            AdvancedHUD [ "Продвинутый HUD"; "Добавьте еще немного графического интерфейса в вашу игру." ]
+            }
+        Feature
+            {
+            Post-processing [ "Постобработка"; "\#Цветение" ]
+            }
+        Feature
+            {
+            ReverseUno [ "Обратный Uno"; "Аннулирует право собственности на продукт для ведущего дизайнера при релизе" ]
+            }
+        Feature { 3DGraphics "3D графика" }
+        Feature { Shadows "Тени" }
+        Feature { Cutscenes "Катсцены" }
+        Feature
+            {
+            VR [ "VR"; "Виртуальная реальность" ]
+            }
+        Feature { Facialanimations "Лицевые анимации" }
+        Feature { Proceduralgeneration "Процедурная генерация" }
+        Feature
+            {
+            Wackyphysics
+                [
+                "Дурацкая физика"
+                "Повысьте свои стартовые продажи с помощью вирусных видео, добвив некоторые ошибки в свои физические объекты."
+                ]
+            }
+        Feature { Audio "Аудио" }
+        Feature { Recordeddialog "Записанный диалог" }
+        Feature { Adaptivemusic "Адаптивная музыка" }
+        Feature
+            {
+            Digitalexclusivemusic
+                [
+                "Цифровая эксклюзивная музыка"
+                "Преобразуйте некоторые из ваших физических продаж в цифровые, потеряв часть ваших физических продаж в этом процессе."
+                ]
+            }
+        Feature
+            {
+            Multiplayer
+                [
+                "Мультиплеер"
+                "Способствует крикам с матом подростков со всего мира."
+                ]
+            }
+        Feature
+            {
+            MMO [ "ММО"; "Массовая многопользовательская онлайн-игра" ]
+            }
+        Feature { Newdialog "Новый диалог" }
+        Feature { Newcutscenes "Новые катсцены" }
+        Feature
+            {
+            Charactercustomization [ "Настройка персонажа"; "Лысина - это прическа" ]
+            }
+        Feature { Newstoryline "Новая сюжетная линия" }
+        Feature
+            {
+            Sportsteams [ "Спортивные команды"; "Добавьте несколько строк в электронную таблицу и хватит" ]
+            }
+        Feature { Music "Музыка" }
+        Feature
+            {
+            Guns [ "Оружие"; "Добавьте еще одну пушку с большим количеством пиу-пиу, чем у предыдущих" ]
+            }
+        Feature { Playablecharacters "Играбельные персонажи" }
+        Feature
+            {
+            Map [ "Карта"; "Сделайте свою игру с открытым миром еще более открытой" ]
+            }
+        Feature { Bossfights "Бои с боссами" }
+        Feature { Environmentobjects "Объекты окружающей среды" }
+        Feature { Sprites "Спрайты" }
+        Feature { Proceduralparameters "Процедурные параметры" }
+        Feature { AIarchetypes "Архетипы искусственного интеллекта" }
+        ]
+    Categories
+        [
+        Category
+            {
+            RPG [ "RPG"; "Ролевая игра" ]
+            }
+        Category { Adventure "Приключение" }
+        Category
+            {
+            Simulation [ "Симулятор"; "Ты играешь один!" ]
+            }
+        Category { Sports "Спорт" }
+        Category
+            {
+            RTS [ "RTS"; "Стратегия в реальном времени" ]
+            }
+        Category
+            {
+            FPS [ "FPS"; "Шутер от первого лица" ]
+            }
+        Category
+            {
+            Expansionpack [ "Пакет расширения"; "Ух ты" ]
+            }
+        ]
+    }
+
+Software
+    {
+    OfficeSoftware [ "Офисное ПО"; "Для всех ваших служебных потребностей." ]
+    Features
+        [
+        Feature
+            {
+            Interface [ "Интерфейс"; "Вы не сможете сделать офисные документы, если вы их не видите." ]
+            }
+        Feature
+            {
+            Equationrendering
+                [
+                "Рендеринг уравнений"
+                "y=(1/(σ·sqrt(2·π)))e^(-(x-μ)^2/(2·σ^2))... Не выглядит круто, не так ли?"
+                ]
+            }
+        Feature
+            {
+            Autopagelayout
+                [
+                "Автомакет страницы"
+                "То есть потратите 30 минут, пытаясь расположить картинку в нужном месте."
+                ]
+            }
+        Feature { Chartsandgraphs "Диаграммы и графики" }
+        Feature
+            {
+            Clipart [ "Клипарт"; "*Фигурка, указывающая на график*" ]
+            }
+        Feature
+            {
+            Animations
+                [
+                "Анимации"
+                "Простые слайды и текст выползают со всех сторон."
+                ]
+            }
+        Feature { Slidetemplates "Шаблоны слайдов" }
+        Feature { Vectorgraphics "Векторная графика" }
+        Feature
+            {
+            Virtualassistant [ "Виртуальный помощник"; "Помогает пользователю решить свои проблемы самостоятельо." ]
+            }
+        Feature { System "Система" }
+        Feature
+            {
+            Spellcheck [ "Проверка орфографии"; "Позвольте кому-нибудь стать еще более компетентным." ]
+            }
+        Feature
+            {
+            Interactiveslides
+                [
+                "Интерактивные слайды"
+                "На этом этапе Вы могли бы также сделать сайт."
+                ]
+            }
+        Feature
+            {
+            Dictionary [ "Словарь"; "Пусть кто-нибудь казаться компетентным." ]
+            }
+        Feature
+            {
+            Thesaurus [ "Тезаурус"; "Позвольте кому-нибудь стать более компетентным." ]
+            }
+        Feature { Financialmathlibrary "Финансовая математическая библиотека" }
+        Feature { Geometricmathlibrary "Библиотека геометрической математики" }
+        Feature
+            {
+            Datemanipulation
+                [
+                "Манипулирование датой"
+                "Сколько будет сегодня минут 10. Июнь 2014? Посмотрите на это."
+                ]
+            }
+        Feature { Scripting "Скриптинг" }
+        Feature { Network "Сеть" }
+        Feature { Cloudbackup "Облачное резервное копирование" }
+        Feature { Databaseconnections "Соединения с базой данных" }
+        Feature { Audioplayback "Воспроизведение аудио" }
+        Feature
+            {
+            Soundeffectlibrary
+                [
+                "Библиотека звуковых эффектов"
+                "Добавьте немного ненужного возбуждения на ваши презентации!"
+                ]
+            }
+        Feature
+            {
+            Soundeffects
+                [
+                "Звуковые эффекты"
+                "Кому-то понравится эта презентация, но точно не мне"
+                ]
+            }
+        Feature { Mathlibrary "Математическая библиотека" }
+        Feature
+            {
+            Fonts [ "Шрифты"; "<b><color=\#FF0000>Papyrus</color></b>" ]
+            }
+        Feature { Documenttemplates "Шаблоны документов" }
+        Feature
+            {
+            Charts
+                [
+                "Графики"
+                "Вложение древовидной карты в эту временную диаграмму честно сохранило бы годовой отчет"
+                ]
+            }
+        ]
+    Categories
+        [
+        Category { ContentPack "Пакет содержимого" }
+        ]
+    }
+
+Software
+    {
+    Antivirus
+        [
+        "Антивирус"
+        "Защитник компьютеров от цифровых нарушителей спокойствия с тех пор, как это стало выгодно."
+        ]
+    Features
+        [
+        Feature
+            {
+            Systemscanning [ "Сканирование системы"; "Защита от локальных угроз" ]
+            }
+        Feature
+            {
+            Filescanner
+                [
+                "Сканирование файлов"
+                "Сканирование на наличие вирусов в фоновом режиме, вызывающее забавные случайные блокировки файлов."
+                ]
+            }
+        Feature
+            {
+            Applicationscanner
+                [
+                "Сканирование приложений"
+                "Сканирование на наличие вредоносных программ в фоновом режиме, вызывающее случайные веселые сбои."
+                ]
+            }
+        Feature
+            {
+            Anti-theft [ "Анти-вор"; "Почему бы не сообщить вашему компьютеру, что он был украден?" ]
+            }
+        Feature
+            {
+            Fileencryption
+                [
+                "Шифрование файлов"
+                "Лучше держи секретный рецепт печенья под замком!"
+                ]
+            }
+        Feature
+            {
+            Interface [ "Интерфейс"; "Защита от угрозы юзабилити." ]
+            }
+        Feature { Malwarealerts "Оповещения о вредоносных программах" }
+        Feature { Hackingalerts "Оповещения о взломах" }
+        Feature { Filequarantine "Файловый карантин" }
+        Feature
+            {
+            Passwordmanagement
+                [
+                "Управление паролями"
+                "Перестаньте наполнять свой почтовый ящик уведомлениями о сбросе пароля."
+                ]
+            }
+        Feature
+            {
+            Networking [ "Сеть"; "Защита от внешних угроз." ]
+            }
+        Feature { Portblocking "Блокировка портов" }
+        Feature
+            {
+            Applicationaccesscontrol
+                [
+                "Контроль доступа к приложениям"
+                "Пасьянс Паук не требует доступа к системным файлам."
+                ]
+            }
+        Feature { IPfiltering "IP-фильтрация" }
+        Feature
+            {
+            Anti-spam
+                [
+                "Анти-спам"
+                "Получайте меньше сообщений о возможности озолотиться от Ваших дальних родственников."
+                ]
+            }
+        Feature
+            {
+            Adblocker [ "Блокировщик рекламы"; "Удалит те вещи, которые делают новостные сайты нечитаемыми." ]
+            }
+        Feature
+            {
+            Virusdatabase
+                [
+                "База вирусов"
+                "Автоматически обновляйте базу вирусов ваших пользователей"
+                ]
+            }
+        Feature
+            {
+            Datamining
+                [
+                "Сбор данных"
+                "Продавайте данные своих пользователей, чтобы заработать дополнительные {Currency:0.25} за каждого активного пользователя, но с риском быть пойманным."
+                ]
+            }
+        ]
+    }
+
+Software
+    {
+    LogisticsApplication "Приложение для логистики"
+    Features
+        [
+        Feature { Commandline "Командная строка" }
+        Feature { Third-partyintegration "Сторонняя интеграция" }
+        Feature { Paymentprocessing "Процесс оплаты" }
+        Feature { Businessoptimizationalgoritms "Алгоритмы оптимизации бизнеса" }
+        Feature { Userinterface "Пользовательский интерфейс" }
+        Feature { Prettyicons "Красивые значки" }
+        Feature { Databasemanagement "Управление базами данных" }
+        Feature { Productdatabase "База данных продуктов" }
+        Feature { Inventorymanagement "Управление запасами" }
+        Feature { Employeemanagement "Управление персоналом" }
+        ]
+    }
+
+Software
+    {
+    Website  "Веб-сайт"
+    Features
+        [
+        Feature { Staticpages "Статические страницы" }
+        Feature { Icons "Иконки" }
+        Feature { Pagelayout "Макет страницы" }
+        Feature { Pagestyling "Стиль страницы" }
+        Feature { Customfont "Пользовательский шрифт" }
+        Feature { Dynamicpages "Динамические страницы" }
+        Feature { Useraccounts "Учетные записи пользователей" }
+        Feature { Messageboard "Доска объявлений" }
+        Feature { Store "Магазин" }
+        Feature { Backendapplication "Бэкэнд-приложение" }
+        ]
+    }
+
+Software
+    {
+    GameAssets "Игровая библиотека"
+    Features
+        [
+        Feature { 2Dart "2D-арты" }
+        Feature { Userinterfacegraphics "Графика пользовательского интерфейса" }
+        Feature { Conceptart "Концепт-арты" }
+        Feature { Soundeffects "Звуковые эффекты" }
+        Feature { Music "Музыка" }
+        Feature { WrittenDialogue "Письменный диалог" }
+        Feature { 3Dmodels "3D модели" }
+        Feature { Textures "Текстуры" }
+        Feature { Environments "Среды" }
+        Feature { Riggingandanimation "Такелаж и анимация" }
+        ]
+    }
+
+Software
+    {
+    EmbeddedSystem "Встроенная система"
+    Features
+        [
+        Feature { Clock "Часы" }
+        Feature { Thermostat "Термостат" }
+        Feature { Camera "Камера" }
+        Feature { Speaker "Динамик" }
+        Feature { Motor "Привод" }
+        Feature { Display "Экран" }
+        Feature { GPS "GPS" }
+        Feature { Hardwareinterface "Аппаратный интерфейс" }
+        Feature { Userinterface "Пользовательский интерфейс" }
+        ]
+    Components
+        [
+        Component { Thermostat "Термостат" }
+        Component { Camera "Камера" }
+        Component { Speaker "Динамик" }
+        Component { Motor "Привод" }
+        Component { Display "Экран" }
+        Component { GPS "GPS" }
+        Component { USB "USB" }
+        Component { Board "Плата" }
+        Component { Case "Корпус" }
+        ]
+    }
+
+Software
+    {
+    Distributionplatform "Платформа распространения"
+    Features
+        [
+        Feature { Platform "Платформа" }
+        Feature
+            {
+            Filemanagement
+                [
+                "Управление файлами"
+                "Обеспечьте пользователям незнание структуры папок своего компьютера"
+                ]
+            }
+        Feature
+            {
+            Recommendationsystem
+                [
+                "Система рекомендаций"
+                "Может быть, люди не покупают <Color=\#0000FF>Красочный</Color> <Color=\#FF0000>Калькулятор</Color> <Color=\#00FF00>4</Color> потому что они просто еще не знают о его существовании?"
+                ]
+            }
+        Feature
+            {
+            PlatformSDK [ "Платформа SDK"; "Почему бы не позволить другим приложениям влезать в ваше приложение?" ]
+            }
+        Feature { Interface "Интерфейс" }
+        Feature { Librarymanagement "Управление библиотеками" }
+        Feature
+            {
+            Reviewsystem [ "Система оценок"; "9/10 - здесь есть что-то свое для каждого" ]
+            }
+        Feature { Networking "Сеть" }
+        Feature { Cloudsync "Синхронизация в облаке" }
+        Feature
+            {
+            Socialfeatures
+                [
+                "Социальные функции"
+                "Друзья, чат, форумы и другие средства распространения фотографий котиков"
+                ]
+            }
+        Feature { Voicechat "Голосовой чат" }
+        Feature
+            {
+            Deltapatching
+                [
+                "Дельта-патчи"
+                "Оказывается, можно загружать только те файлы, которые были обновлены"
+                ]
+            }
+        Feature
+            {
+            Remotestreaming
+                [
+                "Удаленная потоковая передача"
+                "Технология высокой пропускной способности наконец-то позволила пользователям транслировать свои любимые электронные таблицы на телевизор в гостиной в формате Full HD"
+                ]
+            }
+        ]
+    }
+
+Hardware
+    {
+    TestJoystick       "Джойстик"
+    Height             "Высота"
+    Depth              "Глубина"
+    Width              "Ширина"
+    LengthMod          "Length Mod"
+    SkewBottom         "Skew Bottom"
+    SkewTop            "Skew Top"
+    Corners            "Углы"
+    Curve              "Кривая"
+    CurveTop           "Curve Top"
+    Bend               "Изгиб"
+    IndentationTop     "Indentation Top"
+    IndentationBottom  "Indentation Bottom"
+    Bump               "Bump"
+    Handles            "Handles"
+    HandlesThickness   "Handles Thickness"
+    TriggerBase        "Trigger Base"
+    BackMiddle         "Back Middle"
+    BackFingerspace    "Back Fingerspace"
+    Roundness          "Roundness"
+    FaceCurve          "Face Curve"
+    FaceIndentation    "Face Indentation"
+    Buttons            "4 Buttons"
+    Size               "Size"
+    Scale              "Scale"
+    2Buttons           "2 Buttons"
+    DPad               "D-Pad"
+    DPad2              "Segmented D-Pad"
+    AnalogStick        "Analog Stick"
+    BigButton          "Big Button"
+    SelectButton       "Select Button"
+    Taper              "Taper"
+    Shape              "Shape"
+    TouchPad           "Touch Pad"
+    MiddleHandle       "Middle Handle"
+    Length             "Length"
+    Console            "Console"
+    BottomCurve        "Bottom Curve"
+    TopCurve           "Top Curve"
+    Skew               "Skew"
+    Inset              "Inset"
+    Step               "Step"
+    MiddleMod          "Middle Mod"
+    MiddleWidth        "Middle Width"
+    ControllerInsert   "Controller Insert"
+    CellPhone          "Cellphone"
+    ScreenWidth        "Screen Width"
+    ScreenHeight       "Screen Height"
+    ScreenPlacement    "Screen Placement"
+    CurveSide          "Curve Side"
+    CurveBottom        "Curve Bottom"
+    BulgeTop           "Bulge Top"
+    BulgeFront         "Bulge Front"
+    RoundedBack        "Rounded Back"
+    Bumps              "Bumps"
+    KeyHeight          "Key Height"
+    Bend2              "Bend 2"
+    KeyScale           "Key Scale"
+    Bevels             "Bevels"
+    Elliptical         "Elliptical"
+    Antenna            "Antenna"
+    Thin               "Thin"
+    Flat               "Flat"
+    SmartPhone         "Smartphone"
+    CurveBack          "Curve Back"
+    SoftCorners        "Soft Corners"
+    BezelThickness     "Bezel Thickness"
+    RoundedEdge        "Закругленный край"
+    Bezel              "Гнездо"
+    ScreenHeightBottom "Screen Height Bottom"
+    ScreenHeightTop    "Screen Height Top"
+    Notch              "Выемка"
+    NotchWidth         "Ширина выемки"
+    OldConsole         "Старая консоль"
+    BottomTaper        "Bottom Taper"
+    TopTaper           "Top Taper"
+    BackBump           "Back Bump"
+    Belt               "Пояс"
+    Slope              "Склон"
+    }
+

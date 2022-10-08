@@ -1,0 +1,13 @@
+### IDE specific
+
+# JetBrains
+.idea/
+
+### Repository specific
+
+old/
+scripts/
+*.new.xml
+*.new.tyd
+*.old.xml
+*.old.tyd
