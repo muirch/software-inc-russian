@@ -613,7 +613,7 @@ Software
     Antivirus
         [
         "Антивирус"
-        "Защитник компьютеров от цифровых нарушителей спокойствия с тех пор, как это стало выгодно."
+        "Защищает компьютеры от цифровых нарушителей спокойствия с тех пор, как это стало выгодно."
         ]
     Features
         [
@@ -711,7 +711,7 @@ Software
 
 Software
     {
-    LogisticsApplication "Приложение для логистики"
+    LogisticsApplication "Логистическое приложение"
     Features
         [
         Feature { Commandline "Командная строка" }
@@ -765,7 +765,7 @@ Software
 
 Software
     {
-    EmbeddedSystem "Встроенная система"
+    EmbeddedSystem "Встраиваемая система"
     Features
         [
         Feature { Clock "Часы" }
