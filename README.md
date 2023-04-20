@@ -10,11 +10,11 @@
 2. Нажмите "подписаться".
 
 **Вручную**
-1. Перейдите в раздел Releases;
-2. Скачайте последнюю стабильную версию;
-3. Распакуйте архив в папку `Localization` в корневой папке игры. Пример итогового пути: `C:\Program Files (x86)\Steam\steamapps\common\Software Inc\Localization\Russian`
+1. Скачайте [последнюю версию](https://github.com/muirch/Software-Inc-Russian/releases) перевода.
+2. Распакуйте папку `Russian` в папку `Localization` в корне игры. Итоговый путь: `C:\Program Files (x86)\Steam\steamapps\common\Software Inc\Localization\Russian`
+3. В главном меню игры, в правом верхнем углу, выберите локализацию.
 
-## Переведено полностью
+## Статус перевода
 
 1. [x] Интерфейс
 2. [x] Программное обеспечение и аппаратное обеспечение
@@ -24,4 +24,4 @@
 6. [ ] Обучение
 
 ## Лицензия
-MIT
+Распространяется под MIT License. Для подробностей откройте `LICENSE.md`
