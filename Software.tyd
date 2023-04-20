@@ -85,7 +85,7 @@ Software
         Feature { Themes "Темы" }
         Feature { Widgets "Виджеты" }
         Feature { Notifications "Уведомления" }
-        Feature { 3Drendering "3D рендерингg" }
+        Feature { 3Drendering "3D рендеринг" }
         Feature { Audio "Аудио" }
         Feature { Surroundsound "Объемный звук" }
         Feature { Speechrecognition "Распознавание речи" }
