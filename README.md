@@ -12,7 +12,7 @@
 **Вручную**
 1. Скачайте [последнюю версию](https://github.com/muirch/Software-Inc-Russian/releases) перевода.
 2. Распакуйте папку `Russian` в папку `Localization` в корне игры. Итоговый путь: `C:\Program Files (x86)\Steam\steamapps\common\Software Inc\Localization\Russian`
-3. В главном меню игры, в правом верхнем углу, выберите локализацию.
+3. В главном меню игры, в левом верхнем углу, выберите локализацию.
 
 ## Статус перевода
 
