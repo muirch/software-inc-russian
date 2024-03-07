@@ -316,14 +316,14 @@ Software
             }
         Feature { Synthesizer "Синтезатор" }
         Feature { Delayandreverb "Задержка и реверберация" }
-        Feature { EQandcompression "Эквалайзер и сжатие" }
+        Feature { EQandcompression "Эквалайзер и компрессия" }
         Feature { Ampsimulation "Моделирование усилителя" }
         Feature { Wavepitchandstretch "Изменение тона и растягивание звука" }
         Feature
             {
             Autotune [ "Автотюн"; "Это вещь." ]
             }
-        Feature { Synthesizerpresets "Наборы синтезаторов." }
+        Feature { Synthesizerpresets "Пресеты для синтезаторов." }
         Feature { Soundbank "Хранилище звуков." }
         Feature
             {
@@ -759,7 +759,7 @@ Software
         Feature { 3Dmodels "3D модели" }
         Feature { Textures "Текстуры" }
         Feature { Environments "Среды" }
-        Feature { Riggingandanimation "Такелаж и анимация" }
+        Feature { Riggingandanimation "Риггинг и анимация" } 
         ]
     }
 
