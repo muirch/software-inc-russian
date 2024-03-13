@@ -282,23 +282,23 @@ There is a data overlay which allows you to see how rooms have been marked. Enab
     CUSTOMIZATION4          "И выберите тип тела.
 
 Внешность основателя будет случайно сгенерирована при каждом переключении типа тела."
-    CUSTOMIZATION5          "You can use these buttons to choose an aspect of your founder's appearance that you want to change.
+    CUSTOMIZATION5          "Вы можете выбрать что хотите изменить во внешности основателя.
 	
-You can change the shape of the face and eyebrows by clicking the first button, the rest of the buttons allow you to change clothes, accessories and colors."
-    CUSTOMIZATION6          "Here you can pick your founder's personality traits.
+По нажатию первой кнопки, можно изменить лицо и брови, остальные кнопки позволяют сменить одежду, аксессуары и цвет кожи."
+    CUSTOMIZATION6          "Здесь можно выбрать черты характера основателя.
 
-You can choose two traits, which will affect your founder's traits, listed below, and inter-office relationships."
-    NewCustomTraitTut       "You can pick your founders traits down here. Some might be locked based on the personality traits you've picked.
+Можно выбрать две черты, которые будут влиять на черты основателя, указанные внизу, и отношения между сотрудниками."
+    NewCustomTraitTut       "Снизу можно выбрать черты основателя. Некоторые могут быть заблокированы для выбора, исходя из выбранных вами черт личности.
 
-You can click on unlocked traits to toggle them on and off."
-    CUSTOMIZATION7          "Here you can pick your founder's skill points which will affect the performance of your founder.
+Нажатием мыши можно переключать доступные черты."
+    CUSTOMIZATION7          "Здесь можно распределить очки навыков основателя.
 
-Skills are balanced and the maximum amount of skill you can assign to begin with depends on the difficulty you choose."
-    CUSTOMIZATIONCREATIVITY "Above your founder's skills is their creativity, which affects the quality of the ideas they come up with when designing a product.
+Навыки сбалансированы и максимальное количество которое можно выставить, зависит от сложности которую вы выберите."
+    CUSTOMIZATIONCREATIVITY "Сверху навыков основателя находится креативность, которая влияет на качество идей которые приходят во время проектировки.
 
-Increasing your founder's creativity will lower their maximum skill level and add demands.
+Увеличение креативности понижает максимальный уровень навыка и добавляет нужды.
 
-This is not very important early on and is probably best left where it is for your first game."
+По началу это не очень важно и если это ваша первая игра, то лучше оставить по умолчанию."
     CUSTOMIZATION8          "You can change your employees specialization points by clicking the highlighted stars down here.
 			
 Specialization levels control which tasks your employee can complete. Remember to check the other roles by using the dropdown.
