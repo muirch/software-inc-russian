@@ -1,15 +1,15 @@
 Tutorial
     {
-    SHARED1                 "To start developing software, designers need to piece together a design document. This document describes how the software should be developed and structured, to make sure everyone is on the same page.
+    SHARED1                 ""Чтобы приступить к разработке программного обеспечения, проектировщикам необходимо собрать воедино проектный документ. В этом документе описывается, как следует разрабатывать и структурировать программное обеспечение, чтобы все были на одной волне.
 	
-The design phase is split up into iterations. Each iteration increases the potential end quality and decreases the speed and amount of bugs in your project. There are 2 ways to tackle the design phase:
-	•You can finish 1 iteration and handle any issues in the development phase
-	•You can finish all iterations and have less issues in the development phase
+Этап проектирования разбивается на итерации. Каждая итерация повышает потенциальное конечное качество и снижает скорость разработки и количество ошибок в вашем проекте. Есть 2 подхода к этапу проектирования:
+    • Вы можете завершить 1 итерацию и решить оставшиеся проблемы на этапе разработки
+    • Вы можете завершить сразу все итерации и иметь меньше проблем на этапе разработки
 	
-The first method is very effective, but makes it hard to estimate how long development will take, however the second method is guaranteed to extend the design phase exponentially.
+Первый метод очень эффективен, но затрудняет оценку того, сколько времени займет разработка, однако второй метод гарантированно увеличит фазу проектирования.
 
-Press {H:continue} to advance the tutorial."
-    SHARED2                 "When doing a review you have to choose how many reviews you want. The more reviews you have, the better accuracy you get.
+Нажмите {H:продолжить}, чтобы продолжить обучение."
+    SHARED2                 "Проводя оценку продукта, вы должны выбрать, сколько отзывов вы хотите получить. Чем больше у вас отзывов, тем выше их точность.
 			
 You also have to decide who you want to carry out the review, which affects the final price.
 
