@@ -778,40 +778,40 @@ When you've placed a central temperature unit, you can select it and click on th
 There are no limits to how often you update your software. You can release daily patches if you want.
 
 Click on the {H:Update} button when you are ready to go."
-    WELCOME1                "Welcome to Software Inc.
+    WELCOME1                "Добро пожаловать в Software Inc.
 
-You can drag this window somewhere else if it is in the way, by clicking and dragging the title bar.
+Вы можете перетащить это окно в другое место, если оно мешает, щелкнув и перетащив строку заголовка.
 
-Press Continue to advance the tutorial."
-    WELCOME2                "You can move the camera with {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} and {KeyBind:MoveRight}, holding {KeyBind:DragCamera} and dragging the mouse, or by moving your mouse to the edges of the screen (if edge scrolling is enabled in the options menu).
+Нажмите «Продолжить», чтобы продолжить обучение."
+    WELCOME2                "Вы можете перемещать камеру с помощью {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} и {KeyBind:MoveRight}, удерживая {KeyBind:DragCamera} и перетаскивая мышь, или перемещая мышь к краям экран (если прокрутка по краям включена в меню настроек).
 
-You can rotate the camera by holding {KeyBind:RotateCamera} and moving the mouse or by using {KeyBind:TurnUp}, {KeyBind:TurnLeft}, {KeyBind:TurnDown} and {KeyBind:TurnRight}.
+Вы можете вращать камеру, удерживая {KeyBind:RotateCamera} и перемещая мышь, или используя {KeyBind:TurnUp}, {KeyBind:TurnLeft}, {KeyBind:TurnDown} и {KeyBind:TurnRight}.
 
-You can zoom in and out by using the scroll wheel or {KeyBind:ZoomIn} and {KeyBind:ZoomOut}."
-    WELCOME3                "The keys can be configured in the options menu, which you can open by pressing Escape or pressing the button in the lower right corner and click \"Options\"."
-    WELCOME4                "In the top you can find your current bank balance. If you hover over the number you'll get a breakdown of your company value."
-    WELCOME5                "You can view the current date and time in the top middle of your screen.
+Вы можете увеличивать и уменьшать масштаб с помощью колеса прокрутки или {KeyBind:ZoomIn} и {KeyBind:ZoomOut}."
+    WELCOME3                "Клавиши можно настроить в меню параметров, которое можно открыть, нажав клавишу Escape или нажав кнопку в правом нижнем углу и выбрав «Настройки»."
+    WELCOME4                "Вверху вы можете найти свой текущий банковский баланс. Если вы наведете курсор на число, вы получите разбивку стоимости вашей компании."
+    WELCOME5                "Вы можете просмотреть текущую дату и время сверху посередине экрана.
 
-You can get an overview of your employee and staff schedules by clicking on the date."
-    WELCOME6                "Up here the number shows your fan count.
+Вы можете получить общий обзор ваших сотрудников и штатных расписаний, нажав на дату."
+    WELCOME6                "Это число отражает количество ваших поклонников.
 
-You can hover over the bar to see your market recognition in each software market. To sell more products in each software category, you need to gain market recognition by making good products and marketing them."
-    WELCOME7                "Below that, the stars show your current business reputation.
+Вы можете навести указатель мыши на полосу, чтобы увидеть свое признание на каждом доступном рынке программного обеспечения. Чтобы продавать больше продуктов в каждой категории программного обеспечения, вам необходимо получить признание на рынке, создавая хорошие продукты и продвигая их."
+    WELCOME7                "Звездочки отражает вашу текущую деловую репутацию.
 
-You can hover over the bar to see what is currently affecting your reputation, if anything.
+Вы можете навести указатель мыши на полосу, чтобы увидеть, что сейчас влияет на вашу репутацию, если такие модификаторы имеются.
 
-You can Improve your business reputation by doing contract work or accepting deals from other companies"
-    WELCOME8                "Here you can see how much money is moving in and out of your company.
+Вы можете улучшить свою деловую репутацию, выполняя контрактную работу или заключая сделки с другими компаниями."
+   WELCOME8                "Здесь вы можете увидеть, сколько денег поступает и уходит из вашей компании.
 
-Since this is your first day, nothing is showing. If you click here, a window with an overview of your finances will open."
-    WELCOME9                "You can control how fast time moves by using these buttons or {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} and {KeyBind:Speed3}, which can also be configured in the options menu."
-    WELCOME10               "Important notifications will appear to the left.
+Поскольку это ваш первый день, ничего не отображается. Если вы нажмете здесь, откроется окно с обзором ваших финансов."
+    WELCOME9                "Вы можете управлять скоростью хода времени с помощью этих кнопок или {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} и {KeyBind:Speed3}, которые также можно настроить в меню настроек."
+    WELCOME10               "Важные уведомления будут отображаться слева.
 
-Some notifications can be clicked to see details. You can right click notifications to delete them."
-    WELCOME11               "All your controls and windows are here, in the bottom left corner."
-    WELCOME12               "Remember: You can always restart any tutorial from the options menu.
+На некоторые уведомления можно нажать, чтобы увидеть подробности. Вы можете щелкнуть правой кнопкой мыши по уведомлениям, чтобы удалить их."
+    WELCOME11               "Все ваши элементы управления и окна находятся здесь, в левом нижнем углу."
+    WELCOME12               "Помните: вы всегда можете перезапустить любое обучение из меню настроек.
 
-If you are unsure of what to do next, you should check out the {H:Tasks} you can complete to unlock cool rewards.
+Если вы не знаете, что делать дальше, проверьте {H:Задачи}, которые вы можете выполнить, чтобы разблокировать крутые награды.
 
-When you are ready, begin building your office by entering {H:Build mode}."
+Когда вы будете готовы, начните строить свой первый офис, войдя в {H:режим строительства}."
     }
