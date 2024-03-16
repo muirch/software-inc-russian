@@ -37,6 +37,7 @@ Furniture
 	ModernCouch            [ "Современный диван"; "" ]
     LeatherCouch           [ "Кожаный диван"; "" ]
     Bench                  [ "Скамейка"; "Это скамейка."; "Основание" ]
+    Shelf                        [ "Полка"; "" ]
     SmallHeater            [ "Маленький обогреватель"; "Скромный обогреватель для Ваших основных офисных нужд."; "Основание" ]
     CeilingFan
         [
@@ -184,6 +185,7 @@ Furniture
     Toilet                 [ "Унитаз"; "Генератор сами знаете чего."; "Основание" ]
     Sink                   [ "Раковина"; ""; ""; "Рамка" ]
     Shower                 [ "Душ"; "" ]
+    FoundersBed                  [ "Кровать основателя"; "" ]
     WaterCooler            [ "Кулер"; "Место для общения сотрудников."; "Тень" ]
     Painting               [ "Картина"; "Банальная картина для оживления офиса."; "Рамка" ]
     AcousticFoam                 [ "Акустическая пена"; "" ]
@@ -315,6 +317,8 @@ Furniture
     CompanyLogo                 [ "Лого компании"; ""; "Текст"; "Контур"; "Тень" ]
     CompanyLogoBig              [ "Большое лого компании"; ""; "Текст"; "Контур"; "Тень" ]
     CompanyLogoHigh             [ "Высокое лого компании"; ""; "Текст"; "Контур"; "Тень" ]
+    ActualCompanyLogo            [ "Логотип компании"; "" ]
+    ActualCompanyLogoBig         [ "Большой логотип компании"; "" ]
     SolarPanel
         [
         "Солнечная панель"
@@ -322,6 +326,14 @@ Furniture
         ]
     Battery                      [ "Батарея"; "1 сэкономленный ватт стоит дороже проданного 1 ватта" ]
     Windturbine                  [ "Ветряная турбина"; "Вытягивание электричества из воздуха" ]
+    GoldBars                     [ "Gold Bars"; "" ]
+    SilverBars                   [ "Silver Bars"; "" ]
+    CopperBars                   [ "Copper Bars"; "" ]
+    FloorHole                    [ "Hole"; "" ]
+    BestDesignerAward            [ "Best Designer Award"; "Slows social needs and stress in room" ]
+    BestEmployerAward            [ "Best Employer Award"; "Slows hunger and bladder in room" ]
+    BestProductAward             [ "Best Product Award"; "Slows furniture degredation in room" ]
+    MostProfitableAward          [ "Most Profitable Award"; "Slows dirt accumulation in room" ]
     Standarddoor           [ "Обычная дверь"; "Это дверь..." ]
     Casedopening           [ "Открытый проход"; "" ]
     Slidingglassdoor       [ "Раздвижная стеклянная дверь"; "Дверь, которая удвоена как окно." ]
@@ -333,6 +345,7 @@ Furniture
     Smallprivatewindow           [ "Маленькое уединенное окно"; "Для всех Ваших ванных нужд" ]
     Archedgate             [ "Арочные ворота"; "" ]
     Opengate               [ "Открытые ворота"; "" ]
+    WallHole                     [ "Hole"; "" ]
     }
 
 Stairs    "Лестница"
@@ -346,4 +359,5 @@ Outdoors  "На улице"
 Utility   "Вспомогательное"
 Bathroom  "Ванная комната"
 Kitchen   "Кухня"
+Hole      "Hole"
 Gate      "Ворота"
