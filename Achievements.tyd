@@ -1,0 +1,42 @@
+FULLMETAAchievement
+    [
+    "Let's go deeper"
+    "Make the game in the game with the company and the developer"
+    ]
+
+FIREPERISHAchievement   [ "This is fine"; "Have somebody perish in a fire" ]
+
+MORETIMEAchievement     [ "Need more time"; "Play for 10 years with 8 days per month" ]
+
+LIFETIMEAchievement     [ "A lifetime"; "Play for 80 years" ]
+
+FPSEASONAchievement     [ "Frames per season"; "Have over 500 employees" ]
+
+EMPLOYEESUITAchievement [ "Bad company"; "Have 10 employees sue you in a class action" ]
+
+SPIFFBREAKAchievement
+    [
+    "That's pretty spiffing"
+    "Cancel a project after receiving publisher funding and successfully win the lawsuit"
+    ]
+
+POLICEDRONEAchievement
+    [
+    "Oh yeah!"
+    "Have a police drone break through walls to confiscate precious metals"
+    ]
+
+BUYPLAYERAchievement    [ PvPayout; "Buy out another player's company" ]
+
+PROPERCOOPAchievement
+    [
+    Co-optimized
+    "Release a product with approximately equal revenue share with other players"
+    ]
+
+DEDICATIONAchievement   [ "Number goes up"; "Release 10 sequels for the same IP" ]
+
+BUYOUTSTREAKAchievement [ "Yoink!"; "Take over 5 companies in one year" ]
+
+COPYGOLDAchievement     [ "CTRL-C CTRL-$"; "Try to duplicate precious metals in build mode" ]
+

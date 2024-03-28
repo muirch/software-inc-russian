@@ -1,15 +1,15 @@
 Tutorial
     {
-    SHARED1                 "To start developing software, designers need to piece together a design document. This document describes how the software should be developed and structured, to make sure everyone is on the same page.
+    SHARED1                 ""Чтобы приступить к разработке программного обеспечения, проектировщикам необходимо собрать воедино проектный документ. В этом документе описывается, как следует разрабатывать и структурировать программное обеспечение, чтобы все были на одной волне.
 	
-The design phase is split up into iterations. Each iteration increases the potential end quality and decreases the speed and amount of bugs in your project. There are 2 ways to tackle the design phase:
-	•You can finish 1 iteration and handle any issues in the development phase
-	•You can finish all iterations and have less issues in the development phase
+Этап проектирования разбивается на итерации. Каждая итерация повышает потенциальное конечное качество и снижает скорость разработки и количество ошибок в вашем проекте. Есть 2 подхода к этапу проектирования:
+    • Вы можете завершить 1 итерацию и решить оставшиеся проблемы на этапе разработки
+    • Вы можете завершить сразу все итерации и иметь меньше проблем на этапе разработки
 	
-The first method is very effective, but makes it hard to estimate how long development will take, however the second method is guaranteed to extend the design phase exponentially.
+Первый метод очень эффективен, но затрудняет оценку того, сколько времени займет разработка, однако второй метод гарантированно увеличит фазу проектирования.
 
-Press {H:continue} to advance the tutorial."
-    SHARED2                 "When doing a review you have to choose how many reviews you want. The more reviews you have, the better accuracy you get.
+Нажмите {H:продолжить}, чтобы продолжить обучение."
+    SHARED2                 "Проводя оценку продукта, вы должны выбрать, сколько отзывов вы хотите получить. Чем больше у вас отзывов, тем выше их точность.
 			
 You also have to decide who you want to carry out the review, which affects the final price.
 
@@ -53,7 +53,7 @@ Remember to assign employees to a team as well. You can do this either by pressi
 
 Start by picking a software type.
 
-Click continue to to advance the tutorial."
+Click continue to advance the tutorial."
     SHARED15                "If applicable, you can pick a software category. Each category for a software type has different development times, popularity, audience retention, features and its own target audience."
     SHARED16                "Then pick a name. You can either write one yourself or press the \"Name:\" button to have it generated."
     SHARED17                "You can also pick a price. If you leave the price field alone, the best price will be picked based on the software and features you've chosen. You can click the Price button to reset the price."
@@ -116,6 +116,23 @@ Exit {H:build mode} when you are ready."
 		
 When you are ready, open the {H:distribution window} to see how you can run your own digital distribution store."
     SHARED30                "You'll also need to pick a lead designer to come up with ideas for your project. The game will already have chosen the most suitable employee, based on the assigned design teams."
+    ACCOUNTINGANDTAXES1     "Start by opening the {H:Tax menu}."
+    ACCOUNTINGANDTAXES2     "Taxes have to be paid every year that you've made a profit, and every year you have the option to file a {H:tax report} before April or pay a fee. Any illegal assets or activity that has occured within that tax year will be discovered, if you don't file the tax report yourself.
+
+Note that for assets you can buy or sell, like a computer or an {H:IP}, the taxes are based off the {H:depreciation} of its value, rather than its actual value when you bought or sold it.
+
+Open the {H:Accounting window} to continue the tutorial."
+    ACCOUNTINGANDTAXES3     "In the accounting window you can select which teams should file your tax reports and {H:optimize} your taxes every year.
+
+Your accountants optimize your taxes by finding errors and ways to lower your taxes. If you don't earn a profit during a tax year, that effort will not save you any money.
+
+Click {H:Continue} to read about the offshore account."
+    ACCOUNTINGANDTAXES4     "You can buy {H:precious metals} to reduce your taxes and maybe even earn a profit by selling it when the price goes up. Just make sure to not place your precious metal stock in view of anyone but your staff members.
+
+The money you earn from selling precious metals goes into your {H:offshore account}, which cannot be used for your daily operations."
+    ACCOUNTINGANDTAXES5     "Your offshore account can be used for the action listed at the bottom of the window or funneled back into your company's main account. The actions also list the cost to your offshore account and how much {H:heat} the action will generate.
+
+Pay close attention to your {H:heat level}. When it hits 100% you will be audited and any illegal activity will be uncovered, and assets seized."
     ADDONS1                 "You can develop new add-ons at any time by opening {H:Your releases} window and selecting a product with add-ons available or by opening the detail window for a product and clicking one of its add-on tabs.
 
 Try starting development of an add-on now to continue the tutorial."
@@ -259,29 +276,29 @@ Try building a room now."
 When you group rooms together, they can only be leased as one single unit. Cloning rooms will carry over the same grouping style, so you can build a layout and quickly duplicate it.
 
 There is a data overlay which allows you to see how rooms have been marked. Enable it now to end the tutorial."
-    CUSTOMIZATION1          "Welcome to the customization screen. Press {H:Continue} to advance the tutorial or {H:Cancel} to exit."
-    CUSTOMIZATION2          "Begin by picking a name for your company."
-    CUSTOMIZATION3          "Then pick a name for your founder in the game."
-    CUSTOMIZATION4          "And a body type.
+    CUSTOMIZATION1          "Добро пожаловать в экран кастомизации. Нажмите {H:Продолжить} чтобы продвинуться дальше по обучению или {H:Отмена} чтобы выйти."
+    CUSTOMIZATION2          "Начните с названия вашей компании."
+    CUSTOMIZATION3          "Затем придумайте имя основателю компании."
+    CUSTOMIZATION4          "И выберите тип тела.
 
-You can toggle body types multiple times to randomize your founder's look."
-    CUSTOMIZATION5          "You can use these buttons to choose an aspect of your founder's appearance that you want to change.
+Внешность основателя будет случайно сгенерирована при каждом переключении типа тела."
+    CUSTOMIZATION5          "Вы можете выбрать что хотите изменить во внешности основателя.
 	
-You can change the shape of the face and eyebrows by clicking the first button, the rest of the buttons allow you to change clothes, accessories and colors."
-    CUSTOMIZATION6          "Here you can pick your founder's personality traits.
+По нажатию первой кнопки, можно изменить лицо и брови, остальные кнопки позволяют сменить одежду, аксессуары и цвет кожи."
+    CUSTOMIZATION6          "Здесь можно выбрать черты характера основателя.
 
-You can choose two traits, which will affect your founder's traits, listed below, and inter-office relationships."
-    NewCustomTraitTut       "You can pick your founders traits down here. Some might be locked based on the personality traits you've picked.
+Можно выбрать две черты, которые будут влиять на черты основателя, указанные внизу, и отношения между сотрудниками."
+    NewCustomTraitTut       "Снизу можно выбрать черты основателя. Некоторые могут быть заблокированы для выбора, исходя из выбранных вами черт личности.
 
-You can click on unlocked traits to toggle them on and off."
-    CUSTOMIZATION7          "Here you can pick your founder's skill points which will affect the performance of your founder.
+Нажатием мыши можно переключать доступные черты."
+    CUSTOMIZATION7          "Здесь можно распределить очки навыков основателя.
 
-Skills are balanced and the maximum amount of skill you can assign to begin with depends on the difficulty you choose."
-    CUSTOMIZATIONCREATIVITY "Above your founder's skills is their creativity, which affects the quality of the ideas they come up with when designing a product.
+Навыки сбалансированы и максимальное количество которое можно выставить, зависит от сложности которую вы выберите."
+    CUSTOMIZATIONCREATIVITY "Сверху навыков основателя находится креативность, которая влияет на качество идей которые приходят во время проектировки.
 
-Increasing your founder's creativity will lower their maximum skill level and add demands.
+Увеличение креативности понижает максимальный уровень навыка и добавляет нужды.
 
-This is not very important early on and is probably best left where it is for your first game."
+По началу это не очень важно и если это ваша первая игра, то лучше оставить по умолчанию."
     CUSTOMIZATION8          "You can change your employees specialization points by clicking the highlighted stars down here.
 			
 Specialization levels control which tasks your employee can complete. Remember to check the other roles by using the dropdown.
@@ -289,6 +306,7 @@ Specialization levels control which tasks your employee can complete. Remember t
 Clicking the {H:Random} button will pick random specialization levels for the points you have left.
 
 You can further educate and train your founder to gain skill and specializations in the game."
+    CUSTOMIZATIONADVANCED   "You can also skip picking creativity and specializations by disabling advanced mode and just letting the game pick it for you."
     NewCustomTraitTut2      "You can add up to 4 founders, but only 1 represents you and the rest will require a share of the company.
 
 You will have to pay dividends of any profit to other share holders, so each extra founder will reduce your profit margin."
@@ -304,7 +322,7 @@ Note that you need at least {StartingPlot} if you would rather purchase an empty
 Starting later will give you the full power of modern tech and digital distribution, but your competitors will be more established."
     CUSTOMIZATION13         "Difficulty can be changed at any point in the game by going to the options menu.
 
-Difficulty controls how easy it is to break into the market."
+You can click the question mark to see what the current difficulty level affects or click {H:Custom} to pick your own rules."
     CUSTOMIZATION14         "You can pick how many days you want per month.
 
 1 month lasts for 1 day by default. The game was made with this pace in mind and it is therefore the recommended setting.
@@ -319,6 +337,20 @@ Note that the \"Building area\" for buildings you can lease into defines the max
 Construction is very expensive, so it is recommended that you start off leasing, but note that renting is a lot more expensive in the long run.
 
 You can relocate your company any time you want during gameplay."
+    CUSTOMLOGOS1            "Start by opening the logo editor."
+    CUSTOMLOGOS2            "Clear everything in the editor so we can start from scratch."
+    CUSTOMLOGOS3            "To create a logo you need to add {H:shapes} and give the shapes {H:colors}.
+
+You can use the blue buttons at the top of the window to create, modify and combine shapes. Try creating a shape by clicking the first button and placing the shape in the main panel."
+    CUSTOMLOGOS4            "Now try modifying the shape by giving it an effect. Create an effect node and connect them by dragging a line from the output of the shape node to the input of the effect node.
+
+Once they are connected you can click on the effect to select it and use the panel to the right to change the effect."
+    CUSTOMLOGOS5            "To give your shape color you need to connect the output to a color node. {H:Note that shape nodes are blue and color nodes are red}.
+
+Start by creating a color node and connect the effect node to the color node. {H:Note that blue outputs only go to blue and red only goes to red}.
+
+To finish the logo you need to connect a color node to the final output."
+    CUSTOMLOGOS6            "If you want to save your logo for later use or share with anyone else, click the {H:Generate code} button and copy the code."
     DESIGNDOCUMENT11        "You can use or create a framework when developing software. Frameworks speed up development, but lock down the maximum tech levels of your features.
 
 Using a framework made by another company will require you pay a license fee from your profits.
@@ -393,7 +425,7 @@ Try selecting an employee now."
     EMPLOYEES4              "You can select several employees by holding down shift or ctrl while clicking on their names in the employee window.
 
 Now, press {KeyBind:ContextMenu} anywhere to bring up the context menu for the selected employee. Click the {H:Switch team} button to inspect possible team assignments."
-    EMPLOYEES5              "When you are done, click {H:OK} and then press {KeyBind:ContextMenu} again and click the {H:Change employee role} button instead, which resembles a wrench."
+    EMPLOYEES5              "When you are done, click {H:OK} and then press {KeyBind:ContextMenu} again and click the {H:Change employee role} button instead, which resembles a suit tie."
     EMPLOYEES6              "Clicking on a role in the role window will assign the employee exclusively to that role immediately, whereas ticking the checkmarks will allow you to pick several roles for your employee. The second row of checkmarks next to each role is the {H:Secondary} option, in which employees will only work in that role if they have no work in their primary roles.
 
 You can also toggle the {H:Any role} checkmark to check or uncheck all roles at once or click {H:Auto role} to assign the employee to the roles that the employee is most proficient at.
@@ -425,10 +457,14 @@ Bring up the Contract window to get some work."
     HIRING2                 "Before you can hire anyone, you need to put out a search for employees. Start by choosing which role your new employee should be good at."
     HIRING4                 "Then you need to decide how much money you want to give your potential employee per month. It is very important that you make sure you have enough money to actually pay them or you'll go bankrupt very quickly.
 
-The quality of applicants will depend on how high you set the salary and your company benefits, among other things. Very high skilled employees only have a chance to appear in the highest salary bracket."
+The quality of applicants will depend on how high you set the salary and your company benefits, among other things. Very high skilled employees only have a chance to appear in the highest salary bracket.
+
+Note that higher skilled employees will expect a higher salary than low skilled employees that eventually become high skilled. You can use this fact to save money by hiring young and training them up."
     HIRING3                 "You can further filter your applicants by toggling any of the filter toggles.
 
-Note that each active filter will increase the cost and reduce the amount of applicants you get."
+Note that each active filter will increase the cost and reduce the amount of applicants you get.
+
+The hiring pool is limited and affected by how appealing your company is to potential employees. The hiring pool refreshes every month and can be boosted when other companies close down."
     HIRING5                 "You can save your filters if you want to use them again later.
 			
 Alternatively, you can look for any lead designers out of work currently.
@@ -577,9 +613,9 @@ To start off, you should cover any potential loss with {H:Contents insurance}. S
 The more furniture you have, the higher the premium will be.
 
 Close the insurance window when you're ready, and we'll cover how to best prevent burglaries."
-    OFFICEDANGERS3          "Burglaries will increase in scale and frequency as your company scales up. The simple and cheapest way to fight burglaries is to buy {H:Security cameras}. Security cameras will alert police whenever a burglar enters their cone of vision, to halt a burglary early. You should place them strategically near building entrances.
+    OFFICEDANGERS3          "Burglaries will increase in scale and frequency as your company scales up. Your employees will call the police whenever they witnes a burglary. Sadly, the Software Inc. Police Department is slow working and bureaucratic, so don't expect to get all of your stolen property back.
 			
-Sadly, the Software Inc. Police Department is slow working and bureaucratic, so don't expect to get any of your stolen property back. Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to, and scare off would-be burglars when they get too close.
+Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to and scare off would-be burglars when they get too close. You can also place security cameras strategically at building entrances and a surveillance desk, which allows one security guard to keep track of four places at once.
 
 You can hire multiple security guards to cover a 24-hour period and still skip time when only security guards are present.
 
@@ -742,40 +778,40 @@ When you've placed a central temperature unit, you can select it and click on th
 There are no limits to how often you update your software. You can release daily patches if you want.
 
 Click on the {H:Update} button when you are ready to go."
-    WELCOME1                "Welcome to Software Inc.
+    WELCOME1                "Добро пожаловать в Software Inc.
 
-You can drag this window somewhere else if it is in the way, by clicking and dragging the title bar.
+Вы можете перетащить это окно в другое место, если оно мешает, щелкнув и перетащив строку заголовка.
 
-Press Continue to advance the tutorial."
-    WELCOME2                "You can move the camera with {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} and {KeyBind:MoveRight}, holding {KeyBind:DragCamera} and dragging the mouse, or by moving your mouse to the edges of the screen (if edge scrolling is enabled in the options menu).
+Нажмите «Продолжить», чтобы продолжить обучение."
+    WELCOME2                "Вы можете перемещать камеру с помощью {KeyBind:MoveUp}, {KeyBind:MoveLeft}, {KeyBind:MoveDown} и {KeyBind:MoveRight}, удерживая {KeyBind:DragCamera} и перетаскивая мышь, или перемещая мышь к краям экран (если прокрутка по краям включена в меню настроек).
 
-You can rotate the camera by holding {KeyBind:RotateCamera} and moving the mouse or by using {KeyBind:TurnUp}, {KeyBind:TurnLeft}, {KeyBind:TurnDown} and {KeyBind:TurnRight}.
+Вы можете вращать камеру, удерживая {KeyBind:RotateCamera} и перемещая мышь, или используя {KeyBind:TurnUp}, {KeyBind:TurnLeft}, {KeyBind:TurnDown} и {KeyBind:TurnRight}.
 
-You can zoom in and out by using the scroll wheel or {KeyBind:ZoomIn} and {KeyBind:ZoomOut}."
-    WELCOME3                "The keys can be configured in the options menu, which you can open by pressing Escape or pressing the button in the lower right corner and click \"Options\"."
-    WELCOME4                "In the top you can find your current bank balance. If you hover over the number you'll get a breakdown of your company value."
-    WELCOME5                "You can view the current date and time in the top middle of your screen.
+Вы можете увеличивать и уменьшать масштаб с помощью колеса прокрутки или {KeyBind:ZoomIn} и {KeyBind:ZoomOut}."
+    WELCOME3                "Клавиши можно настроить в меню параметров, которое можно открыть, нажав клавишу Escape или нажав кнопку в правом нижнем углу и выбрав «Настройки»."
+    WELCOME4                "Вверху вы можете найти свой текущий банковский баланс. Если вы наведете курсор на число, вы получите разбивку стоимости вашей компании."
+    WELCOME5                "Вы можете просмотреть текущую дату и время сверху посередине экрана.
 
-You can get an overview of your employee and staff schedules by clicking on the date."
-    WELCOME6                "Up here the number shows your fan count.
+Вы можете получить общий обзор ваших сотрудников и штатных расписаний, нажав на дату."
+    WELCOME6                "Это число отражает количество ваших поклонников.
 
-You can hover over the bar to see your market recognition in each software market. To sell more products in each software category, you need to gain market recognition by making good products and marketing them."
-    WELCOME7                "Below that, the stars show your current business reputation.
+Вы можете навести указатель мыши на полосу, чтобы увидеть свое признание на каждом доступном рынке программного обеспечения. Чтобы продавать больше продуктов в каждой категории программного обеспечения, вам необходимо получить признание на рынке, создавая хорошие продукты и продвигая их."
+    WELCOME7                "Звездочки отражает вашу текущую деловую репутацию.
 
-You can hover over the bar to see what is currently affecting your reputation, if anything.
+Вы можете навести указатель мыши на полосу, чтобы увидеть, что сейчас влияет на вашу репутацию, если такие модификаторы имеются.
 
-You can Improve your business reputation by doing contract work or accepting deals from other companies"
-    WELCOME8                "Here you can see how much money is moving in and out of your company.
+Вы можете улучшить свою деловую репутацию, выполняя контрактную работу или заключая сделки с другими компаниями."
+   WELCOME8                "Здесь вы можете увидеть, сколько денег поступает и уходит из вашей компании.
 
-Since this is your first day, nothing is showing. If you click here, a window with an overview of your finances will open."
-    WELCOME9                "You can control how fast time moves by using these buttons or {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} and {KeyBind:Speed3}, which can also be configured in the options menu."
-    WELCOME10               "Important notifications will appear to the left.
+Поскольку это ваш первый день, ничего не отображается. Если вы нажмете здесь, откроется окно с обзором ваших финансов."
+    WELCOME9                "Вы можете управлять скоростью хода времени с помощью этих кнопок или {KeyBind:Pause}, {KeyBind:Speed1}, {KeyBind:Speed2} и {KeyBind:Speed3}, которые также можно настроить в меню настроек."
+    WELCOME10               "Важные уведомления будут отображаться слева.
 
-Some notifications can be clicked to see details. You can right click notifications to delete them."
-    WELCOME11               "All your controls and windows are here, in the bottom left corner."
-    WELCOME12               "Remember: You can always restart any tutorial from the options menu.
+На некоторые уведомления можно нажать, чтобы увидеть подробности. Вы можете щелкнуть правой кнопкой мыши по уведомлениям, чтобы удалить их."
+    WELCOME11               "Все ваши элементы управления и окна находятся здесь, в левом нижнем углу."
+    WELCOME12               "Помните: вы всегда можете перезапустить любое обучение из меню настроек.
 
-If you are unsure of what to do next, you should check out the {H:Tasks} you can complete to unlock cool rewards.
+Если вы не знаете, что делать дальше, проверьте {H:Задачи}, которые вы можете выполнить, чтобы разблокировать крутые награды.
 
-When you are ready, begin building your office by entering {H:Build mode}."
+Когда вы будете готовы, начните строить свой первый офис, войдя в {H:режим строительства}."
     }
