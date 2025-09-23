@@ -1,42 +1,45 @@
-FULLMETAAchievement
-    [
-    "Let's go deeper"
-    "Make the game in the game with the company and the developer"
-    ]
+FULLMETAAchievement  
+    [  
+    "Погружаемся глубже";  
+    "Сделайте игру в игре вместе с компанией и разработчиком"  
+    ]  
 
-FIREPERISHAchievement   [ "This is fine"; "Have somebody perish in a fire" ]
+FIREPERISHAchievement   [ "Всё в порядке"; "Кто-то должен погибнуть в пожаре" ]  
 
-MORETIMEAchievement     [ "Need more time"; "Play for 10 years with 8 days per month" ]
+MORETIMEAchievement     [ "Нужно больше времени"; "Играйте 10 лет при 8 днях в месяце" ]  
 
-LIFETIMEAchievement     [ "A lifetime"; "Play for 80 years" ]
+LIFETIMEAchievement     [ "Целая жизнь"; "Играйте 80 лет" ]  
 
-FPSEASONAchievement     [ "Frames per season"; "Have over 500 employees" ]
+FPSEASONAchievement     [ "Кадры на сезон"; "Нанимайте более 500 сотрудников" ]  
 
-EMPLOYEESUITAchievement [ "Bad company"; "Have 10 employees sue you in a class action" ]
+EMPLOYEESUITAchievement [ "Плохая компания"; "Получите коллективный иск от 10 сотрудников" ]  
 
-SPIFFBREAKAchievement
-    [
-    "That's pretty spiffing"
-    "Cancel a project after receiving publisher funding and successfully win the lawsuit"
-    ]
+SPIFFBREAKAchievement  
+    [  
+    "Ну, это шикарно";  
+    "Отмените проект после получения денег от издателя и выиграйте судебное дело"  
+    ]  
 
-POLICEDRONEAchievement
-    [
-    "Oh yeah!"
-    "Have a police drone break through walls to confiscate precious metals"
-    ]
+POLICEDRONEAchievement  
+    [  
+    "О да!";  
+    "Пусть полицейский дрон пробьётся сквозь стены и конфискует драгоценные металлы"  
+    ]  
 
-BUYPLAYERAchievement    [ PvPayout; "Buy out another player's company" ]
+BUYPLAYERAchievement    [ "ПвПокупка"; "Скупите компанию другого игрока" ]  
 
-PROPERCOOPAchievement
-    [
-    Co-optimized
-    "Release a product with approximately equal revenue share with other players"
-    ]
+PROPERCOOPAchievement  
+    [  
+    "Ко-оптимизация";  
+    "Выпустите продукт с примерно равным распределением дохода между игроками"  
+    ]  
 
-DEDICATIONAchievement   [ "Number goes up"; "Release 10 sequels for the same IP" ]
+DEDICATIONAchievement   [ "Цифра растёт"; "Выпустите 10 сиквелов на одного и того же продукта" ]  
 
-BUYOUTSTREAKAchievement [ "Yoink!"; "Take over 5 companies in one year" ]
+BUYOUTSTREAKAchievement [ "Оп-ля!"; "Поглотите 5 компаний за один год" ]  
 
-COPYGOLDAchievement     [ "CTRL-C CTRL-$"; "Try to duplicate precious metals in build mode" ]
+COPYGOLDAchievement     [ "CTRL-C CTRL-$"; "Попробуйте дублировать драгоценные металлы в режиме строительства" ]  
 
+PLATINUMAchievement [ "Лучший из лучших"; "Выиграйте платиновую награду 5 лет подряд" ]  
+
+FEATURECREEPAchievement [ "Фича ради фичи"; "Взаимодействуйте со всеми функциями игры {FeaturesLeft}" ]
