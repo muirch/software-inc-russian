@@ -1,5 +1,7 @@
-Name      "Русский язык"
-Description "Жду ваши сообщения об ошибках в соответствующей теме в Steam Workshop.\nПомните, некоторые элементы не могут быть переведены (на данный момент).\nПринять участие в переводе можно на Github - https://github.com/muirch/software-inc-russian"
-Author    "Ivan Muir aka muirch"
-SteamName "Russian (Steam)"
-SteamID   649847804
+Name        "Русский язык"
+Description "Игру переводили: muirch, 
+DivannKokos, HEL3AN.
+Принять участие в переводе можно на Github - https://github.com/muirch/software-inc-russian"
+Author      muirch
+SteamName   "Russian (Steam)"
+SteamID     649847804
