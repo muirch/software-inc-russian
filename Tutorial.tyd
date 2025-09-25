@@ -1,6 +1,6 @@
 Tutorial
     {
-    SHARED1                 ""Чтобы приступить к разработке программного обеспечения, проектировщикам необходимо собрать воедино проектный документ. В этом документе описывается, как следует разрабатывать и структурировать программное обеспечение, чтобы все были на одной волне.
+    SHARED1                 "Чтобы приступить к разработке программного обеспечения, проектировщикам необходимо собрать воедино проектный документ. В этом документе описывается, как следует разрабатывать и структурировать программное обеспечение, чтобы все были на одной волне.
 	
 Этап проектирования разбивается на итерации. Каждая итерация повышает потенциальное конечное качество и снижает скорость разработки и количество ошибок в вашем проекте. Есть 2 подхода к этапу проектирования:
     • Вы можете завершить 1 итерацию и решить оставшиеся проблемы на этапе разработки
@@ -11,773 +11,777 @@ Tutorial
 Нажмите {H:продолжить}, чтобы продолжить обучение."
     SHARED2                 "Проводя оценку продукта, вы должны выбрать, сколько отзывов вы хотите получить. Чем больше у вас отзывов, тем выше их точность.
 			
-You also have to decide who you want to carry out the review, which affects the final price.
+Также вы должны решить, кто будет проводить ревью — это повлияет на итоговую цену.
 
-Finally, you have to decide which parts of the software to review. If you have already gotten good scores from a past review, you can save time and money by skipping those areas for the current review.
+Наконец, нужно выбрать, какие части ПО проверять. Если на прошлых ревью они уже получили хорошие оценки, можно их пропустить и сэкономить время и деньги.
 
-Pres {H:OK} when you are ready to continue."
-    SHARED3                 "Reviews will pour in as time goes on. You can finish it prematurely if you want, but if you want high accuracy, you should wait until all reviews are in.
+Нажмите {H:OK}, когда будете готовы продолжить."
+    SHARED3                 "Отзывы будут поступать со временем. Вы можете закончить ревью досрочно, но для высокой точности стоит дождаться всех результатов.
 
-Note that reviews will be based on a version of the project that existed when you first clicked review, so any subsequent changes wont be accounted for.
+Учтите: ревью основано на версии проекта, существовавшей в момент нажатия кнопки «Ревью». Изменения после этого в учёт не пойдут.
 			
-Click the {H:End} button on the review when the progress bar has filled up."
-    SHARED4                 "If the review score is unsatisfactory, you can click the iterate button to pause development and let your designers rework the design document. This will tighten up any loose ends, but also set back your project progress a bit.
+Нажмите кнопку {H:Завершить} в окне ревью, когда шкала прогресса заполнится."
+    SHARED4                 "Если результат ревью неудовлетворительный, нажмите кнопку «Начать новую итерацию», чтобы приостановить разработку и дать дизайнерам переработать проектный документ. Это исправит недочёты, но немного откатит прогресс по проекту.
 
-If you are happy with your score, just close the review window and continue development."
-    SHARED5                 "Pressing {KeyBind:MultipleSelect} on objects, rooms or employees will allow you to select several at once, you can then press {KeyBind:ContextMenu} anywhere to see the context menu. You can hold {KeyBind:SweepSelect} down to select objects of the same type quickly or press {KeyBind:NormalSelection} and drag to select everything within a rectangle.
+Если результат вас устраивает — просто закройте окно ревью и продолжайте разработку."
+    SHARED5                 "Нажатие {KeyBind:MultipleSelect} на объектах, комнатах или сотрудниках позволяет выделять несколько сразу. Затем нажмите {KeyBind:ContextMenu} в любом месте, чтобы открыть контекстное меню. Вы также можете удерживать {KeyBind:SweepSelect}, чтобы быстро выделить объекты одного типа, или использовать {KeyBind:NormalSelection} и перетащить прямоугольник, чтобы выделить всё внутри него."
 
-Try selecting at least 2 things in the game."
-    SHARED6                 "Let's put some furniture in your room.
+    SHARED5                 "Попробуйте выбрать как минимум 2 объекта в игре."
+    SHARED6                 "Давайте добавим мебель в вашу комнату.
 
-Build a new table by clicking on the {H:Furnish} button or searching for {H:table}."
-    SHARED7                 "Now add a chair. Chairs can only be added to tables.
+Постройте новый стол, нажав на кнопку {H:Мебель} или найдя {H:стол}."
+    SHARED7                 "Теперь добавьте стул. Стулья можно ставить только к столам.
 
-Note that some furniture, like chairs and tables, can be replaced with alternate versions after they have been placed. You can use the context menu to easily replace a lot of furniture at once, by selecting all furniture of the same type in the selected rooms for example."
-    SHARED8                 "Finally add a computer. When you add a computer click and hold where you want to add it and drag the mouse in the direction you want it to face, finally, release the mouse button to place it.
+Обратите внимание, что часть мебели, например столы и стулья, можно заменить альтернативными версиями после их установки. Вы можете использовать контекстное меню, чтобы легко заменить сразу много мебели, выбрав мебель одного типа в выбранных комнатах."
+    SHARED8                 "Наконец, добавьте компьютер. Для этого зажмите кнопку мыши в том месте, где хотите его поставить, и потяните в сторону, куда он должен быть повернут. Затем отпустите кнопку, чтобы разместить его.
 
-Computers have to sit on top of a table and face a chair."
-    SHARED9                 "When you put tables next to each other they will be grouped together if they don't have anything on top of them. Tables that are grouped together can be used for meetings. To see which tables are grouped, just select one table and its group will be highlighted in blue.
+Компьютеры должны стоять на столе и быть обращены к стулу."
+    SHARED9                 "Когда вы ставите столы рядом друг с другом, они будут объединяться в группу, если сверху ничего нет. Объединённые столы можно использовать для совещаний. Чтобы увидеть группу, просто выделите один стол — его группа подсветится синим.
 
-It's important you control the noise levels in your working environment, try enabling the audio overlay to see what furniture is making noise."
-    SHARED10                "Your founder does not get hungry, lonely, stressed, need bathroom breaks or get annoyed in general, but when you hire new employees they will. So make sure to add at least one vending machine, a radiator, a ventilator and a separate bathroom before you hire new employees.
+Важно контролировать уровень шума на рабочем месте. Попробуйте включить наложение шума, чтобы увидеть, какая мебель создаёт шум."
+    SHARED10                "Основатель компании не испытывает голода, одиночества, стресса, не нуждается в туалете и вообще не раздражается. Но когда вы нанимаете новых сотрудников — они будут. Поэтому перед наймом убедитесь, что установили хотя бы один торговый автомат, батарею, вентилятор и отдельную ванную комнату.
 
-Toggle the audio overlay to advance."
-    SHARED11                "Now, let's assign the room to a team, employees from other teams may then not use it or even pass through it.
+Переключите наложение шума, чтобы продолжить."
+    SHARED11                "Теперь давайте назначим комнату команде. Сотрудники из других команд не смогут её использовать или даже проходить через неё.
 
-Right click your new room and choose {H:Switch team}, which resembles a circle with arrows. A window will appear, click on {H:Core} to assign the room to the Core team.
+Щёлкните правой кнопкой по новой комнате и выберите {H:Сменить команду}, который изображён как круг со стрелками. Появится окно, нажмите {H:Core}, чтобы закрепить комнату за основной командой.
 
-Remember to assign employees to a team as well. You can do this either by pressing {KeyBind:ContextMenu} on an employee and choosing {H:Switch team}, from the employees window or directly in the hiring window."
-    SHARED12                "Start the tutorial by pressing the {H:Develop software} button to bring up the design document."
-    SHARED13                "Continue by going to the first page of the advanced design document."
-    SHARED14                "Welcome to the design document, the heart of Software Inc. This is where you decide what kind of software you want to make.
+Не забудьте назначить сотрудников в команду. Это можно сделать либо через {KeyBind:ContextMenu} на сотруднике и выбор {H:Изменить команду}, либо через окно сотрудников, либо непосредственно в окне найма."
+    SHARED12                "Начните обучение, нажав кнопку {H:Разработка ПО}, чтобы открыть проектный документ."
+    SHARED13                "Продолжите, перейдя на первую страницу расширенного проектного документа."
+    SHARED14                "Добро пожаловать в проектный документ — сердце Software Inc. Здесь вы решаете, какое программное обеспечение будете создавать.
 
-Start by picking a software type.
+Начните с выбора типа ПО.
 
-Click continue to advance the tutorial."
-    SHARED15                "If applicable, you can pick a software category. Each category for a software type has different development times, popularity, audience retention, features and its own target audience."
-    SHARED16                "Then pick a name. You can either write one yourself or press the \"Name:\" button to have it generated."
-    SHARED17                "You can also pick a price. If you leave the price field alone, the best price will be picked based on the software and features you've chosen. You can click the Price button to reset the price."
-    SHARED18                "Let's look at the features you can pick for your product. Each feature takes time to develop and satisfies different markets.
+Нажмите «Далее», чтобы продолжить обучение."
+    SHARED15                "Если применимо, можно выбрать категорию ПО. У каждой категории свои сроки разработки, популярность, удержание аудитории, функции и целевая аудитория."
+    SHARED16                "Затем выберите название. Вы можете вписать его вручную или нажать кнопку \"Имя:\", чтобы сгенерировать."
+    SHARED17                "Вы также можете выбрать цену. Если оставить поле пустым, игра подберёт оптимальную цену в зависимости от выбора ПО и функций. Кнопка Стоимость сбросит цену на исходное значение."
+    SHARED18                "Теперь посмотрим на функции, которые вы можете выбрать для продукта. Каждая функция требует времени на разработку и ориентирована на разные рынки.
 
-Software is divided up into specializations, like 2D, 3D, System, etc. Each specialization is shown as a container in the feature panel and each container has a list of extra features you can add. The extra features require that your employees have the right amount of \"stars\" for the specialization they belong to.
+ПО делится на специализации, например 2D, 3D, Системы и т. д. Каждая специализация отображается контейнером на панели функций и содержит список дополнительных опций. Дополнительные функции требуют, чтобы у сотрудников было достаточное количество «звёзд» в нужной специализации.
 
-Features that are highlighted in red are unavailable because you don't have any employees in your selected development teams that have the required amount of stars."
-    SHARED19                "1 star features are simple features that help satisfy submarkets to a lesser degree
+Функции, подсвеченные красным, недоступны, так как в выбранных командах нет сотрудников с необходимым количеством звёзд."
+    SHARED19                "Функции с 1 звездой — простые и удовлетворяют подрынки в меньшей степени.
 
-2 star features are far more effective at satisfying their target audiences than 1 star features, as you'll get more value for the time spent developing them
+Функции с 2 звёздами — гораздо эффективнее и лучше соответствуют целевой аудитории, поэтому дают больше ценности за затраченное время.
 
-3 star features don't satisfy your target audience, but instead modify your software in some way"
-    SHARED20                "As you may have noticed, each main feature has a tech level associated with it. Tech levels can be researched by you or other companies from year to year.
+Функции с 3 звёздами не удовлетворяют аудиторию, а модифицируют программное обеспечение особым образом."
+    SHARED20                "Как вы могли заметить, у каждой основной функции есть уровень технологии. Уровни можно исследовать вами или другими компаниями год за годом.
 
-Sticking to the latest tech level will increase your target audience satisfaction and the marketability of your product, but increase development time and possible research and license costs associated with its development.
+Использование последнего уровня технологии увеличивает удовлетворённость целевой аудитории и улучшает маркетинговую привлекательность продукта, но при этом увеличивает сроки разработки и возможные затраты на исследования и лицензирование.
 
-It's worth noting that the maximum tech level is limited by any tools needed during development."
-    SHARED21                "You can make your software a sequel to a product you made previously or which you bought from another company. You do this by clicking the {H:Original IP} button and selecting a product.
+Важно: максимальный уровень технологии ограничен инструментами, используемыми во время разработки."
+    SHARED21                "Вы можете сделать ваше ПО продолжением ранее созданного или купленного у другой компании продукта. Для этого нажмите кнопку {H:Исходный продукт} и выберите продукт.
 
-Making a sequel will give a marketing boost and change your fans' expectations depending on the success of its predecessors.
+Сиквел даст маркетинговый бонус и изменит ожидания фанатов в зависимости от успеха предыдущих версий.
 
-Features that were implemented in the predecessor product will be highlighted in orange in the feature panel, as these features will be developed faster than normal."
-    SHARED22                "Your product can depend on other software types. As an example, you will need a 2D Editor to make a game with 2D graphics, otherwise your artists wouldn't be able to create the graphical assets needed.
+Функции, реализованные в предшественнике, будут подсвечены оранжевым на панели функций — их разработка пройдёт быстрее обычного."
+    SHARED22                "Ваш продукт может зависеть от других типов ПО. Например, чтобы сделать игру с 2D‑графикой, нужен 2D‑редактор, иначе ваши художники не смогут создать графические ассеты.
 			
-Furthermore, most software also needs to run on one or more operating systems. It would be wise to pick popular operating systems to support, as they will limit your audience size. But beware that each operating system you decide to support will extend development time.
+Кроме того, большинству ПО нужно работать хотя бы на одной операционной системе. Лучше выбирать популярные ОС, так как они определяют размер вашей аудитории. Но имейте в виду: каждая поддерживаемая ОС увеличивает время разработки.
 
-You can port your software to other operating systems after it has been released, if you so desire.
+Вы можете портировать продукт на другие ОС после релиза, если захотите.
 
-Move to the next page when you're ready."
-    SHARED23                "The submarket triangle let's you decide how your marketing and design efforts will be weighted, to target a section of users in the market.
+Перейдите на следующую страницу, когда будете готовы."
+    SHARED23                "Треугольник подрынков позволяет вам решить, как распределить усилия маркетинга и дизайна, чтобы нацелиться на определённую часть пользователей на рынке.
 
-You could either decide which markets you want to target and pick features that will satisfy those markets, or pick the features you want in your product and balance the markets to fit those features.
+Вы можете либо выбрать рынки, на которые хотите ориентироваться, и подобрать функции, удовлетворяющие этим рынкам, либо выбрать функции, которые вы хотите видеть в продукте, и сбалансировать рынки под них.
 
-The 3 bars in the bottom will show you how well your chosen features satisfy each market and how much they require, based on how you balanced the triangle.
+Три панели внизу покажут, насколько выбранные вами функции удовлетворяют каждый рынок и сколько им требуется, в зависимости от того, как вы сбалансировали треугольник.
 
-Only 1 page left to go!"
-    SHARED24                "If you're worried about how to pay your developers, how many physical copies you'll have to order or how much effort to put into your marketing campaign, you can sign up with a publisher and they will handle these details, if you agree to pay royalties off your product's profits."
-    SHARED25                "Before you finish, make sure you inspect the information in this box. This outlines everything you need to develop this product.
+Осталась всего одна страница!"
+    SHARED24                "Если вы переживаете о том, как платить разработчикам, сколько копий нужно заказывать или насколько активно продвигать продукт, вы можете заключить контракт с издателем. Он возьмёт эти задачи на себя в обмен на уплату роялти с прибыли вашего продукта."
+    SHARED25                "Перед завершением убедитесь, что просмотрели информацию в этом блоке. Здесь перечислены все требования для разработки продукта.
 			
-Take special note of the {H:Expected interest} percent, as adding more features after it hits 100% will only increase development time and not your sales.
+Особое внимание обратите на показатель {H:Ожидаемый интерес}. Если он достигает 100%, добавление новых функций лишь увеличит время разработки, но не принесёт дополнительных продаж.
 
-Having more than the suggested amount of employees on the development teams will result in diminishing returns, so you're paying more in salaries, but getting a smaller and smaller speed increase in return."
-    SHARED26                "After you've went through the phases of development and you're ready to release your product, remember to see if any popular products have just been released in the same software category as yours.
+Если у вас будет больше сотрудников, чем рекомендовано для команды, это приведёт к эффекту убывающей отдачи: зарплаты будут выше, а ускорение разработки — всё меньше и меньше."
+    SHARED26                "Когда вы пройдёте все этапы разработки и будете готовы к релизу продукта, не забудьте проверить, не вышли ли недавно популярные продукты в той же категории софта, что и ваш.
 
-You can also check out the {H:Event calendar} to avoid upcoming releases from your competitors and make sure a large company won't outshine your product.
+Также загляните в {H:Календарь событий}, чтобы избежать совпадений с будущими релизами конкурентов и убедиться, что крупная компания не затмит ваш продукт.
 
-Timing is everything when you're just starting out!"
-    SHARED27                "To transport boxes around your building you need {H:conveyor belts}.
+Тайминг решает всё, особенно для старта!"
+    SHARED27                "Чтобы перевозить коробки по зданию, вам нужны {H:конвейерные ленты}.
 
-{H:Conveyor belts} allow you to route boxes through walls and onto pallets or directly to the outside for couriers to pick up, by placing {H:Garage ports}.
+{H:Конвейерные ленты} позволяют направлять коробки сквозь стены и на поддоны или прямо к выходу для забора курьерами через {H:Вход в гараж}.
 
-You can direct boxes from different places to the same destination by placing conveyor belts perpendicular to each other. Or you can split boxes in different directions by placing {H:Conveyor Splitters}. Make sure you leave room on your conveyor belts for boxes to pass, as machines won't be able to push out boxes if the conveyor belt in front of them is blocked."
-    SHARED28                "{H:Pallets} can be used as storage, to avoid a box pileup, or as a pickup point for {H:couriers}.
+Вы можете направлять коробки из разных мест к одной точке, ставя конвейеры под углом. Или распределять коробки в разные стороны с помощью {H:Конвейерного сплиттера}. Убедитесь, что на конвейере достаточно места для прохождения коробок — машины не смогут выгружать их, если лента занята."
+    SHARED28                "{H:Поддоны} можно использовать как склад, чтобы избежать завалов, или как пункт для забора {H:курьерами}.
 
-Place {H:drop points} on {H:conveyor belts} adjacent to {H:pallets} to drop boxes off when the conveyor belts are obstructed and place {H:pickup points} to move boxes from pallets to a conveyor belt when the path is clear.
+Разместите {H:точку сброса на подднон} на {H:конвейерной ленте}, примыкающих к {H:поддонам}, чтобы сбрасывать коробки, если конвейер заблокирован. И используйте {H:точку забора контейнеров}, чтобы забирать коробки с поддонов обратно на ленту, когда путь свободен.
 		
-Exit {H:build mode} when you are ready."
-    SHARED29                "In the staff window you can either hire {H:couriers} to come once every day and pick up boxes or call a courier to pick up as many boxes as possible immediately. Calling couriers is a lot more expensive and should be reserved for emergencies.
+Выйдите из {H:Режима строительсва}, когда будете готовы."
+    SHARED29                "В окне персонала вы можете нанять {H:курьеров}, которые будут приходить каждый день и забирать коробки, или вызвать курьера немедленно для забора всех коробок. Вызов курьера стоит дороже и должен использоваться только в экстренных ситуациях.
 		
-When you are ready, open the {H:distribution window} to see how you can run your own digital distribution store."
-    SHARED30                "You'll also need to pick a lead designer to come up with ideas for your project. The game will already have chosen the most suitable employee, based on the assigned design teams."
-    ACCOUNTINGANDTAXES1     "Start by opening the {H:Tax menu}."
-    ACCOUNTINGANDTAXES2     "Taxes have to be paid every year that you've made a profit, and every year you have the option to file a {H:tax report} before April or pay a fee. Any illegal assets or activity that has occured within that tax year will be discovered, if you don't file the tax report yourself.
+Когда будете готовы, откройте окно {H:цифровая дистрибуция}, чтобы увидеть, как запустить собственный магазин цифровой дистрибуции."
+    SHARED30                "Вам также нужно выбрать ведущего дизай нера, который будет придумывать идеи для вашего проекта. Игра автоматически выберет наиболее подходящего сотрудника из назначенных команд дизайнеров."
+    ACCOUNTINGANDTAXES1     "Начните с открытия {H:Меню налогов}."
+    ACCOUNTINGANDTAXES2     "Налоги необходимо платить каждый год, в котором вы получили прибыль. Каждый год у вас есть выбор: подать {H:налоговый отчет} до апреля или уплатить штраф. Если вы не подадите отчёт сами, все незаконные активы или действия за этот налоговый год будут раскрыты.
 
-Note that for assets you can buy or sell, like a computer or an {H:IP}, the taxes are based off the {H:depreciation} of its value, rather than its actual value when you bought or sold it.
+Учтите: для активов наподобие компьютеров или {H:франшизы} налоги рассчитываются от {H:амортизации} их стоимости, а не от цены покупки или продажи.
 
-Open the {H:Accounting window} to continue the tutorial."
-    ACCOUNTINGANDTAXES3     "In the accounting window you can select which teams should file your tax reports and {H:optimize} your taxes every year.
+Откройте {H:Бухгалтерский учет}, чтобы продолжить обучение."
+    ACCOUNTINGANDTAXES3     "В окне бухгалтерии вы можете выбрать, какие команды будут подавать налоговые отчёты, и {H:оптимизировать} налоги каждый год.
 
-Your accountants optimize your taxes by finding errors and ways to lower your taxes. If you don't earn a profit during a tax year, that effort will not save you any money.
+Бухгалтеры оптимизируют ваши налоги, находя ошибки и пути снижения выплат. Если вы не получили прибыли в налоговом году, такая работа не принесёт вам выгоды.
 
-Click {H:Continue} to read about the offshore account."
-    ACCOUNTINGANDTAXES4     "You can buy {H:precious metals} to reduce your taxes and maybe even earn a profit by selling it when the price goes up. Just make sure to not place your precious metal stock in view of anyone but your staff members.
+Нажмите {H:Продолжить}, чтобы узнать про оффшорный счёт."
+    ACCOUNTINGANDTAXES4     "Вы можете покупать {H:драгоценные металлы}, чтобы сократить налоги и, возможно, получить прибыль при продаже, если цена вырастет. Только не размещайте запас драгоценных металлов на виду у кого-либо, кроме сотрудников.
 
-The money you earn from selling precious metals goes into your {H:offshore account}, which cannot be used for your daily operations."
-    ACCOUNTINGANDTAXES5     "Your offshore account can be used for the action listed at the bottom of the window or funneled back into your company's main account. The actions also list the cost to your offshore account and how much {H:heat} the action will generate.
+Доход с продажи драгоценных металлов идёт на ваш {H:оффшорный счет}, который нельзя использовать для повседневных операций."
+    ACCOUNTINGANDTAXES5     "Ваш оффшорный счёт можно использовать для действий, перечисленных внизу окна, или перевести деньги обратно на основной счёт компании. Действия показывают стоимость для оффшорного счёта и то, сколько {H:процентов судебного накала} они сгенерируют.
 
-Pay close attention to your {H:heat level}. When it hits 100% you will be audited and any illegal activity will be uncovered, and assets seized."
-    ADDONS1                 "You can develop new add-ons at any time by opening {H:Your releases} window and selecting a product with add-ons available or by opening the detail window for a product and clicking one of its add-on tabs.
+Обращайте особое внимание на ваш {H:судебный накал}. Когда он достигнет 100%, у вас начнётся аудит, и любая незаконная деятельность будет раскрыта, а активы изъяты."
+    ADDONS1                 "Вы можете разрабатывать новые дополнения в любое время, открыв окно {H:Ваши продукты} и выбрав продукт, поддерживающий дополнения, или открыв окно деталей продукта и нажав одну из вкладок дополнений.
 
-Try starting development of an add-on now to continue the tutorial."
-    ADDONS2                 "An {H:Add-on} is a product you can develop to be sold as an extension of an existing product.
+Попробуйте начать разработку дополнения прямо сейчас, чтобы продолжить обучение."
+    ADDONS2                 "{H:Пакет расширения} — это продукт, который вы разрабатываете как расширение существующего продукта.
 
-Click {H:Continue} to have a look at the features you can pick for an add-on."
-    ADDONS3                 "Features for add-ons work like features for regular products, but some have the option of increasing their potential.
+Нажмите {H:Продолжить}, чтобы посмотреть на список функций, доступных для дополнений."
+    ADDONS3                 "Функции дополнений работают так же, как у обычных продуктов, но некоторые могут увеличивать их потенциал.
 
-The features you can add will depend on the parent product category and features. Features should be selected in such a way that they appeal to the same target market as the product they are made for.
+Функции, которые вы можете добавить, зависят от категории и функций исходного продукта. Выбирать их нужно так, чтобы они были интересны той же целевой аудитории, для которой сделан основной продукт.
 
-You can find add-ons for other products by looking for products in the product window that have a non-zero balance in the {H:Add-on profit} column.
+Вы можете найти дополнения для других продуктов, посмотрев в окне продуктов те из них, у которых в колонке {H:Прибыль с дополнений} стоит ненулевое значение.
 
-Try and see if you can find such a product now."
-    ADDONS4                 "Now click the relevant add-on tab and open the details of an add-on to see its details."
-    ADDONS5                 "Developing add-ons can be a good way to gain some extra income from popular products or bringing back old customers for subscription-based products.
+Попробуйте найти такой продукт сейчас."
+    ADDONS4                 "Теперь нажмите на соответствующую вкладку дополнения и откройте его детали, чтобы ознакомиться с ними."
+    ADDONS5                 "Разработка дополнений — хороший способ получить дополнительный доход с популярных продуктов или вернуть старых клиентов для продуктов с подпиской.
 
-Add-ons made for hardware are peripherals, and some can be mandatory for development of the main product and some can even be sold several times to the same customer, such as joysticks for consoles."
-    ADVANCEDDESIGNDOCUMENT3 "The first page of the advanced design document resembles the simple design document, but with an added {H:Framework} panel.
+Дополнения, созданные для оборудования, называются периферией. Некоторые из них обязательны для разработки основного продукта, а некоторые даже можно продавать одному и тому же клиенту несколько раз — например, джойстики для консолей."
+    ADVANCEDDESIGNDOCUMENT3 "Первая страница расширенного проектного документа похожа на обычный, но с добавленной панелью {H:Фреймворк}.
 
-You can use or create a framework when developing software. Frameworks speed up development, but lock down the maximum tech levels of your features.
+Вы можете использовать или создать фреймворк при разработке ПО. Фреймворки ускоряют разработку, но ограничивают максимальные уровни технологий в функциях.
 
-Using a framework made by another company will require you pay a license fee from your profits.
+Использование фреймворка другой компании потребует выплаты лицензионного сбора с вашей прибыли.
 
-If you decide to create a new framework, it will extend development slightly, but the new framework can be licensed out to other companies to make some extra money on the side."
-    ADVANCEDDESIGNDOCUMENT4 "The advanced design document has multiple pages. Let's move on to page 2 to continue."
-    ADVANCEDDESIGNDOCUMENT7 "This is the summary page. Here you can look over the final details of your project, decide on which design and development teams to use, and whether you want a {H:Publisher}. Publishers will help fund your project, handle marketing and physical distribution for a cut of your profits.
+Если вы решите создать новый фреймворк, это немного увеличит сроки разработки, но его можно будет лицензировать для других компаний и получать дополнительный доход."
+    ADVANCEDDESIGNDOCUMENT4 "Расширенный проектный документ состоит из нескольких страниц. Перейдём на страницу 2, чтобы продолжить."
+    ADVANCEDDESIGNDOCUMENT7 "Это итоговая страница. Здесь можно проверить все финальные детали проекта, выбрать команды дизайнеров и разработчиков, а также решить, нужен ли {H:Издатель}. Издатели помогут профинансировать проект, займутся маркетингом и физическим распространением в обмен на часть вашей прибыли.
 
-Click the develop button when you're ready to begin development."
-    ALPHAWORK1              "You need to reach the implementation phase of development before the tutorial can continue"
-    ALPHAWORK2              "Your project has now been promoted to implementation.
+Нажмите «Develop», когда будете готовы начать разработку."
+    ALPHAWORK1              "Необходимо достичь фазы реализации проекта, чтобы обучение продолжилось."
+    ALPHAWORK2              "Ваш проект был переведён в фазу реализации.
 
-The implementation phase has two stages:
-	•{H:Alpha}: in which developers and artists create the product according to the design specifications and requirements.
-	•{H:Beta}: in which bugs are uncovered by your programmers and hopefully fixed before the final release."
-    ALPHAWORK3              "You will see the progress bar fill as your employees work on the project and you can hover over the task to get a detailed breakdown of progress on each area of the implementation.
+Фаза реализации состоит из двух стадий:
+	•{H:Альфа}: разработчики и художники создают продукт в соответствии с проектными спецификациями и требованиями.
+	•{H:Бета}: программисты находят баги и, по возможности, исправляют их перед финальным релизом."
+    ALPHAWORK3              "Вы увидите, как полоска прогресса заполняется по мере работы сотрудников над проектом. Наведите курсор на задачу, чтобы увидеть детализированное значение прогресса каждой области реализации.
 		
-Progress tells nothing of the actual quality of the project, however. To get an idea of how good your employees' work is, you need to do a peer review. Start by pressing the review button."
-    ALPHAWORK7              "Make sure you do a press release during the implementation phase, as you hopefully did during the design phase, unless you signed with a publisher.
+Однако прогресс не отражает фактическое качество работы. Чтобы понять, насколько хороша работа сотрудников, проведите взаимное ревью. Начните с нажатия кнопки ревью."
+    ALPHAWORK7              "Обязательно сделайте пресс-релиз на стадии реализации, как вы сделали на стадии проектирования, если только у вас нет издателя.
 
-During the implementation phase you also have the option to send out a press build, so the press can try your software. Press builds require no work on your part, but make sure you have good ratings in your peer reviews and some followers before you send one out.
+Также на стадии реализации у вас есть возможность выпустить пресс-билд, чтобы журналисты попробовали ваше ПО. Пресс-билды не требуют усилий с вашей стороны, но убедитесь, что у вас хорошие результаты ревью и есть подписчики перед отправкой.
 
-The tutorial will continue once you send out a press build. Take all the time you need."
-    ALPHAWORK8              "Press the Promote button to move on to the beta phase when you are ready."
-    ALPHAWORK9              "The beta phase is theoretically endless, but you'll have to release your project at some point, especially if you've already announced a release date.
+Обучение продолжится после того, как вы выпустите пресс-билд. Не торопитесь."
+    ALPHAWORK8              "Нажмите кнопку Продвинуть, чтобы перейти к фазе бета, когда будете готовы."
+    ALPHAWORK9              "Фаза бета теоретически бесконечна, но в какой-то момент вам придётся выпустить продукт, особенно если вы уже объявили дату релиза.
 
-It's a good idea to fix as many bugs as possible, as buggy products will lead to refunds, but don't aim to fix every possible bug in your product. When your product is released you'll be able to fix more bugs, as your customers get in contact with your support team.
+Лучше исправить как можно больше багов, так как сырые продукты приведут к возвратам. Но не стоит пытаться устранить абсолютно все баги. После релиза можно выпускать обновления, основываясь на жалобах пользователей в службу поддержки.
 
-It's important to note that the amount of bugs an employee can fix depends on the most skilled programmer on their team. So your employees might not be able to fix all bugs and one team might stop fixing bugs while a second team carries on."
-    ALPHAWORK10             "Press the release button when you're ready.
+Важно: количество багов, которые может исправить команда, зависит от самого квалифицированного программиста в ней. Поэтому сотрудники могут не справиться со всеми багами, и одна команда может прекратить исправления, тогда как другая продолжит."
+    ALPHAWORK10             "Нажмите кнопку Выпустить, когда будете готовы.
 		
-When you release your product you'll have to buy or print physical copies of it to sell. Later on, online software distribution will become more popular, but it is very important to have physical copies of your product before and during the 90s.
+При релизе продукта придётся купить или напечатать его физические копии для продажи. Позже цифровое распространение станет популярнее, но в 90-х наличие физических копий обязательно до и во время релиза.
+
+Физические копии можно печатать самостоятельно или заказать немедленно у подрядчиков, но дороже. Игра напомнит вам об этом при релизе продукта."
+    BENEFITS1               "Начните с открытия окна {H:Преимущества для сотрудников}."
+    BENEFITS2               "Льготы для сотрудников пассивно повышают общую удовлетворённость всех работников, что может быть очень полезно, если вы хотите понизить их зарплаты или просто убедиться, что они не уволятся от скуки.
+
+Некоторые льготы могут оказывать огромное и моментальное финансовое влияние, а другие дают значительную прибавку к удовлетворённости без немедленных последствий.
+
+Вы можете безопасно поиграть с ползунками и посмотреть эффект — изменения вступают в силу только после нажатия кнопки Принять.
+
+Нажмите Продолжить, чтобы продолжить обучение."
+    BENEFITS3               "Если вы отметите галочку напротив льготы и нажмёте Принять, у всех сотрудников с индивидуальными настройками льгот они будут сброшены на уровень по умолчанию для компании.
 		
-You can either print physical copies yourself or order some for immediate distribution at a higher price. The game will remind you of this when you release a product."
-    BENEFITS1               "Start by opening the benefit window"
-    BENEFITS2               "Employee benefits will passively increase employee satisfaction for all your employees, which can be very helpful if you want to lower their salaries or make sure they don't just quit when they get bored.
+Вы можете изменять льготы отдельно для сотрудников в окне обзора работников. Попробуйте открыть его сейчас, выберите одного или нескольких сотрудников и нажмите «Изменить преимущества»."
+    BENEFITS4               "Чтобы переопределить льготы компании для конкретного сотрудника, нужно поставить галочку напротив льготы."
+    BUILDMODE1              "Начните с входа в {H:Режим строительсва}, нажав кнопку Режим строительсва."
+    BUILDMODE2              "В режиме строительства игра всегда стоит на паузе.
 
-Some employee benefits can have a huge and immediate financial impact, while others might result in large satisfaction increases without having any immediate consequences.
+Давайте начнём со строительства комнаты. У вас есть два варианта.
 
-You can safely play with the sliders and see their impact since changes aren't put in effect until you hit Apply.
+Нажмите кнопку {H:Прямоугольные комнаты} в панели строительства, чтобы построить простую прямоугольную комнату, или кнопку {H:Комнаты произвольной формы}, чтобы строить комнаты любой формы, возводя стены по одной.
 
-Press continue to advance the tutorial."
-    BENEFITS3               "If you check the checkbox next to a benefit and hit Apply, any employee with custom benefits will have it reset to the company default.
-		
-You can change benefits for employees individually in the employee overview window. Try opening it now, select one or more employees and click \"Change benefits\"."
-    BENEFITS4               "To override a company benefit for individual employees, you need to check the checkbox next to the benefit."
-    BUILDMODE1              "Start by entering {H:Build mode} by clicking the Build-button."
-    BUILDMODE2              "The game is always paused in build mode.
+Также можно использовать {H:Комнаты произвольной формы}, чтобы разделить существующую комнату на две, просто проведя стену через неё."
+    BUILDMODE3              "Теперь кликните где-нибудь внутри принадлежащей вам территории (сетка), а затем в другом месте, чтобы завершить создание комнаты. Следите за стоимостью при перемещении курсора."
+    BUILDMODE4              "Вы могли заметить, что при постройке комнаты вы были ограничены сеткой. Вы можете изменить сетку и углы строительства, переместив её гизмо к стене или мебели. Это может пригодиться, например, если вы хотите поставить столы вдоль диагональной стены.
 
-Let's start by building a room. You have two choices for how you want to build a room.
+Если вам не нравится результат постройки, воспользуйтесь кнопкой «Отменить» или {KeyBind:Undo}, чтобы отменить изменения.
 
-Click on the {H:Rectangle rooms} button in the build panel to build a simple rectangle room or click the {H:Free angle rooms} button to build rooms in any shape you want, one wall at a time.
+Нажмите Продолжить, когда будете готовы."
+    BUILDMODE5              "Вы можете перемещаться по этажам вверх и вниз с помощью {KeyBind:FloorUp} и {KeyBind:FloorDown}.
 
-You can also use the {H:Free angle rooms} option to split rooms into two separate rooms, by simply building a wall through an existing room."
-    BUILDMODE3              "Now click somewhere inside the area you own, which has a grid, and then click somewhere else to finish your new room. Keep an eye on the cost while moving the cursor."
-    BUILDMODE4              "You might have noticed that you were limited to the grid when you built your room. You can change the grid and building angles if you want, by moving the grid gizmo to a wall or piece of furniture. This might come in handy if you want to build tables along a diagonal wall for example.
+Теперь добавим окна и двери. Выберите категорию или воспользуйтесь поиском по {H:окно} или {H:дверь}."
+    BUILDMODE6              "Обратите внимание, что комната становится светлее при установке окон. Убедитесь, что их достаточно, чтобы вашим сотрудникам было светло.
 
-If you don't like how your room looks, you can use the undo button or {KeyBind:Undo} to undo your changes.
+Вы можете проверить освещение, окружение, температуру и уровень шума, кликнув на комнату и выделив её."
+    BUILDMODE14             "Вы также можете менять цвет комнат и мебели.
 
-Click Continue when you are ready."
-    BUILDMODE5              "You can move up and down floors by pressing {KeyBind:FloorUp} and {KeyBind:FloorDown}.
+Попробуйте изменить цвет комнаты: нажмите на неё {KeyBind:ContextMenu} и выберите кнопку {H:Цвета комнаты}, которая выглядит как кисточка."
+    BUILDMODE15             "Можно менять цвет сразу у нескольких объектов, а окно выбора цветов предложит уже используемые варианты.
 
-Now let's add windows and doors. You can either select a category or search for {H:window} or {H:door} in the build panel."
-    BUILDMODE6              "Notice how the room lights up when you add windows, make sure to add enough so that your employees can see.
+Если вам нравится стиль комнаты, сохраните его, выбрав {H:Сохранить стиль} в контекстном меню комнаты. У мебели вы так же можете изменять стиль и сохранять его.
 
-You can inspect lighting, environment, temperature and noise conditions by clicking on and selecting the room."
-    BUILDMODE14             "You can also change the color of your rooms and furniture.
-
-Try changing the color of your room by pressing {KeyBind:ContextMenu} on it and then click the {H:Room colors} button that resembles a brush."
-    BUILDMODE15             "You can change the color of multiple things at once and the color window will suggest colors that are currently in use.
-
-If you like the style you have given a room, you can save it by clicking {H:Save style} in the context menu for rooms, and {H:Set as default style} for furniture.
-
-Click Apply when you are ready or close the window if you want to cancel your changes."
-    BUILDMODE16             "You can merge rooms by using the {H:Destroy wall} tool, or by selecting the rooms you want to merge and then clicking the {H:Merge rooms} option from the context menu.
+Нажмите Принять, когда будете готовы, или закройте окно, если хотите отменить изменения."
+    BUILDMODE16             "Вы можете объединять комнаты инструментом {H:Разрушить стену} или выделив комнаты и выбрав в контекстном меню {H:Объединить комнаты}.
 			
-You can also create curvy wall sections using the {H:Curve tool} and clicking on a wall that does not have anything on it and dragging the mouse out.
+Также можно создавать изогнутые участки стен, используя {H:Инструмент Кривая}: кликните на стену без объектов и потяните мышь наружу.
 
-Click Continue when you are ready to continue."
-    BUILDMODE17             "When you no longer feel like you have enough space for your buildings, you can buy new plot areas by going to plot mode.
+Нажмите Продолжить, когда будете готовы продолжить."
+    BUILDMODE17             "Когда вы почувствуете, что места для зданий не хватает, можно купить новые участки земли в режиме участков.
 
-When you are ready to continue, exit build mode."
-    BUILDMODE18             "When you are ready, open the employees window to start managing your employees."
-    CONTRACTS1              "Start by opening the contract window."
-    CONTRACTS2              "This is a list of available contracts. New contracts will be added as older ones are completed.
+Когда будете готовы продолжить, выйдите из режима строительства."
+    BUILDMODE18             "Когда будете готовы, откройте окно сотрудников, чтобы начать управлять ими."
+    CONTRACTS1              "Начните с открытия окна {H:Работа по контракту}."
+    CONTRACTS2              "Здесь отображается список доступных контрактов. Новые контракты будут появляться по мере выполнения старых.
 
-Contracts have an upfront payment you will receive for accepting the work, and a bigger payment for completing it. You complete a contract by delivering a product with the requested progress and quality.
+Контракты имеют предоплату, которую вы получаете сразу после принятия задания, и основную выплату по завершении. Контракт считается выполненным, если продукт соответствует требуемому прогрессу и качеству.
 
-Try selecting a contract in the list now."
-    CONTRACTS3              "The final payout will be subtracted from, for not completing the contract, for not completing it on time and for any unfixed bugs.
+Попробуйте выбрать контракт из списка сейчас."
+    CONTRACTS3              "Окончательная выплата будет уменьшена за невыполнение контракта, за несоблюдение сроков и за неустранённые баги.
 
-Not living up to the clients quality expectations will impact your business reputation, but not your payout.
+Если вы не оправдаете ожидания клиента по качеству, это повлияет на репутацию, но не на оплату.
 
-Browse the contracts now and accept one that sounds good to you."
-    CONTRACTS5              "Until an employee actually starts working on the contract, the deadline will not count down.
+Ознакомьтесь с контрактами и примите тот, который вам подходит."
+    CONTRACTS5              "До тех пор пока сотрудник фактически не начнёт работать над контрактом, срок выполнения не будет отсчитываться.
 
-The tutorial will continue once you move to the next phase of development."
-    CONTRACTS6              "When the progressbar reaches the blue line you have lived up to the contract's progress requirements. However, you still need to meet their quality requirements, if you want to increase your business reputation and receive better contracts.
+Обучение продолжится, когда вы перейдёте на следующую стадию разработки."
+    CONTRACTS6              "Когда индикатор прогресса достигнет синей линии, это значит, что вы выполнили требования контракта по прогрессу. Однако вам всё ещё нужно выполнить требования по качеству, если вы хотите повысить репутацию и получать лучшие контракты.
 
-Make sure you do a client review before you move on to the bug fixing stage, to make sure you meet their quality requirements.
+Обязательно проведите ревью у клиента перед переходом к стадии исправления багов, чтобы убедиться, что их требования по качеству выполнены.
 
-The tutorial will continue once you start a review."
-    CONTRACTS10             "When you are ready, let's move on to the bug fixing stage.
+Обучение продолжится после начала ревью."
+    CONTRACTS10             "Когда будете готовы, перейдите к стадии исправления багов.
 
-It's impossible to know exactly how many bugs a piece of software has, so just try to fix as many as you can before time runs out.
+Невозможно точно узнать, сколько багов в программном обеспечении, так что постарайтесь исправить как можно больше до окончания срока.
 
-Finish your contract work to end the tutorial."
-    CUSTOMMAP1              "This tutorial assumes you've already tried build mode and will focus on how the map editor differs.
+Завершите работу по контракту, чтобы закончить обучение."
+    CUSTOMMAP1              "Это обучение предполагает, что вы уже попробовали режим строительства, и сосредоточится на отличиях редактора карт.
 		
-Click Continue if you're ready to advance."
-    CUSTOMMAP2              "The map editor gives you the ability to make a building that you'll be able to lease into when you relocate or make a new company. The map editor does not have the ability to edit normal {H:for sale} buildings.
+Нажмите Продолжить, чтобы продолжить."
+    CUSTOMMAP2              "Редактор карт позволяет вам создать здание, которое позже можно будет арендовать при переезде или создании новой компании. В редакторе карт нельзя изменять обычные здания {H:на продажу}.
 
-In the map editor, you have an unlimited supply of money and the ability to place environment objects. Try opening the environment tab now."
-    CUSTOMMAP3              "You can hover over the different types of environment objects to get more details.
+В нём у вас есть неограниченный бюджет и возможность размещать элементы окружения. Попробуйте открыть вкладку окружающая среда сейчас."
+    CUSTOMMAP3              "Вы можете навести курсор на разные объекты окружения, чтобы узнать о них больше.
 
-Another important aspect of rentable buildings is that you can provide some amenities for the tenant and you have to provide heating and cooling.
-Make sure you place enough heating and cooling for the entire building. The tenant will not be able to interact with any furniture you place in the map editor.
+Другой важный аспект арендуемых зданий — это обеспечение удобств для арендаторов, включая отопление и охлаждение.
+Убедитесь, что во всём здании достаточно систем отопления и кондиционирования. Арендаторы не смогут взаимодействовать с мебелью, размещённой в редакторе карт.
 
-Try building a room now."
-    CUSTOMMAP4              "When you select your room and open the context menu, you'll notice a couple of new options, namely the ability to group rooms, mark them for renting and mark them as player owned rooms.
+Попробуйте построить комнату."
+    CUSTOMMAP4              "Выделив комнату и открыв контекстное меню, вы заметите новые опции: возможность группировать комнаты, отмечать их как сдаваемые в аренду и как принадлежащие игроку.
 
-When you group rooms together, they can only be leased as one single unit. Cloning rooms will carry over the same grouping style, so you can build a layout and quickly duplicate it.
+Группированные комнаты можно сдавать только одним блоком. Клонирование перенесёт ту же группировку, что позволит быстро копировать готовую планировку.
 
-There is a data overlay which allows you to see how rooms have been marked. Enable it now to end the tutorial."
-    CUSTOMIZATION1          "Добро пожаловать в экран кастомизации. Нажмите {H:Продолжить} чтобы продвинуться дальше по обучению или {H:Отмена} чтобы выйти."
-    CUSTOMIZATION2          "Начните с названия вашей компании."
+Есть карта-наложение \"Аренда\", показывающая, как помечены комнаты. Включите её сейчас, чтобы завершить обучение."
+    CUSTOMIZATION1          "Добро пожаловать в экран кастомизации. Нажмите {H:Продолжить}, чтобы продвинуться дальше по обучению, или {H:Отмена}, чтобы выйти."
+    CUSTOMIZATION2          "Начните с ввода названия вашей компании."
     CUSTOMIZATION3          "Затем придумайте имя основателю компании."
-    CUSTOMIZATION4          "И выберите тип тела.
+    CUSTOMIZATION4          "Теперь выберите тип телосложения.
 
-Внешность основателя будет случайно сгенерирована при каждом переключении типа тела."
-    CUSTOMIZATION5          "Вы можете выбрать что хотите изменить во внешности основателя.
+Внешность основателя будет случайно изменяться при каждом переключении типа тела."
+    CUSTOMIZATION5          "Вы можете выбрать, что именно изменить во внешности основателя.
 	
-По нажатию первой кнопки, можно изменить лицо и брови, остальные кнопки позволяют сменить одежду, аксессуары и цвет кожи."
+Первая кнопка изменяет лицо и брови, остальные позволяют менять одежду, аксессуары и цвет кожи."
     CUSTOMIZATION6          "Здесь можно выбрать черты характера основателя.
 
-Можно выбрать две черты, которые будут влиять на черты основателя, указанные внизу, и отношения между сотрудниками."
+Вы можете выбрать две черты, которые будут влиять на характеристики основателя (они показаны ниже) и на отношения между сотрудниками."
     NewCustomTraitTut       "Снизу можно выбрать черты основателя. Некоторые могут быть заблокированы для выбора, исходя из выбранных вами черт личности.
 
 Нажатием мыши можно переключать доступные черты."
     CUSTOMIZATION7          "Здесь можно распределить очки навыков основателя.
 
 Навыки сбалансированы и максимальное количество которое можно выставить, зависит от сложности которую вы выберите."
-    CUSTOMIZATIONCREATIVITY "Сверху навыков основателя находится креативность, которая влияет на качество идей которые приходят во время проектировки.
+    CUSTOMIZATIONCREATIVITY "Сверху навыков основателя находится вдохнвоение, которая влияет на качество идей которые приходят во время проектировки.
 
-Увеличение креативности понижает максимальный уровень навыка и добавляет нужды.
+Увеличение вдохнвоение понижает максимальный уровень навыка и добавляет нужды.
 
 По началу это не очень важно и если это ваша первая игра, то лучше оставить по умолчанию."
-    CUSTOMIZATION8          "You can change your employees specialization points by clicking the highlighted stars down here.
+    CUSTOMIZATION8          "Вы можете изменить очки специализации сотрудников, нажав на подсвеченные звёзды здесь внизу.
 			
-Specialization levels control which tasks your employee can complete. Remember to check the other roles by using the dropdown.
+Уровень специализации определяет, какие задачи сотрудник сможет выполнять. Не забудьте проверить и другие роли, используя выпадающее меню.
 
-Clicking the {H:Random} button will pick random specialization levels for the points you have left.
+Нажатие кнопки {H:Random} распределит оставшиеся очки специализации случайным образом.
 
-You can further educate and train your founder to gain skill and specializations in the game."
-    CUSTOMIZATIONADVANCED   "You can also skip picking creativity and specializations by disabling advanced mode and just letting the game pick it for you."
-    NewCustomTraitTut2      "You can add up to 4 founders, but only 1 represents you and the rest will require a share of the company.
+Вы также сможете обучать и тренировать основателя, чтобы получать новые навыки и специализации в процессе игры."
+    CUSTOMIZATIONADVANCED   "Вы также можете пропустить выбор вдохновения и специализаций, отключив расширенный режим и позволив игре сделать выбор за вас."
+    NewCustomTraitTut2      "Вы можете добавить до 4 основателей, но только один будет представлять вас, а остальные потребуют долю в компании.
 
-You will have to pay dividends of any profit to other share holders, so each extra founder will reduce your profit margin."
-    CUSTOMIZATION9          "You are now done customizing your founder. Let's begin choosing the rules of the game!"
-    CUSTOMIZATION10         "You can enable any mods here, which will be bound to the game forever.
+Вам придётся выплачивать дивиденды другим совладельцам, поэтому каждый дополнительный основатель будет снижать вашу долю прибыли."
+    CUSTOMIZATION9          "Кастомизация основателя завершена. Теперь перейдём к выбору правил игры!"
+    CUSTOMIZATION10         "Здесь вы можете включить любые моды, и они будут закреплены за этой игрой навсегда.
 
-You won't be able to enable or disable mods after your game has started, as they fundamentally alter how the game is played, but you can share your save game with others, without having to install the mods again."
-    CUSTOMIZATION11         "Pick how much money you want to start with. You start with {StartingFunds} by default, any additional funds will be taken as loans.
+После начала игры моды нельзя включить или отключить, так как они кардинально меняют процесс. Но вы сможете делиться сохранениями с другими людьми без необходимости установки модов заново."
+    CUSTOMIZATION11         "Выберите, с какой суммой денег начать игру. По умолчанию вы начинаете с {StartingFunds}, любые дополнительные средства будут взяты в кредит.
 
-Note that you need at least {StartingPlot} if you would rather purchase an empty plot, than lease rooms in a building."
-    CUSTOMIZATION12         "You can change what year you want to start in here.
+Учтите, что вам нужно как минимум {StartingPlot}, если вы хотите купить пустой участок, а не арендовать комнаты в здании."
+    CUSTOMIZATION12         "Здесь можно выбрать год, с которого вы хотите начать.
 		
-Starting later will give you the full power of modern tech and digital distribution, but your competitors will be more established."
-    CUSTOMIZATION13         "Difficulty can be changed at any point in the game by going to the options menu.
+Более поздний старт даст вам все современные технологии и цифровую дистрибуцию, но конкуренты окажутся более развитые."
+    CUSTOMIZATION13         "Сложность можно изменить в любое время через меню настроек.
 
-You can click the question mark to see what the current difficulty level affects or click {H:Custom} to pick your own rules."
-    CUSTOMIZATION14         "You can pick how many days you want per month.
+Нажмите на знак вопроса, чтобы узнать, на что влияет текущая сложность, или {H:Пользовательскую}, чтобы задать свои собственные правила."
+    CUSTOMIZATION14         "Вы можете выбрать, сколько дней будет длиться месяц.
 
-1 month lasts for 1 day by default. The game was made with this pace in mind and it is therefore the recommended setting.
+По умолчанию один месяц длится 1 игровой день. Игра была изначально рассчитана на такой темп, поэтому этот вариант рекомендуется.
 
-If you feel the game is going too fast or you want a couple of days to earn money between having to pay bills, you can increase this setting. Be aware that everything will move slower to match the setting you pick and you can't change it later on."
-    CUSTOMIZATION15         "Click the Pick map button to pick your starting environment"
-    CUSTOMIZATION16         "Here you can see a list of buildings you can buy outright or lease your way into. Next to each picture you can see whether a building is \"For rent\" or \"For sale\".
+Если игра кажется слишком быстрой или вы хотите иметь больше времени на заработок между оплатой счетов, вы можете увеличить это значение. Учтите, что при этом всё будет происходить медленнее, и изменить настройку позже будет нельзя."
+    CUSTOMIZATION15         "Нажмите кнопку Pick map, чтобы выбрать стартовую локацию."
+    CUSTOMIZATION16         "Здесь отображается список зданий, которые можно полностью купить или арендовать. Рядом с каждым изображением указано, доступно ли здание {H:\"Для аренды\"} или {H:\"Для продажи\"}.
 
-Note that the \"Building area\" for buildings you can lease into defines the maximum area you can lease as you expand your company."
-    CUSTOMIZATION17         "You can use these buttons to pick whether you want to lease or buy an empty plot.
+Имейте в виду: показатель \"Building area\" для арендуемых зданий определяет максимальную площадь, которую можно арендовать при расширении компании."
+    CUSTOMIZATION17         "Здесь можно выбрать, арендовать ли участок или купить пустой.
 
-Construction is very expensive, so it is recommended that you start off leasing, but note that renting is a lot more expensive in the long run.
+Строительство очень дорогое, поэтому рекомендуется начинать с аренды, но учтите, что аренда в долгосрочной перспективе обойдётся дороже.
 
-You can relocate your company any time you want during gameplay."
-    CUSTOMLOGOS1            "Start by opening the logo editor."
-    CUSTOMLOGOS2            "Clear everything in the editor so we can start from scratch."
-    CUSTOMLOGOS3            "To create a logo you need to add {H:shapes} and give the shapes {H:colors}.
+Вы можете переместить компанию в другое место в любой момент игры."
+    CUSTOMLOGOS1            "Начните с открытия редактора логотипов."
+    CUSTOMLOGOS2            "Очистите всё в редакторе, чтобы начать с нуля."
+    CUSTOMLOGOS3            "Чтобы создать логотип, нужно добавить {H:формы} и задать для них {H:цвета}.
 
-You can use the blue buttons at the top of the window to create, modify and combine shapes. Try creating a shape by clicking the first button and placing the shape in the main panel."
-    CUSTOMLOGOS4            "Now try modifying the shape by giving it an effect. Create an effect node and connect them by dragging a line from the output of the shape node to the input of the effect node.
+Вы можете использовать синие кнопки сверху окна, чтобы создавать, изменять и комбинировать фигуры. Попробуйте создать фигуру, нажав первую кнопку и разместив её на панели."
+    CUSTOMLOGOS4            "Теперь попробуйте изменить фигуру, добавив к ней эффект. Создайте узел эффекта и соедините его, перетащив линию от выхода узла фигуры к входу узла эффекта.
 
-Once they are connected you can click on the effect to select it and use the panel to the right to change the effect."
-    CUSTOMLOGOS5            "To give your shape color you need to connect the output to a color node. {H:Note that shape nodes are blue and color nodes are red}.
+После соединения можно нажать на эффект и изменить его параметры в панели справа."
+    CUSTOMLOGOS5            "Чтобы задать цвет фигуре, нужно соединить её с узлом цвета. {H:Заметьте, что узлы фигур синие, а узлы цвета красные}.
 
-Start by creating a color node and connect the effect node to the color node. {H:Note that blue outputs only go to blue and red only goes to red}.
+Создайте узел цвета и подключите к нему узел эффекта. {H:Синие выходы соединяются только с синими, а красные только с красными}.
 
-To finish the logo you need to connect a color node to the final output."
-    CUSTOMLOGOS6            "If you want to save your logo for later use or share with anyone else, click the {H:Generate code} button and copy the code."
-    DESIGNDOCUMENT11        "You can use or create a framework when developing software. Frameworks speed up development, but lock down the maximum tech levels of your features.
+Чтобы завершить логотип, соедините узел цвета с финальным выходом."
+    CUSTOMLOGOS6            "Если вы хотите сохранить логотип для будущего использования или поделиться им, нажмите кнопку {H:Генерация кода} и скопируйте код."
+    DESIGNDOCUMENT11        "Вы можете использовать или создать фреймворк при разработке ПО. Фреймворки ускоряют разработку, но ограничивают максимальные уровни технологий в функциях.
 
-Using a framework made by another company will require you pay a license fee from your profits.
+Использование фреймворка другой компании потребует выплаты лицензионного сбора с вашей прибыли.
 
-If you decide to create a new framework, it will extend development slightly, but the new framework can be licensed out to other companies to make some extra money on the side."
-    DESIGNDOCUMENT12        "Let's check out the {H:Dependencies} page."
-    DESIGNDOCUMENT18        "Click the develop button when you're ready to begin development."
-    DESIGNWORK1             "You need to start a new project before the tutorial can continue"
-    DESIGNWORK3             "While you work on your design document, you should start telling the world about your new project. Start by announcing a release date by pressing the Market button.
+Если вы создадите новый фреймворк, разработка немного затянется, но его можно будет лицензировать другим компаниям и получать дополнительный доход."
+    DESIGNDOCUMENT12        "Давайте посмотрим на страницу {H:Зависимости}."
+    DESIGNDOCUMENT18        "Нажмите кнопку Продолжить, когда будете готовы начать разработку."
+    DESIGNWORK1             "Чтобы продолжить обучение, нужно начать новый проект."
+    DESIGNWORK3             "Пока вы работаете над проектным документом, начните рассказывать миру о своём продукте. Для начала анонсируйте дату выхода, нажав кнопку Market.
 
-You'll have to do some guess work when picking a release date, but it will increase the effectiveness of all your future marketing efforts. Just make sure you release it on time!"
-    DESIGNWORK4             "Unless you have a publisher, you should make a press release to tell the world about your product, before you move on to the alpha phase of development.
+Придётся немного гадать при выборе даты релиза, но это повысит эффективность всех будущих маркетинговых действий. Только убедитесь, что соблюдёте сроки!"
+    DESIGNWORK4             "Если у вас нет издателя, сделайте пресс-релиз, чтобы рассказать миру о своём продукте, прежде чем перейти к альфа-фазе разработки.
 
-When you market your product before it's released, you build a following. A project's followers are guaranteed to buy the final product when it releases, however they might not all buy it straight away or they might refund it, if it is very buggy.
+Маркетинг продукта до релиза помогает накапливать поклонников. Поклонники проекта гарантированно купят финальный продукт после выхода, однако не все сделают это сразу или могут вернуть покупку, если программа будет слишком сырой.
 
-Your employees will have to work on making the press release, so if you think it'll take a while, you can pause your design work by pressing the play button.
+Вашим сотрудникам придётся поработать над пресс-релизом, поэтому, если это займёт время, вы можете приостановить проектирование, нажав кнопку паузы.
 
-Start by bringing up the marketing window again."
-    DESIGNWORK5             "Make sure you read the text in the marketing window, as it tells you how to handle the different marketing actions available to you."
-    DESIGNWORK6             "Click the Develop button to begin development when you are ready.
+Начните с открытия маркетингового окна ещё раз."
+    DESIGNWORK5             "Обязательно прочитайте текст в маркетинговом окне — там указано, как использовать разные доступные виды маркетинга."
+    DESIGNWORK6             "Нажмите кнопку Продолжить, чтобы начать разработку, когда будете готовы.
 
-Right click the title bar of the work item to toggle between normal and collapsed view.
+Щёлкните правой кнопкой по заголовку задачи, чтобы переключаться между обычным и свёрнутым видом.
 
-Left click the title bar and drag to re-arrange your work items."
-    DIGITALDISTRIBUTION1    "Open the distribution window to begin the tutorial."
-    DIGITALDISTRIBUTION4    "This is a list of online stores that distribute software for a cut of the revenue. By default you are selling through all of them.
+Щёлкните левой кнопкой по заголовку и перетащите, чтобы изменить порядок задач."
+    DIGITALDISTRIBUTION1    "Откройте окно дистрибуции, чтобы начать обучение."
+    DIGITALDISTRIBUTION4    "Здесь отображается список онлайн-магазинов, распространяющих ПО за процент от прибыли. По умолчанию вы продаёте через все из них.
 
-You can click the checkmarks in the list and uncheck {H:Auto-sign new platforms} to take full control. Note the {H:Consumer reach} number, as selling on too few stores can limit how many people will buy your product digitally.
+Можно управлять этим вручную: снимите галочки в списке и отключите {H:Заинтересован}, чтобы контролировать процесс. Обратите внимание на показатель {H:Доля} — если продавать через слишком мало магазинов, количество покупателей вашего продукта снизится.
 
-Press continue to learn about opening your own store."
-    DIGITALDISTRIBUTION2    "To start selling products through your own online store, you need to develop a distribution platform by clicking the highlighted button. Running a distribution platform requires a big support team and a high bandwidth server farm. Even if your store isn't selling much, it might still have a large userbase that will only hang around if you provide constant service.
+Нажмите кнопку Продолжить, чтобы узнать, как открыть свой магазин."
+    DIGITALDISTRIBUTION2    "Чтобы начать продажи через собственный онлайн-магазин, нужно разработать дистрибутивную платформу, нажав подсвеченную кнопку. Для её работы потребуется крупная команда поддержки и мощный серверный комплекс. Даже если в вашем магазине мало продаж, у него может быть много пользователей, которые останутся только при условии, что вы поддерживаете сервис.
 
-Once your store is up and running, you should update it regularly to keep up with tech levels and reduce bugs. Make sure to develop a new version of your platform once new features become available on your competitors' platforms.
+Когда платформа будет работать, обновляйте её регулярно, чтобы не отставать от конкурентов и уменьшать количество багов. Также выпускайте новые версии, когда у конкурентов появляются функции, отсутствующие у вас.
 
-Please note that online stores don't really take hold until the 21st century, so you might not see much activity in the beginning.
+Заметьте, что онлайн-магазины начинают реально работать только в XXI веке, поэтому поначалу активность будет низкой.
 
-Press continue to learn about selling other companies' products."
-    DIGITALDISTRIBUTION3    "If you want to make some extra income by distributing other companies' products, you can enable it using the highlighted toggle.
+Нажмите Продолжить, чтобы узнать о продаже продуктов других компаний."
+    DIGITALDISTRIBUTION3    "Если хотите заработать больше, распространяя продукты других компаний, включите эту возможность с помощью подсвеченного переключателя.
 
-Your digital market share and business reputation, combined with the cut you decide to take of your clients' products, will determine how many are willing to sign up to your digital store.
+Доля на рынке и репутация вашей компании, а также процент, который вы решите забирать, определят, сколько компаний захочет разместить свои продукты в вашем магазине.
 
-Companies will automatically start signing up to your service each month. It's up to you whether you want to accept all new deals, or let them in one-by-one, by checking the {H:Auto-accept new deals} toggle.
+Компании будут автоматически подписываться раз в месяц. Вы можете либо принимать все сделки сразу, либо вручную одобрять новые предложения, используя переключатель {H:Автоматическое принятие новых сделок}.
 
-The percentage label on the slider becomes red when you change your cut, to indicate whether the current cut has a chance to make clients cancel their deal entirely.
+Ползунок процента будет подсвечиваться красным, если выбранный вами процент может вызвать отказ клиентов от сделки.
 
-Finally, you should note that you'll need extra bandwidth to handle selling all those extra products."
-    DIGITALDISTRIBUTION5    "Your store may have a lot of users, but if you don't have any products for them to buy, your market share will stay low and you will fail to attract new clients. Luckily, you can offer other companies time-limited {H:exclusivity deals} for your store, to give your users something to buy.
+И помните, что потребуется больше пропускной способности для поддержки всех этих дополнительных продуктов."
+    DIGITALDISTRIBUTION5    "У вашего магазина может быть много пользователей, но без товаров для продажи доля рынка будет низкой, и новые клиенты не будут привлекаться. К счастью, можно предлагать другим компаниям временные {H:эксклюзивные сделки} для вашего магазина, чтобы у пользователей был стимул для покупок.
 
-You can do this by opening any product overview, like {H:All software}, selecting a <b>software</b> product and clicking the {H:Exclusivity deal} button. These won't be cheap, especially for new products, but each sale will drive up the market share of your store."
-    EDUCATION1              "You need an employee who is ready for education before you can begin the education tutorial.
+Для этого откройте любое окно продукта, например {H:Продукты}, выберите <b>программный продукт</b> и нажмите кнопку {H:Эксклюзивная сделка}. Такие сделки будут дорогими, особенно для новых продуктов, но каждое новое предложение увеличит долю рынка вашего магазина."
+    EDUCATION1              "Для начала обучения нужен сотрудник, готовый к этому.
 
-Employees will be eligible for education when they gain enough experience working on different tasks."
-    EDUCATION2              "Begin the tutorial by opening the {H:Employee window}, selecting the employees you want to educate and press the {H:Educate} button or by selecting one or more of your employees, press {KeyBind:ContextMenu} anywhere on the screen to bring up the context menu, and then pick {H:Educate employee}.
+Сотрудники становятся доступны для обучения, когда набирают достаточно опыта на разных задачах."
+    EDUCATION2              "Начните обучение с открытия {H:Умправление сотрудниками}, выберите сотрудников, которых хотите обучить, и нажмите кнопку {H:Обучить}. Либо выделите их и нажмите {KeyBind:ContextMenu} где угодно на экране, затем выберите {H:Обучить сотрудника}.
 			
-You can see which employees are ready for education in the Employee window by looking for green icons in the {H:role} column."
-    EDUCATION3              "In the education window you can pick a role and a specialization you want to educate your employees in. After they finish their class, employees will gain one star in the specialization you picked.
+Вы можете увидеть готовность сотрудников к обучению по зелёным иконкам в колонке {H:должность}."
+    EDUCATION3              "В окне обучения можно выбрать должность и специализацию, по которой сотрудники будут обучаться. После завершения курса сотрудники получат одну звезду в выбранной специализации.
 
-Based on the employees and specialization you have picked, you can see how much time and money it will require for your employees to finish their classes."
-    EDUCATION4              "At the top you can see which of your chosen employees are applicable for the education you have picked.
+Исходя из выбранных сотрудников и специализации, вы увидите, сколько времени и денег потребуется на обучение."
+    EDUCATION4              "В верхней части окна отображаются сотрудники, подходящие под выбранное обучение.
 
-When you click {H:Start education} all applicable employees will start their classes. If there are any employees left, you can then decide what they will be educated in. You can queue up classes for an employee by starting education for the employee several times."
-    EDUCATION5              "You can also click directly on the highlighted stars if you want to quickly pick classes for the selected employee.
+При нажатии {H:Начать обучение} все подходящие сотрудники начнут занятия. Если останутся сотрудники, не включенные в обучение, вы сможете назначить им другие курсы. Одному сотруднику можно назначить несколько курсов подряд."
+    EDUCATION5              "Также можно щёлкнуть прямо по подсвеченным звёздам, если хотите быстро назначить классы выбранному сотруднику.
 
-Note that if you click a star that is more than 1 level above what the employee currently has, they will be sent for multiple classes at once."
-    EMPLOYEES1              "Begin by opening the employee window."
-    EMPLOYEES2              "This is a list of all your employees, which details their status.
+Учтите: если нажать звезду на несколько уровней выше текущего уровня сотрудника, он будет отправлен сразу на несколько курсов подряд."
+    EMPLOYEES1              "Начните с открытия окна сотрудников."
+    EMPLOYEES2              "Здесь находится список всех ваших сотрудников с детализацией их статуса.
 
-You can check any of the options in the top bar to get more details on all your employees."
-    EMPLOYEES3              "When you select an employee in the list, they will be selected in the game and you can get details on their specializations at the bottom of the window.
+Вы можете включить дополнительные фильтры в верхней панели, чтобы получить больше информации."
+    EMPLOYEES3              "При выборе сотрудника в списке он также выделяется в игре, а в нижней части окна появляются его специализации.
 
-Try selecting an employee now."
-    EMPLOYEES4              "You can select several employees by holding down shift or ctrl while clicking on their names in the employee window.
+Попробуйте выбрать сотрудника сейчас."
+    EMPLOYEES4              "Можно выделить нескольких сотрудников, удерживая Shift или Ctrl при щелчке по их именам в списке.
 
-Now, press {KeyBind:ContextMenu} anywhere to bring up the context menu for the selected employee. Click the {H:Switch team} button to inspect possible team assignments."
-    EMPLOYEES5              "When you are done, click {H:OK} and then press {KeyBind:ContextMenu} again and click the {H:Change employee role} button instead, which resembles a suit tie."
-    EMPLOYEES6              "Clicking on a role in the role window will assign the employee exclusively to that role immediately, whereas ticking the checkmarks will allow you to pick several roles for your employee. The second row of checkmarks next to each role is the {H:Secondary} option, in which employees will only work in that role if they have no work in their primary roles.
+Теперь нажмите {KeyBind:ContextMenu} где угодно, чтобы открыть контекстное меню и выберите {H:Сменить команду}, чтобы посмотреть возможные назначения в команды."
+    EMPLOYEES5              "Когда закончите, нажмите {H:OK}, затем снова {KeyBind:ContextMenu} и выберите {H:Изменить роль сотрудника}, который отображается значком галстука."
+    EMPLOYEES6              "Щёлкнув по роли в окне назначений, вы сразу закрепите сотрудника исключительно за этой ролью. А если поставить несколько галочек, то можно назначить несколько ролей. Во второй строке напротив каждой роли — опция {H:Вторичная}, при которой сотрудники будут работать в этой роли только если нет работы в основной.
 
-You can also toggle the {H:Any role} checkmark to check or uncheck all roles at once or click {H:Auto role} to assign the employee to the roles that the employee is most proficient at.
+Также можно включить {H:Любая роль}, чтобы сразу отметить все роли, или использовать {H:Автоматический выбор роли}, чтобы автоматически назначить сотрудника на те позиции, где он наиболее профессионален.
 
-Note that {H:Leader} can't be chosen unless the employee is assigned to a team and leaders won't work in full capacity in other roles.
+Учтите: {H:Руководитель} нельзя выбрать, если сотрудник не состоит в команде. И лидеры не будут в полную силу работать в других ролях.
 
-Close the {H:Select role} window and click {H:Continue} to advance the tutorial."
-    EMPLOYEES7              "With your employee selected, press {KeyBind:ContextMenu} once again to bring up the context menu and select {H:Employee details}, which resembles a single person."
-    EMPLOYEES8              "Here you can see the stats of your employee.
+Закройте окно {H:Выбора роли} и нажмите {H:Продолжить}, чтобы продолжить обучение."
+    EMPLOYEES7              "С выделенным сотрудником снова нажмите {KeyBind:ContextMenu} и выберите {H:Сведения о сотруднике}, который изображён значком с силуэтом человека."
+    EMPLOYEES8              "Здесь вы видите характеристики сотрудника.
 
-In top left corner you can see your employee's personality traits, and to the right, your employee's specialization progress in each role. When an employee has filled the progress meter, they will be eligible for education in that role to gain a new star. Clicking a role will also allow you to assign the employee to that role."
-    EMPLOYEES9              "In middle right part of the window you can see your employee's {H:specializations}, which shows how educated your employee is in different subjects.
+В левом верхнем углу расположены черты характера, а справа — прогресс в специализациях. Когда индикатор прогресса заполнен, сотрудник получает возможность пройти обучение и повысить уровень. Щёлкнув на роль, можно также назначить сотрудника на неё."
+    EMPLOYEES9              "В правой центральной части окна показаны {H:специализации}, которые отображают уровень обучения вашего сотрудника по разным направлениям.
 
-Specializations control which kind of tasks your employee can complete. The {H:base skill} is your employee's experience in that role, which controls the speed and quality of their work in various situations."
-    EMPLOYEES10             "In top left of the window you can see your employee's traits. These traits are controlled by your employee's personality.
+Специализации определяют, какие задачи сотрудник сможет выполнять. {H:Базовый навык} — это опыт сотрудника в роли, влияющий на скорость и качество работы."
+    EMPLOYEES10             "В левом верхнем углу видны черты сотрудника. Они формируются на основе личности.
 
-You can hover over each of the traits to see how they affect the employee."
-    EMPLOYEES11             "In the bottom left part of the window, you can see the latest thoughts of your employee, this will tell you how happy they are with their place of work, and how effective they are at their job as a consequence.
+Вы можете навести курсор на каждую из них, чтобы увидеть, как они влияют на его работу."
+    EMPLOYEES11             "В левом нижнем углу показаны последние мысли сотрудника — они отражают, насколько он доволен работой и насколько эффективен как следствие.
 
-You should inspect this often to see how well an employee is doing and whether you can do anything to improve their satisfaction."
-    EMPLOYEES12             "In the bottom right part of the window, you can see what is currently affecting your employee's effectiveness when working.
-	
-You can use this to see what is wrong if your employees suddenly start working slowly or not at all."
-    EMPLOYEESCompat         "Finally, in the middle left part of the window, you can inspect this employee's compatibility with the rest of their team."
-    EMPLOYEES13             "In the beginning of the game you will need to make some quick cash.
+Следите за этим часто, чтобы понимать, как себя чувствует сотрудник и можно ли улучшить условия."
+    EMPLOYEES12             "В правом нижнем углу отображаются факторы, влияющие на эффективность работы сотрудника.
 
-Bring up the Contract window to get some work."
-    HIRING1                 "Start by opening the hire window"
-    HIRING2                 "Before you can hire anyone, you need to put out a search for employees. Start by choosing which role your new employee should be good at."
-    HIRING4                 "Then you need to decide how much money you want to give your potential employee per month. It is very important that you make sure you have enough money to actually pay them or you'll go bankrupt very quickly.
+Здесь можно понять, в чём проблема, если он вдруг начал работать медленно или вовсе перестал."
+    EMPLOYEESCompat         "Наконец, в левой центральной части окна вы можете посмотреть совместимость этого сотрудника с командой."
+    EMPLOYEES13             "В начале игры вам понадобится быстро заработать.
 
-The quality of applicants will depend on how high you set the salary and your company benefits, among other things. Very high skilled employees only have a chance to appear in the highest salary bracket.
+Откройте окно контрактов, чтобы взять работу."
+    HIRING1                 "Начните с открытия окна найма."
+    HIRING2                 "Прежде чем нанять сотрудника, нужно объявить поиск. Для начала выберите, в какой роли новый работник должен быть наиболее компетентным."
+    HIRING4                 "Затем решите, какую зарплату вы готовы платить новому сотруднику в месяц. Важно убедиться, что у вас хватит средств на выплату зарплаты, иначе вы очень быстро разоритесь.
 
-Note that higher skilled employees will expect a higher salary than low skilled employees that eventually become high skilled. You can use this fact to save money by hiring young and training them up."
-    HIRING3                 "You can further filter your applicants by toggling any of the filter toggles.
+Качество кандидатов зависит от размера предлагаемой зарплаты и льгот в вашей компании. Сотрудники с высочайшими навыками доступны только в верхнем диапазоне зарплат.
 
-Note that each active filter will increase the cost and reduce the amount of applicants you get.
+Обратите внимание, что опытные сотрудники ожидают более высоких зарплат, чем новички, даже если последние позже прокачаются до их уровня. Этим можно пользоваться: нанимайте молодых и обучайте их, чтобы сэкономить деньги."
+    HIRING3                 "Вы можете дополнительно отфильтровать кандидатов, включая разные фильтры.
 
-The hiring pool is limited and affected by how appealing your company is to potential employees. The hiring pool refreshes every month and can be boosted when other companies close down."
-    HIRING5                 "You can save your filters if you want to use them again later.
+Каждый активный фильтр увеличивает стоимость поиска и уменьшает количество откликов.
+
+Кандидатский пул ограничен и зависит от привлекательности вашей компании для работников. Он обновляется каждый месяц и может пополняться, если другие фирмы закрываются."
+    HIRING5                 "Вы можете сохранять свои фильтры, чтобы использовать их снова.
 			
-Alternatively, you can look for any lead designers out of work currently.
+Также можно искать среди безработных ведущих дизайнеров.
 
-Press {H:Begin looking} to start your reviewing applicants."
-    HIRING7                 "This is a list of employees that applied to the open position in your company. You can select employees to inspect them and press the {H:Hire} button to hire them.
+Нажмите {H:Начать поиск}, чтобы начать просмотр кандидатов."
+    HIRING7                 "Здесь отображается список откликнувшихся кандидатов. Выберите сотрудника, чтобы посмотреть его характеристики, и нажмите кнопку {H:Нанять}, чтобы нанять его.
 
-Employees are expensive and you should probably wait before you hire any if you are just starting out.
+Сотрудники стоят дорого, и, если вы только начали игру, лучше подождать с наймом.
 
-Try selecting an employee on the list."
-    HIRING8                 "You can easily navigate the applications by using the arrow keys on your keyboard and pressing enter to hire.
+Попробуйте выбрать кого-то из списка."
+    HIRING8                 "Вы можете легко перемещаться по списку откликов с помощью стрелок на клавиатуре, а нанимать кнопкой Enter.
 
-When you are done, simply close the window."
-    HR1                     "To manage HR settings open the team window"
-    HR2                     "With the team window open, select a team in the list and click on the {H:HR management} button."
-    HR3                     "The HR management tasks you have at your disposal depend on the team leader's HR specialization level. The stars above each section are highlighted depending on whether the team leader has the necessary training.
+Когда закончите — просто закройте окно."
+    HR1                     "Чтобы управлять настройками HR, откройте окно команд."
+    HR2                     "С открытым окном команд выберите команду в списке и нажмите кнопку {H:Управление персоналом}."
+    HR3                     "Набор доступных HR-задач зависит от уровня специализации лидера команды. Звёзды над каждой секцией показывают, прошёл ли лидер необходимое обучение.
 
-By default the selected HR options do nothing. The HR options you select for a team will not change when a new team leader is assigned, but which and how well HR tasks are carried out will depend on the leader's skill and specialization level."
-    HR4                     "The first two labels tell you how much this team costs in salaries and how much money was spent on HR tasks last month."
-    HR5                     "You can make your leader send off employees for education autonomously.
+По умолчанию выбранные HR-параметры ничего не делают. Опции, заданные для команды, не меняются при назначении нового лидера, но то, как и насколько эффективно они будут выполняться, зависит от навыков лидера."
+    HR4                     "Первые два индикатора показывают, сколько эта команда стоит в зарплатах и сколько денег было потрачено на HR-задачи в прошлом месяце."
+    HR5                     "Вы можете поручить лидеру самостоятельно отправлять сотрудников на обучение.
 			
-The education level sets the maximum amount of stars a leader will send an employee for. Employees will always be sent for education in the specialization they have the most stars in."
-    HR6                     "The last text fields allow your leader to automatically hire enough employees, such that the team always has the specified amount in the specified roles. The leader will be in charge of the application process.
+«Уровень обучения» определяет максимальное количество звёзд, до которых лидер будет обучать сотрудника. Работники всегда будут отправляться на курсы по той специализации, в которой у них больше всего звёзд."
+    HR6                     "В последних полях можно задать, чтобы лидер автоматически нанимал сотрудников, поддерживая в команде определённое количество людей в нужных ролях. Он будет полностью управлять процессом найма.
 
-You can hover over some of the options to get further details. Close the window when you are done to end the tutorial."
-    INVESTMENTS1            "Start by opening the insurance window"
-    INVESTMENTS2            "You can make money off your money in two ways: By investing in stocks or bonds.
+Вы можете навести курсор на некоторые опции, чтобы узнать больше. Закройте окно, когда закончите, чтобы завершить обучение."
+    INVESTMENTS1            "Начните с открытия окна страхования."
+    INVESTMENTS2            "Ваши деньги могут приносить прибыль двумя способами: через инвестиции в акции или облигации.
 
-Let's start by going over bonds investments. Click {H:Continue} when you are ready."
-    INVESTMENTS3            "Investing in bonds means loaning out money and earning some back off the yearly {SavingsInterest} loan interest. It is an easy, risk-free way to make a small steady income, with the downside that you can't withdraw the money you invest for a while, without losing the interest.
+Начнём с облигаций. Нажмите {H:Продолжить}, когда будете готовы."
+    INVESTMENTS3            "Инвестиции в облигации означают, что вы даёте деньги в долг и получаете доход за счёт годовой процентной ставки {SavingsInterest}. Это лёгкий и безопасный способ получать небольшой стабильный доход, но с минусом — вы не сможете моментально забрать вложенные деньги без потери процентов.
 
-You can deposit and withdraw money by using this slider."
-    INVESTMENTS4            "The amount of time that has to pass before you can withdraw money depends on how much money you have deposited within the same financial year. You can see locked deposits in this panel.
+Пополняйте и выводите вложения, используя ползунок."
+    INVESTMENTS4            "Время, через которое можно будет снять деньги, зависит от сумм, внесённых в текущем финансовом году. Заблокированные вклады будут показаны в этой панели.
 
-When you decide to withdraw money, the bank will start by trying to withdraw any money on your savings account that won't incur an interest fee.
+При выводе банк сначала попытается списать средства с накопительного счёта, с которых не взимается комиссия.
 
-Please note that interest is not deposited directly into your bank account. You have to withdraw it using this window.
+Учтите, что проценты не поступают прямо на ваш счёт. Их нужно снимать вручную через это окно.
 
-Press the stock button to continue"
-    INVESTMENTS5            "Stocks are a much more risky way of investing your money, but it can also earn you a lot more than bonds investments.
+Нажмите кнопку Акции, чтобы продолжить."
+    INVESTMENTS5            "Акции — более рискованный способ инвестирования, но потенциально гораздо более прибыльный, чем облигации.
 
-You'll need to keep track of the stock market every month to make the most off your investments, so you can't just deposit and forget, in the same way you can with bonds investments.
+Чтобы максимально эффективно вложиться, нужно отслеживать фондовый рынок каждый месяц. Это нельзя сделать методом «положил и забыл», как с облигациями.
 
-To invest in a stock, just type in the amount you want to deposit, pick a stock and click {H:Invest}.
+Чтобы купить акции, введите сумму, выберите компанию и нажмите {H:Инвестировать}.
 
-You can see and withdraw your current investments in this panel.
+Ваши текущие инвестиции и возможность их вывести указаны в этой панели.
 
-{H:Remember to buy high and sell low!}
+{H:Помните - покупайте на высоких ценах и продавайте на низких!}
 
-... Yes, that sounds right."
-    LEADDESIGNERS1          "Lead designers are in charge of coming up with ideas that will form all of the products you decide to develop.
+... Да-да, именно так."
+    LEADDESIGNERS1          "Ведущие дизайнеры отвечают за создание идей, которые лягут в основу всех продуктов, которые вы решите разрабатывать.
 
-Lead designers have a {H:Creativity} score, which controls how good their ideas are. If an employee doesn't have much experience as a lead designer, their creativity score will not be known upfront. The creativity bar will narrow in as they gain experience, revealing their potential as lead designers.
+У ведущих дизайнеров есть параметр {H:Вдохновение}, определяющий качество их идей. Если у сотрудника мало опыта в роли ведущего дизайнера, его показатель вдохнвоения изначально будет неизвестен. По мере набора опыта диапазон будет постепенно сужаться, раскрывая его реальный потенциал.
 
-You can put lead designers in charge of contracts to help reveal their creativity, without having any impact on the final product."
-    LEADDESIGNERS2          "Designers need {H:Inspiration} to come up with good ideas. As they work on a project their inspiration will drain, but only when it gets below the center line will it actually impact their ideas.
+Можно назначать ведущих дизайнеров на выполнение контрактов, чтобы раскрыть их вдохновение, не влияя на качество конечного продукта."
+    LEADDESIGNERS2          "Для генерации хороших идей дизайнерам требуется {H:Вдохновение}. В процессе работы их вдохновение уменьшается, но только когда оно опускается ниже середины шкалы, это реально начинает сказываться на качестве идей.
 
-Lead designers will replenish their inspiration during downtime from design work. Some faster than others."
-    LEADDESIGNERS3          "Coming up with ideas for a project depends heavily on the type of product. Lead designers will gain skills with a software type as you release products they've designed for it, which directly impacts the quality of their ideas.
+Ведущие дизайнеры восстанавливают вдохновение в паузах между проектами. Одни быстрее, другие медленнее."
+    LEADDESIGNERS3          "Разработка идей для проекта во многом зависит от типа продукта. Ведущие дизайнеры будут прокачивать навыки в определённых типах ПО по мере релизов продуктов, разработанных ими. Это напрямую влияет на качество их идей.
 
-You can hover over the skill bar to see their skills with different software types."
-    LEADDESIGNERS4          "As lead designers build up their {H:Portfolio}, they will have increasing {H:Demands} to meet their increasing popularity in the market. Demands will be requested during wage negotiations and you will have to pick between two demands.
+Вы можете навести курсор на шкалу навыков, чтобы увидеть их компетенции в разных типах ПО."
+    LEADDESIGNERS4          "По мере того как ведущие дизайнеры накапливают свое {H:Портфолио}, у них растут {H:Требования} из-за увеличения популярности на рынке. Требования будут предъявляться при переговорах о зарплате, и вам придётся выбирать между двумя вариантами.
 
-Lead designers hired young, before they find their fame, will have some loyalty to their first employer and have lower demands in general."
-    LEADDESIGNERS5          "You can find lead designers in one of 3 ways:
+Если нанять дизайнера молодым, ещё до того как он обретёт известность, он сохранит некоторую лояльность к первому работодателю и в целом будет менее требователен."
+    LEADDESIGNERS5          "Найти ведущих дизайнеров можно тремя способами:
 
-	•You can hire young designers and let them work as lead designers on contracts to see if you've found a prodigy
-	•You can look for out-of-work lead designers from the hiring menu
-	•You can poach them from your competitors by clicking the detail button in the company overview window
+	•Нанять молодых дизайнеров и назначить их на контракты, чтобы проверить, не скрывается ли гений среди них  
+	•Искать безработных ведущих дизайнеров через меню найма  
+	•Переманить их у конкурентов, нажав кнопку деталей в окне обзора компаний  
 
-You'll need a certain amount of business reputation to hire experienced lead designers."
-    LEASING1                "Start by entering {H:Build mode} by clicking the Build-button."
-    LEASING2                "The game is always paused in build mode.
+Для найма опытных ведущих дизайнеров потребуется определённый уровень бизнес-репутации."
+    LEASING1                "Начните с перехода в {H:Режим строительства}, нажав кнопку Режим строительства."
+    LEASING2                "Во время режима строительства игра всегда стоит на паузе.
 
-When you own a plot you can construct and layout your offices however you like, but when you're leasing you can only furnish the offices you're currently leasing.
+Если у вас есть участок, вы можете строить и обустраивать офисы как угодно, но если вы арендуете здание, то сможете только обставить уже арендованные помещения.
 
-If you want to buy a plot later on, you can relocate your company by clicking {H:Move company} in the pause window or by using the button next to the build menu.
+Если позже захотите купить участок, вы можете перенести компанию, нажав {H:Переместить компанию} в окне паузы или кнопку рядом с меню строительства.
 
-Click Continue when you are ready."
-    LEASING3                "To begin placing objects, you should move to a floor which has rooms you have leased."
-    LEASING11               "When you no longer feel like you have enough space, you can lease other rooms by selecting them and pressing lease in the bottom left corner or by moving your company to another map.
+Нажмите Продолжить, когда будете готовы."
+    LEASING3                "Чтобы начать расстановку объектов, перейдите на этаж с комнатами, которые вы арендуете."
+    LEASING11               "Когда места становится мало, можно арендовать новые комнаты. Для этого выделите их и нажмите «Арендовать» в левом нижнем углу или перенесите компанию на другую карту.
 
-Try selecting a room you can lease now. Rooms that are available for leasing can be identified by their black interior."
-    LEASING12               "You can also terminate your leases by selecting rooms you are currently leasing. Note that terminating a lease will sell all furniture in the affected rooms, but you can use the undo button to get your furniture back.
+Попробуйте выбрать доступную для аренды комнату сейчас. Свободные помещения можно узнать по чёрной заливке."
+    LEASING12               "Вы также можете расторгнуть аренду, выбрав комнаты, которые арендуете. Учтите, что при прекращении аренды всё размещённое там имущество будет продано, но вы можете воспользоваться кнопкой «Отмена», чтобы вернуть мебель.
 
-When you are ready to continue, exit build mode."
-    LEASING13               "When you are ready, open the employees window to start managing your employees."
-    MANUFACTURING1          "Start the tutorial by pressing the {H:Develop software} button to bring up the design document."
-    MANUFACTURING2          "Some products have to be manufactured and can't be sold digitally, like {H:phones} and {H:gaming consoles}. However, these products usually have a lower barrier to entry for market penetration, but require a high upfront investment. You'll also be able to satisfy customers more easily by adding hardware features, rather than spending years coding complex software features.
+Когда будете готовы продолжить — выйдите из режима строительства."
+    LEASING13               "Когда будете готовы, откройте окно сотрудников, чтобы начать управлять ими."
+    MANUFACTURING1          "Начните обучение с нажатия кнопки {H:Разработка ПО}, чтобы открыть проектный документ."
+    MANUFACTURING2          "Некоторые продукты требуют производства и не могут распространяться только цифровым способом — например, {H:телефоны} или {H:игровые консоли}. При этом они имеют меньший барьер для входа на рынок, но требуют значительных вложений в начале. При производстве железа проще удовлетворить клиентов, добавляя аппаратные функции, чем годами писать сложный код.
 
-Ordering hardware gets very expensive, and you'll have to setup your own manufacturing if you want to make a decent profit.
+Заказ производства железа очень дорого обходится, поэтому для нормальной прибыли потребуется наладить собственное производство.
 
-Try selecting a {H:software type} and {H:category} that requires hardware manufacturing, like the {H:console operating system}"
-    MANUFACTURING3          "Now click the {H:Manufacturing} button to see what you'll need to manufacture this product."
-    MANUFACTURING4          "The {H:manufacturing view} shows you which components need to be printed, and how they should be assembled.
+Попробуйте выбрать {H:тип} и {H:категорию}, которые требуют аппаратного производства, например {H:операционная система для консоли}."
+    MANUFACTURING3          "Теперь нажмите кнопку {H:Производство}, чтобы посмотреть, что потребуется для производства продукта."
+    MANUFACTURING4          "{H:Дизайн документ} показывает, какие компоненты нужно печатать и как они должны собираться.
 			
-The top most components need to be printed and will show you how many {H:Component printers} you need, to print as many components as possible per month. These components will determine the cost to manufacture one copy of your product. The rest of the components will be assembled in {H:Component assemblers}, using the printed components, and do not incur a fee.
+Верхние компоненты необходимо печатать, и здесь будет показано, сколько {H:Принтеров компонетов} нужно, чтобы производить максимум деталей в месяц. Эти компоненты определяют себестоимость одного экземпляра продукта. Остальные создаются на {H:Сборщике} из напечатанных частей и не требуют дополнительных затрат.
 
-Try opening the {H:Manufacturing window} now and check out the {H:Hardware} tab to see active hardware manufacturing jobs."
-    MANUFACTURING5          "When you select a printing task in this panel, you will get an overview of the needed components in this window as well. You can click the {H:Pop out} button and enter build mode to view the requirements while you're placing down printers and assemblers.
+Откройте окно {H:Производство} и загляните во вкладку {H:производство оборудования}, чтобы увидеть активные задачи производства железа."
+    MANUFACTURING5          "Когда вы выберете задание на печать, в этом же окне появится обзор требуемых компонентов. Вы можете нажать кнопку {H:Перейти} и войти в режим строительства, чтобы видеть требования при размещении принтеров и сборщиков.
 
-Once you've finished inspecting the distribution window, open {H:Build mode} to see how you setup your own manufacturing plant."
-    MANUFACTURING6          "To setup your own manufacturing, you'll need 3 machines:
-	•{H:Component printer} to print your components.
-	•{H:Component assembler} to assemble your components and eventually your final product. The assembler can hold onto 20 assemblies before they are pushed through, so make sure you have enough for the amount of components you print.
-	•{H:Component recycler} at the end of your manufacturing process, to recycle any components in unfinished assemblies, in case you have inefficiencies in your setup. Recycled components will be used for future prints, without incurring a fee.
+Когда закончите просмотр окна дистрибуции, откройте {H:Режим строительства}, чтобы увидеть, как создать собственное производство."
+    MANUFACTURING6          "Для организации собственного производства вам потребуется три типа машин:
+	•{H:Принтер компонетов} — печатает ваши компоненты  
+	•{H:Сборщик компонентов} — собирает компоненты, а затем и конечный продукт. Может хранить до 20 сборок, прежде чем отправит их дальше, поэтому убедитесь, что сборщиков достаточно для объёма печати  
+	•{H:Переработчик компонентов} — ставится в конце линии. Он перерабатывает компоненты из незавершённых сборок, устраняя неэффективность. Переработанные элементы можно использовать повторно без затрат  
 
-Note that any box entering an assembler or recycler, which does not belong there, will just be pushed through to the other side.
+Учтите: любые коробки, попавшие в сборщик или утилизатор, если они не предназначены для этого, просто пройдут насквозь.
 
-You'll find them in the furnish menu."
-    MANUFACTURING8          "Note that products have to go through the {H:Final assembly} step to be shippable. Components in white boxes will not go on pallets or garage ports.
+Вы найдёте их в меню обстановки."
+    MANUFACTURING8          "Учтите: чтобы продукт можно было отправить клиенту, он должен пройти стадию {H:Финальную сборку}. Компоненты в белых коробках не будут загружены на паллеты или отправлены через ворота.
 
-When you've placed down your printers and assemblers, and connected them with conveyor belts, they will automatically be grouped into {H:assembly lines}, which you can assign tasks to and manage as a whole.
+После установки принтеров и сборщиков и соединения их конвейерами они автоматически объединятся в {H:сборочные линии}, которым можно назначать задачи и управлять ими как единой системой.
 
-Note that you can use a {H:Component recycler} to split up assembly lines that would otherwise be grouped together.
+Вы можете использовать {H:Переработчик компонентов}, чтобы разделять линии сборки, которые иначе были бы объединены в одну.
 
-Try opening the {H:Assembly lines} window now and check out the {H:Assembly line} and {H:Manufacturing} data overlays."
-    MANUFACTURING9          "The {H:Assembly line} data overlay will show you which printers and assemblers have been grouped by their assembly line color, which you can change by clicking the color directly in the list.
+Откройте окно {H:Сборочные линии} и посмотрите оверлеи {H:Сборочной линии} и {H:Производство}."
+    MANUFACTURING9          "Оверлей {H:Сборочной линии} показывает, какие принтеры и сборщики объединены по цветам их линии, и вы можете изменить цвет, нажав на него в списке.
 
-The {H:Manufacturing} data overlay allows you to visualize how components will travel through your assembly lines and their current efficiency."
-    MARKETING1              "Marketing is crucial in Software Inc. Your products simply won't sell without marketing.
+Оверлей {H:Производство} позволяет визуализировать путь компонентов по линии сборки и их текущую эффективность."
+    MARKETING1              "Маркетинг имеет ключевое значение в Software Inc. Ваши продукты просто не будут продаваться без продвижения.
 
-You can start a marketing campaign by opening your release window, selecting a product and clicking the market button"
-    MARKETING2              "This is the marketing window.
+Вы можете начать маркетинговую кампанию, открыв окно релизов, выбрав продукт и нажав кнопку Реклама."
+    MARKETING2              "Это окно маркетинга.
 		
-Marketing your product is a potentially endless money sink. The more money you use, the bigger advantage you get over competing products. Bigger software products will need more marketing to compete.
+Маркетинг может стать бездонной ямой для денег. Чем больше вы тратите, тем большее преимущество получаете над конкурентами. Крупные проекты потребуют более масштабного маркетинга, чтобы конкурировать на рынке.
 
-Note that spending more money on marketing than your competitors will prompt them to do the same."
-    MARKETING3              "You can set a budget, which puts an upper limit to the spending for this marketing task. \"0\" means there is no limit.
+Имейте в виду, что если вы начнёте тратить больше конкурентов на маркетинг, они могут ответить тем же."
+    MARKETING3              "Вы можете задать бюджет, который ограничивает максимальные расходы на маркетинг. Значение «0» означает отсутствие лимита.
 		
-Increasing your marketing budget will not increase marketing efforts. You will need a lot of talented marketers to effectively use your budget.
+Однако увеличение бюджета не увеличивает усилий по маркетингу. Для эффективного использования бюджета нужно много талантливых маркетологов.
 
-If you are happy with the team selection, press {H:OK} to start your campaign."
-    MARKETING4              "Your new marketing plan will appear as a work item on the right.
+Если вас устраивает выбор команды, нажмите {H:OK}, чтобы запустить кампанию."
+    MARKETING4              "Ваш новый план маркетинга появится в списке задач справа.
 
-After the first day, the work item will start filling up to indicate how much money you are spending compared to yesterday's marketing efforts.
+После первого дня индикатор начнёт заполняться, отображая, сколько денег вы тратите по сравнению со вчерашними усилиями.
 
-Press {H:Finish} to end the tutorial."
-    OFFICEDANGERS1          "{H:Beware!} Your offices are susceptible to burglaries and fires! And once the ball is rolling, there ain't no stopping it.
+Нажмите {H:Завершить}, чтобы закончить обучение."
+    OFFICEDANGERS1          "{H:Внимание!} Ваши офисы могут пострадать от краж или пожаров! И если это начнётся, остановить будет невозможно.
 
-If you want to be on the safe side, you should take preventative measures and reduce consequences.
+Чтобы быть на безопасной стороне, примите профилактические меры и снизьте последствия.
 
-To start off, you should cover any potential loss with {H:Contents insurance}. Start by opening the {H:Insurance window}."
-    OFFICEDANGERS2          "With contents insurance, you'll pay a monthly fee, but get a payout to cover any furniture you lose in a fire or a burglary.
+Для начала покройте возможные убытки с помощью {H:Страхования имущества}. Откройте окно {H:Страхование и инвестиции}."
+    OFFICEDANGERS2          "Страховка имущества требует ежемесячных выплат, но она компенсирует потери мебели при краже или пожаре.
 			
-The more furniture you have, the higher the premium will be.
+Чем больше мебели у вас есть, тем выше страховой взнос.
 
-Close the insurance window when you're ready, and we'll cover how to best prevent burglaries."
-    OFFICEDANGERS3          "Burglaries will increase in scale and frequency as your company scales up. Your employees will call the police whenever they witnes a burglary. Sadly, the Software Inc. Police Department is slow working and bureaucratic, so don't expect to get all of your stolen property back.
+Закройте окно страхования, когда будете готовы, и мы расскажем, как защититься от краж."
+    OFFICEDANGERS3          "Масштаб и частота краж увеличиваются по мере роста вашей компании. Сотрудники вызывают полицию при краже, но, к сожалению, полиция Software Inc. работает медленно и бюрократично, так что рассчитывать на возврат всего украденного имущества не стоит.
 			
-Instead you can try completely preventing burglaries by hiring {H:Security guards} in the {H:Staff window}. Security guards will patrol your building entrances or any rooms you assign them to and scare off would-be burglars when they get too close. You can also place security cameras strategically at building entrances and a surveillance desk, which allows one security guard to keep track of four places at once.
+Вместо этого можно полностью предотвратить кражи, наняв {H:Охранников} в окне {H:Управление обслугой}. Охранники будут патрулировать входы в здание или назначенные комнаты и отпугивать грабителей. Также можно установить камеры на входах и подключить их к пульту наблюдения — один охранник сможет отслеживать сразу четыре точки.
 
-You can hire multiple security guards to cover a 24-hour period and still skip time when only security guards are present.
+Вы можете нанять несколько охранников для круглосуточного покрытия, при этом продолжая ускорять время.
 
-Press {H:Continue} to learn about fires."
-    OFFICEDANGERS4          "Fires start when combustible furniture breaks. The chance of combustible furniture starting a fire when they break is shown as a {H:Flammability} score in the build menu. To completely prevent fires, you should hire enough {H:Maintanence} and {H:IT-support} staff to keep your furniture from breaking.
+Нажмите {H:Продолжить}, чтобы узнать про пожары."
+    OFFICEDANGERS4          "Пожары возникают, когда ломается горючая мебель. Шанс возникновения пожара отображается как параметр {H:Воспламеняемость} в меню строительства. Чтобы полностью предотвратить пожары, нужно нанять достаточно сотрудников {H:Ремонтиков} и {H:Сис.администраторов}, чтобы вся мебель была исправна.
 
-It is very important to note that {H:Elevators don't work during fires}. You should always make sure to have stairs throughout your building, so your employees can escape.
+Важно: {H:лифты не работают во время пожаров}. Всегда обеспечивайте наличие лестниц в здании, чтобы сотрудники могли эвакуироваться.
 
-In case your luck is out, you should make sure to have {H:Sprinklers} in your rooms to douse the fire faster, and {H:Fire alarms} in rooms with combustible furniture, to alert all employees in the building when a fire breaks out."
-    PHYSICALDISTRIBUTION1   "You can order physical copies of your products by going to your releases, selecting a product and clicking the Order copies button."
-    PHYSICALDISTRIBUTION2   "Software is sold both physically in stores and digitally online. As time progresses people will move towards digital purchases and the two platforms even out at some point.
+На случай, если пожар всё же возникнет, установите {H:Разбрызгиватели} в комнатах, чтобы тушить огонь быстрее, и {H:Пожарную сигнализацию} в помещениях с горючей мебелью, чтобы предупредить всех сотрудников."
+    PHYSICALDISTRIBUTION1   "Вы можете заказать физические копии своих продуктов через окно релизов, выбрав продукт и нажав кнопку Order copies."
+    PHYSICALDISTRIBUTION2   "Программное обеспечение продаётся как в физических магазинах, так и цифровым способом. Со временем пользователи всё больше переходят на цифровые покупки, но долгое время обе платформы остаются актуальны.
 		
-This is the copy order window. It will show you some details that affect how many copies you should order.
+Это окно заказа копий. В нём отображаются факторы, влияющие на количество заказанных копий.
 
-You'll have to balance the amount you order with how many you expect to sell to avoid a loss. You can always order a few copies now and order more next month.
+Нужно сбалансировать заказ с предполагаемыми продажами, чтобы избежать убытков. Всегда можно заказать немного копий сейчас и заказать ещё в следующем месяце.
 
-Close the window to continue."
-    PHYSICALDISTRIBUTION3   "You can also print copies of your product yourself, which is a lot cheaper long term, but requires a lot more work from you. You'll need {H:printers}, {H:storage}, {H:conveyor belts} and {H:couriers} to transport your copies to stores.
+Закройте окно, чтобы продолжить."
+    PHYSICALDISTRIBUTION3   "Вы также можете печатать копии самостоятельно — это дешевле в долгосрочной перспективе, но требует намного больше усилий. Вам понадобятся {H:принтеры}, {H:поддоны}, {H:конвейерные ленты} и {H:курьеры}, чтобы доставлять копии в магазины.
 		
-If you have all the necessary logistics, you can click the {H:Start printing} button in the {H:Your releases} window with a product selected to start a printing task.
+Если у вас есть все необходимые логистические элементы, нажмите кнопку {H:Начать печать} в окне {H:Ваши продукты}, выбрав продукт, чтобы начать задание на печать.
 
-Go to build mode to see how you setup your printing logistics."
-    PHYSICALDISTRIBUTION4   "You'll find printers in the furnish menu.
+Перейдите в режим строительства, чтобы посмотреть, как организовать систему печати."
+    PHYSICALDISTRIBUTION4   "Принтеры можно найти в меню меблировки.
 
-Small printers can be placed directly on conveyor belts and larger printers can be placed on the ground to drop boxes on conveyor belts adjacent to them."
-    PROJECTMANAGEMENT1      "Start by opening the project management window."
-    PROJECTMANAGEMENT2      "Project management let's you delegate a release cycle to a leader in your company, so they control everything from creating a design to supporting the product once it's released.
+Малые принтеры можно размещать напрямую на конвейерных лентах, а большие ставятся на пол и выгружают коробки на ленты рядом с ними."
+    PROJECTMANAGEMENT1      "Начните с открытия окна управления проектами."
+    PROJECTMANAGEMENT2      "Управление проектами позволяет делегировать цикл релиза лидеру вашей компании, чтобы он контролировал всё: от создания дизайна до поддержки продукта после выпуска.
 
-A project management team needs a leader, with at least 1 star in the {H:Automation} specialization. The leader will dedicate all their time to keeping the project running, so it might be worthwhile to keep the leader in their own team.
+Для команды управления проектом нужен лидер с хотя бы 1 звездой в специализации {H:Автоматизация}. Лидер будет полностью сосредоточен на управлении проектом, поэтому иногда выгоднее держать его в отдельной команде.
 
-Start by selecting a leader to run the project and name your team."
-    PROJECTMANAGEMENT3      "Now look through each of the options to control how the projects should be handled. You can hover over each label to get a detailed description.
+Начните с выбора лидера для проекта и назовите команду."
+    PROJECTMANAGEMENT3      "Теперь изучите каждую из опций, определяющих, как будут вестись проекты. Наведите курсор на любой пункт, чтобы прочитать подробное описание.
 
-Note that some options might be greyed out, because your leader doesn't have the necessary Automation level. You can see what each Automation level unlocks by hovering over the stars in the specialization overview for leaders in the Employee window, Team window or Employee detail window.
+Учтите, что некоторые опции могут быть недоступны, если у вашего лидера недостаточный уровень специализации «Автоматизация». Вы можете увидеть, какие функции открываются на каждом уровне, наведя на звёзды в окне сотрудников, команд или в деталях сотрудника.
 		
-Click OK when you're ready."
-    PROJECTMANAGEMENT4      "Now open the project management detail window for your new project."
-    PROJECTMANAGEMENT5      "You'll notice a new panel that tells you how many actions points the leader has accumulated.
+Нажмите OK, когда будете готовы."
+    PROJECTMANAGEMENT4      "Теперь откройте окно деталей управления проектом для нового проекта."
+    PROJECTMANAGEMENT5      "Вы заметите новую панель, показывающую, допускает ли лидер ошибки, которые негативно влияют на проект.
+
+Ошибки начинают появляться, если шкала эффективности опускается ниже синей отметки, но ведущий дизайнер старается этого избежать.
+
+Чем выше навык лидера, тем быстрее он сможет заполнять шкалу.
+
+Шкала заполняется в 2 раза выше минимального уровня, что позволяет лидеру отдыхать до 2 месяцев без снижения эффективности ниже отметки."
+    PROJECTMANAGEMENT6      "В нижней панели отображаются проекты в очереди. Здесь же можно их отменять или брать на себя.
+
+Чтобы проект начал выполняться, нужно либо выбрать ранее выпущенный продукт в качестве прототипа, либо назначить проект прямо из окна проектного документа.
+
+Также можно выбрать старые продукты, если вы хотите, чтобы лидер управлял задачами для уже выпущенного продукта, например маркетингом, поддержкой, обновлениями и дистрибуцией.
+
+Перейдите в окно {H:Разработка ПО}."
+    PROJECTMANAGEMENT7      "Когда вы завершите проектный документ, нажмите кнопку {H:Управление проектом}, вместо {H:Продолжить}, чтобы добавить новый дизайн в очередь проектов."
+    RESEARCH1               "Начните обучение, нажав кнопку {H:Исследования}, чтобы открыть окно исследований."
+    RESEARCH2               "Окно исследований позволяет изучать специализации, чтобы открыть новый уровень технологий.
+
+Новые уровни технологий недоступны до тех пор, пока вы или ваши конкуренты не проведёте исследование следующего уровня.
+
+Попробуйте нажать на специализацию в левой панели."
+    RESEARCH3               "Справа появится список всех исследованных технологий в выбранной специализации и информация о владельцах патентов.
+
+Внизу будет кнопка для начала исследования. Оно требует дизайнеров с 3 уровнем специализации в этой области.  
+
+Изучение новых технологий раньше конкурентов даёт возможность подать заявку на патент, используя сотрудников {H:Обслуживания} со специализацией {H:Юрист} уровня 3. Если вы владеете патентом, все компании, использующие технологию, обязаны платить вам лицензионные отчисления."
+    SERVER1                 "Вы можете соединять или разъединять серверы в режиме проводки, кликнув по серверу, а затем по другому. Также можно выделить несколько серверов с помощью {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} или выделив рамкой {KeyBind:NormalSelection}, затем вызвать контекстное меню {KeyBind:ContextMenu} и выбрать {H:Создать кластер серверов}.
+
+Нагрузка на группу соединённых серверов будет распределяться между всеми в группе. Если один сервер ломается — останавливается вся группа.
+
+Откройте интерфейс подключения серверов, нажав кнопку проводки."
+    SERVER2                 "Помимо соединения серверов, в режиме проводки можно просмотреть обзор всех подключений.
+
+Выйдите из режима проводки и откройте окно серверов, когда будете готовы."
+    SERVER3                 "Здесь вы управляете серверами и проверяете, не перегреваются ли они.
+
+Если выбрать группу серверов, отобразится список всех процессов, выполняемых на ней. Их можно перенести на другие серверы, нажав {H:Move Selected Processes}.
+
+Также можно выбрать резервный сервер — он будет обрабатывать процессы группы, если она выйдет из строя."
+    SERVER4                 "Если уничтожить группу серверов полностью, все процессы станут неподдерживаемыми, что может иметь серьёзные последствия.
 		
-Action points are used to start new projects, complete marketing tasks and move through the development stages. Some actions cost more points than others. Your leader will continually work to accumulate these points.
+В таком случае нажмите {H:Просмотр неподдерживаемыз процессов} и переназначьте процессы на другие серверы.
 
-Leader skill determines how many points can be gathered and role specific skills control how quickly they will be gathered for each category."
-    PROJECTMANAGEMENT6      "The bottom panel tells you which projects are currently queued and lets you cancel or take them over.
+Нажмите Завершить, чтобы закончить обучение."
+    SIMPLEDESIGNDOCUMENT13  "Пока вы делали выбор, игра сделала часть выбора за вас автоматически.
 
-Before the project can begin you have to either pick a product you've released to use as a prototype for future projects or assign a project directly from the design document window.
+Решения игры могут быть не оптимальны, но уже сейчас можно безопасно начать разработку.
 
-Go to the {H:Design document window}."
-    PROJECTMANAGEMENT7      "When you are done making your design, click the {H:Project management} button, instead of the {H:Develop} button, to assign your new design to the project queue."
-    RESEARCH1               "Start the tutorial by pressing the {H:Research} button to bring up the research window."
-    RESEARCH2               "The research window allows you to research a specialization to unlock a new tech level.
+Если хотите глубже разобраться в зависимостях, фреймворках и целевых рынках, переключитесь на расширенную версию проектного документа, нажав {H:Продвинутый режим}, иначе просто нажмите {H:Продолжить}."
+    STAFF1                  "Начните с открытия окна персонала."
+    STAFF2                  "Это окно персонала. В верхней части показан список всех нанятых сотрудников — постоянных и временных."
+    STAFF3                  "Кнопки под {H:На постоянной} позволяют нанять постоянных сотрудников для уборки, починки мебели и т.д. Наведите курсор на кнопки, чтобы увидеть их зарплату. Они будут приходить один раз в день, пока вы их не уволите.
 
-The newest tech level will always be inaccessible until you've researched it, but they will unlock as you or your competitors research the next tech level.
+Вы можете менять рабочие часы с помощью кнопок в списке."
+    STAFF4                  "Кнопки под {H:На временной основе} позволяют нанимать временных сотрудников. Они будут работать до завершения задачи или пока вы их не уволите. Наведите курсор на кнопки, чтобы увидеть условия найма.
 
-Try clicking one of the specializations in the left panel."
-    RESEARCH3               "To the right you will now see a list of all tech levels currently researched for the chosen specialization and whether they have a patent owner.
+Нажмите {H:Завершить}, чтобы закончить обучение."
+    STOCKS1                 "Начните с открытия окна компании, чтобы посмотреть акции."
+    STOCKS2                 "В правом верхнем углу окна компании есть панель, где вы можете продать акции вашей компании. Их стоимость зависит от того, насколько успешно она продаёт продукты и услуги, что определяет, какую часть компании можно продать.
 
-At the bottom you can see a button to start researching this specialization, which requires designers with a level 3 specialization of the type you want to research. 
+Первичная продажа акций называется {H:Первоначальное публичное предложение}. Ваша компания и заработанные средства делятся примерно на {Currency:100} акций, которые распределяются между вами и инвесторами.
 
-Researching new tech before anyone else will allow you to apply for a patent using {H:Service} employees with the level 3 {H:Law} specialization. If you own the patent to a tech level, all companies using it will have to pay a royalty fee off their sales."
-    SERVER1                 "You can connect or disconnect servers in wire mode by clicking on a server and then on another server. You can also select all the servers you want to connect using {KeyBind:MultipleSelect}, {KeyBind:SweepSelect} or dragging a rectangle with {KeyBind:NormalSelection} and then press {KeyBind:ContextMenu} and press {H:Connect servers}.
+Под этой панелью отображается список акций, которые можно купить и продать, в зависимости от того, является ли компания {H:публичным акционерным обществом}, то есть доступна ли она для продажи на рынке.
 
-The load you put on a group of connected servers will be distributed among every server in the group. If one server in a group breaks down, the entire group stops working.
+Попробуйте открыть окно другой компании, чтобы увидеть её акции. В колонке {H:акции} указано, какой процент компании доступен к продаже."
+    STOCKS3                 "Владение акциями приносит {H:Дивиденты}, то есть часть прибыли компании ежемесячно, пропорционально вашей доле. Однако помните, что и вам придётся выплачивать дивиденды вашим акционерам.
 
-Open the server wiring interface by clicking the wire button."
-    SERVER2                 "Outside of connecting servers, you can use wire mode to get an overview of your server connections.
+Если у вас более {H:10%} акций компании, вы получаете доступ к их исследованиям раньше других. При владении более {H:25%} вам не нужно платить роялти за использование их инструментов, ОС, фреймворков и патентов. Это правило работает и в обратную сторону.
+
+Если у вас более {H:50%} акций, вы можете выкупить компанию, став её владельцем или сделав дочерней. Дочерние компании продолжают работать самостоятельно, но вы сможете управлять их релизами и поручать дополнительные задачи.
+
+Если другая компания владеет более 50% вашей, они могут начать {H:Враждебное поглощение}, и у вас будет 6 месяцев, чтобы снизить их долю ниже 25%, иначе компанию ликвидируют.
+
+При банкротстве компании все её активы распределяются между основными акционера"
+    SUBSIDIARY1             "Чтобы начать обучение, убедитесь, что у вас есть дочерняя компания, и откройте окно её информации."
+    SUBSIDIARY2             "Вы управляете дочерними компаниями в основном через их окно информации.
 		
-Exit wire mode and bring up the server window when you are ready."
-    SERVER3                 "From here you can manage your servers and check if they are overheating.
+С помощью ползунка можно снимать и вносить деньги, как на сберегательный счёт. Полное снятие средств приведёт к закрытию компании и передаче вам всех её активов.
 
-If you select a server group, you can see a list of all processes running on that server group. You can then move those processes to other servers by pressing {H:Move Selected Processes}.
+Окно информации также показывает планируемые релизы и позволяет их отменять.
 
-You can also pick a fallback server, which will handle a server group's processes if the group breaks down."
-    SERVER4                 "If you destroy a server group completely, all processes will be unsupported, which can have major consequences.
+Нажмите Продолжить, когда будете готовы."
+    SUBSIDIARY3             "Разработка проектов требует ресурсов дочерней компании. Если хотите контролировать их задачи или график релизов, отключите их автономность, чтобы они не тратили время на посторонние дела.
 		
-If this happens you should click the {H:View unsupported processes} button and redelegate all processes to other servers.
-
-Press End to finish the tutorial."
-    SIMPLEDESIGNDOCUMENT13  "While you made your choices, the game made some choices on your behalf in the background.
-
-The game's choices might not be optimal, but you can safely start development at this point.
-
-If you want to dive deeper into dependencies, frameworks and market targeting, you can switch to the advanced version of the design document by clicking {H:Advanced}, otherwise just click {H:Develop}."
-    STAFF1                  "Begin by opening the staff window."
-    STAFF2                  "This is the staff window. At the top you will see a list of your currently employed staff, whether permanent or temporary."
-    STAFF3                  "With the buttons under {H:Permanent} you can hire staff permanently to clean, fix your furniture, etc. You can see their salary by hovering over the buttons. They will show up once a day until you dismiss them.
-
-You can change their working hours using the buttons in the list."
-    STAFF4                  "With the buttons under {H:Temporary} you can hire staff temporarily. They will stay until their job is done or until you dismiss them. Hovering over the buttons will show you their terms.
-
-Press {H:Finish} to end the tutorial."
-    STOCKS1                 "Start by opening your company detail window to view your stocks."
-    STOCKS2                 "In the upper right corner of the company window, there's panel that allows you to sell shares in your company. Your company's value depends on how well your company is doing selling services and products, which determines how much of your company you can sell.
-
-The first time you sell shares is called in {H:Initial Public Offering}, and all your money and the money you are raising will be separated into approximately {Currency:100} shares, which will be distributed among yourself and your investors.
-
-Below this panel you will see a list of stocks you can buy and sell, depending on whether the company is {H:Publicly listed}, i.e. whether they are selling any shares at all.
-
-Try opening another company's detail window, to see how many stocks they have. You can check the {H:Listed} column in the company window, to see how many percent of a company is up for sale."
-    STOCKS3                 "Owning share in a company will earn you {H:Dividends}, which means you will get a percentage of the company's profits each month, depending on how much of the company you own. Note that you also have to pay dividends to your shareholders.
-
-If you own more than {H:10%} of a company, you get to use their research before anyone else and if you own more than {H:25%} you don't have to pay royalties when using this company's tools, operating systems, frameworks or patents. Again, this also works the other way.
-
-When you own more than {H:50%} of a company, you have a chance to buy them out. Buying a company out allows you to take over all their assets or make them a subsidiary. Subsidiaries will continue to operate as normal, but you can control their releases and ask them to do certain tasks for you.
-
-If another company owns more than 50% of your company, they might start a {H:Hostile takeover}, which gives you 6 months to get them below 25% before your company is dissolved.
-
-When a company goes bankrupt, all its assets will be distributed among its majority shareholders."
-    SUBSIDIARY1             "To begin the tutorial, make sure you have a subsidiary and have their company detail window open."
-    SUBSIDIARY2             "You control subsidiaries mainly in the company detail window.
+Вы можете назначать только те проекты, которые дочерняя компания обычно разрабатывает. Следите за их прошлыми и будущими релизами. Попробуйте открыть проектный документ и выбрать тип ПО, которым они обычно занимаются."
+    SUBSIDIARY4             "Некоторые задачи можно назначать и дочерним компаниям. Это дорого и требует много ресурсов. Следите за появлением опции компании при выборе команд для задачи.
 		
-You can use the slider to withdraw and deposit money, just like your savings account. Withdrawing all money from a subsidiary will close down the company, giving you all their assets.
+Завершите обучение, когда будете готовы."
+    SUPPORTWORK1            "Чтобы продолжить обучение по поддержке, у вас должен быть выпущенный продукт и начат процесс поддержки.
 
-The detail window also gives you an overview of their planned releases and the ability to cancel them.
+Вы можете открыть окно {H:Ваши продукты} и запустить поддержку оттуда, если у вас есть продукты."
+    SUPPORTWORK2            "Когда вы выпускаете новый продукт, создаётся элемент поддержки. Через него вы будете получать заявки от клиентов, если они у вас есть.
 
-Press Continue when you're ready."
-    SUBSIDIARY3             "Developing takes up resources for a subsidiary, if you want them to work on specific tasks, or you want to control their release schedule, you can disable their autonomy, to make sure they don't spend time doing other things.
-		
-You can only assign projects that the subsidiary normally develops, so pay attention to their past and future releases. Try opening the design document and picking the software type they normally work on."
-    SUBSIDIARY4             "Some tasks can be assigned to subsidiaries as well. This is expensive and takes up a lot of the subsidiary's resources. Keep an eye out for the company option when you are selecting teams for a task.
-		
-End the tutorial when you are ready"
-    SUPPORTWORK1            "Before the support tutorial can continue, you need to have a product released and start support for it.
-
-You can open the {H:Your releases} window and start support from there, if you have any products."
-    SUPPORTWORK2            "When you release a new piece of software it will spawn a support work item. Through this work item you will receive support tickets from your customers, assuming you have any.
-
-Support for a product never ends by itself, so you'll have to end it when you think support isn't necessary anymore. Keep an eye on the active user count to help guide you."
-    SUPPORTWORK3            "Support tickets should be answered as quickly as possible to avoid consumer backlash and a loss of market recognition.
+Поддержка продукта не заканчивается сама — её нужно завершить вручную, когда посчитаете, что она больше не нужна. Ориентируйтесь на количество активных пользователей."
+    SUPPORTWORK3            "Заявки поддержки нужно обрабатывать максимально быстро, чтобы избежать недовольства клиентов и потери репутации.
 			
-An employee's {H:Service} skill determines how quickly they can answer support tickets and having at least one star in the {H:Support} specialization will allow them to report bugs.
+Скорость обработки заявок зависит от навыка {H:Обсуживание}. Наличие хотя бы одной звезды в специализации {H:Поддержка} позволяет сотрудникам фиксировать баги.
 
-As bugs get verified by supporters, you'll want to fix them by releasing updates, which you can do by clicking the {H:Update} button on the task or from {H:Your releases}."
-    TEAMMANAGEMENT1         "Begin by opening the team window."
-    TEAMMANAGEMENT2         "In this window you can manage and create teams.
+Когда баги подтверждаются сотрудниками поддержки, разработчики должны исправлять их через обновления. Это можно сделать, нажав кнопку {H:Update} в задаче или в окне {H:Your releases}."
+    TEAMMANAGEMENT1         "Начните с открытия окна команд."
+    TEAMMANAGEMENT2         "В этом окне можно управлять командами и создавать новые.
 		
-You can add a new team by typing a name and clicking the button in the bottom."
-    TEAMMANAGEMENT3         "When you select one or more teams in the list you can see the average skill and counts of each specialization level of all employees in the selected teams.
+Чтобы добавить команду, введите название и нажмите кнопку внизу."
+    TEAMMANAGEMENT3         "При выборе одной или нескольких команд в списке вы видите средний уровень навыков и количество сотрудников по специализациям в этих командах.
 		
-You can change your teams' arrival and departure times by typing your desired hours in the left input fields with one or more teams selected."
-    TEAMMANAGEMENT4         "You can set when vacation starts for your teams and how wide vacations should be spread. A vacation range of 2 means the vacation of all employees on a team will be split in 2 over 2 months, so you'll always have at least half of the employees at work.
+Вы можете менять время начала и окончания работы команд, вводя его в поля слева."
+    TEAMMANAGEMENT4         "Здесь можно задать время отпусков и распределение выходов сотрудников. Например, диапазон 2 означает, что отпуска будут разбиты на 2 месяца, чтобы всегда работала как минимум половина сотрудников.
 
-You can enable crunch on a team to force your employees to work faster at the cost of their well-being."
-    TEAMMANAGEMENT5         "To get an overview of your teams role assignments you can click the {H:Manage roles} button.
+Можно включить «режим давления», чтобы сотрудники работали быстрее ценой их благополучия."
+    TEAMMANAGEMENT5         "Для обзора распределения ролей в командах используйте кнопку {H:Управление ролями}.
 			
-You can also set {H:Secondary tasks} for each team. Employees will only work on secondary tasks if they have no assigned primary task, which by default is every task."
-    TEMPERATUREREGULATION1  "Start by entering {H:Build mode} by clicking the Build-button."
-    TEMPERATUREREGULATION2  "Offices and reception areas need to have some temperature regulation to make sure employees and guests are comfortable in their environment.
+Также можно назначить {H:Второстепенные задачи} для каждой команды. Сотрудники будут выполнять их только при отсутствии основных задач (по умолчанию основной задачей считается любая работа)."
+    TEMPERATUREREGULATION1  "Начните с перехода в {H:Режим строительсва}, нажав кнопку Режим строительсва."
+    TEMPERATUREREGULATION2  "Офисы и приёмные должны иметь регулировку температуры, чтобы сотрудники и гости чувствовали себя комфортно.
 
-Rooms can be heated and cooled in two ways: Either on a room-by-room basis or using a distributed system of pipes and vents.
+Температура регулируется двумя способами: отдельно в каждой комнате или через систему труб и вентиляции.
 
-To regulate the temperature in small offices, you can place down {H: Small Heaters, Ceiling Fans, Electric Radiators and AC Units}, which will immediately start changing the temperature in a room. Regulating the temperature in this way requires a lot of maintenance and will quickly drive up expenses in larger buildings.
+В маленьких офисах можно использовать {H:Маленький обогреватель, Потолочный вентилятор, Электрический радиатор, Промыщленный кондиционер}. Они мгновенно меняют температуру, но требуют повышенного обслуживания и быстро увеличивают расходы в больших зданиях.
 
-Click {H:Continue} to hear about the distributed solution."
-    TEMPERATUREREGULATION3  "You can use {H:Central Heating} and {H:Roof ACs} to distribute hot and cold air throughout a building using {H:Radiators} and {H:Ventilation} in each room. Since Radiators and Ventilation don't require maintenance, it will heavily reduce the workload for your staff.
+Нажмите {H:Продолжить}, чтобы узнать о централизованной системе."
+    TEMPERATUREREGULATION3  "Вы можете использовать {H:Газовый котел или тепловой насос} и {H:Систему охлаждения для крыши}, чтобы распределять холодный и тёплый воздух по всему зданию с помощью {H:Батарей} и {H: вентиляторов или кондиционеров} в каждой комнате. Радиаторы и вентиляция не требуют обслуживания, что существенно снижает нагрузку на персонал.
 
-When you've placed a central temperature unit, you can select it and click on the {H:Auto-buy temperature outputs} in the bottom left corner to place ventilation and radiators in offices and reception areas automatically."
-    UPDATES1                "Start by launching an update of one of your existing products"
-    UPDATES2                "Updating a product can entail patching any bugs that have been verified by your support team and/or increasing a product's tech levels to attract new customers or hold on to existing customers.
+После установки центрального блока температуры вы можете выбрать его и нажать {H:Авто-покупка температурных выходов} в левом нижнем углу, чтобы автоматически разместить радиаторы и вентиляцию в офисах и приёмных."
+    UPDATES1                "Начните с запуска обновления одного из ваших существующих продуктов."
+    UPDATES2                "Обновления продукта могут включать исправление багов, найденных вашей командой поддержки, и/или повышение уровня технологий, чтобы привлечь новых клиентов и удержать текущих.
 
-There are no limits to how often you update your software. You can release daily patches if you want.
+Нет ограничений на частоту обновлений. Вы можете выпускать даже ежедневные патчи.
 
-Click on the {H:Update} button when you are ready to go."
+Нажмите {H:Обновить}, когда будете готовы."
     WELCOME1                "Добро пожаловать в Software Inc.
 
 Вы можете перетащить это окно в другое место, если оно мешает, щелкнув и перетащив строку заголовка.
