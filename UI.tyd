@@ -3423,3 +3423,8 @@ Item { Name "Employee"; Plural "Employees"; Value "{0} [Сотрудник|Со�
     GroupBySpec "Группировать по специализации"
     MultiplayerMoneyCheat "Хост выдал {0} {1} с помощью читов"
     ForcedPrefabError "Постройте объекты, подсвеченные синим"
+	SteamFilterWarning "Вы выбрали имя, которое заблокировано Steam. Пожалуйста, выберите другое имя"
+	MoveViewHint "Нажмите {KeyBind:DragCamera} или {KeyBind:MoveUp}, {KeyBind:MoveDown}, {KeyBind:MoveLeft} и {KeyBind:MoveRight} чтобы перемещать камеру"
+	RotateViewHint "Нажмите {KeyBind:RotateCamera} или {KeyBind:TurnUp}, {KeyBind:TurnDown}, {KeyBind:TurnLeft} и {KeyBind:TurnRight} чтобы вращать камеру"
+	ZoomViewHint "Используйте колесико мыши или {KeyBind:ZoomIn} и {KeyBind:ZoomOut} чтобы приближать или отдалять камеру"
+	ChangeFloorHint "Используйте {KeyBind:FloorUp} и {KeyBind:FloorDown} чтобы переключить вид на другой этаж"
