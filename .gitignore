@@ -6,7 +6,6 @@
 ### Repository specific
 
 old/
-scripts/
 *.new.xml
 *.new.tyd
 *.old.xml
