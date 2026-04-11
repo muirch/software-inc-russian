@@ -10,18 +10,22 @@
 2. Нажмите "подписаться".
 
 **Вручную**
-1. Скачайте [последнюю версию](https://github.com/muirch/Software-Inc-Russian/releases) перевода.
-2. Распакуйте папку `Russian` в папку `Localization` в корне игры. Итоговый путь: `C:\Program Files (x86)\Steam\steamapps\common\Software Inc\Localization\Russian`
-3. В главном меню игры, в левом верхнем углу, выберите локализацию.
+1. Скачайте [последнюю версию](https://github.com/muirch/software-inc-russian/releases) перевода;
+2. Создайте папку `Russian` в `<путь к игре>/Localization/`;
+3. Скопируйте в неё все файлы `.tyd`, `TypeInfo.txt`, `Thumbnail.png` и `meta.tyd`;
+4. Итоговый путь: `Software Inc/Localization/Russian/`;
+5. В главном меню игры, в левом верхнем углу, выберите локализацию.
 
 ## Статус перевода
 
-1. [x] Интерфейс
-2. [x] Программное обеспечение и аппаратное обеспечение
-3. [x] Режим строительства
-4. [x] Задания 
-5. [x] Трейты персонажей
-6. [x] Обучение
+- [x] Интерфейс (UI.tyd)
+- [x] ПО и оборудование (Software.tyd)
+- [x] Мебель (Furniture.tyd)
+- [x] Обучение (Tutorial.tyd)
+- [x] Задания (Tasks.tyd)
+- [x] Черты персонажей (Traits.tyd)
+- [x] Достижения (Achievements.tyd)
+- [x] Газетные статьи (Articles.tyd)
 
 ## Лицензия
-Распространяется по MIT License. Для подробностей откройте `LICENSE.md`
+Распространяется по MIT License. Для подробностей откройте `LICENSE`.
