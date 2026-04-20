@@ -717,7 +717,7 @@ Software
         Feature { Commandline "Командная строка" }
         Feature { Third-partyintegration "Сторонняя интеграция" }
         Feature { Paymentprocessing "Процесс оплаты" }
-        Feature { Businessoptimizationalgoritms "Алгоритмы оптимизации бизнеса" }
+        Feature { Businessoptimizationalgorithms "Алгоритмы оптимизации бизнеса" }
         Feature { Userinterface "Пользовательский интерфейс" }
         Feature { Prettyicons "Красивые значки" }
         Feature { Databasemanagement "Управление базами данных" }
@@ -755,7 +755,7 @@ Software
         Feature { Conceptart "Концепт-арты" }
         Feature { Soundeffects "Звуковые эффекты" }
         Feature { Music "Музыка" }
-        Feature { WrittenDialogue "Письменный диалог" }
+        Feature { Writtendialogue "Письменный диалог" }
         Feature { 3Dmodels "3D модели" }
         Feature { Textures "Текстуры" }
         Feature { Environments "Среды" }
